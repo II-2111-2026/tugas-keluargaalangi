@@ -1,4 +1,4 @@
-name: GitHub Classroom Workflow (No Late Penalty)
+name: GitHub Classroom Workflow (No Late Penalty + Quarto Render)
 
 on:
   push:
@@ -57,3 +57,37 @@ jobs:
           PYTHON-TEST_RESULTS: ${{ steps.python-test.outputs.result }}
         with:
           runners: python-test
+
+      # -----------------------
+      # Quarto auto-render step
+      # -----------------------
+      - name: Install Quarto
+        if: always()
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render Quarto report(s)
+        if: always()
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          WEEK="${{ steps.cfg.outputs.week }}"
+
+          # Ensure python deps for executing python chunks in Quarto
+          python -m pip install -U pip
+          pip install -r requirements.txt
+
+          # Render student-friendly report (single source of truth: answers.py)
+          quarto render
+          
+
+      - name: Upload Quarto HTML as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: "quarto-${{ steps.cfg.outputs.week }}"
+          if-no-files-found: ignore
+          path: |
+            submissions/${{ steps.cfg.outputs.week }}/laporan.html
+            submissions/${{ steps.cfg.outputs.week }}/laporan_files/**
+            weeks/${{ steps.cfg.outputs.week }}/quiz.html
+            weeks/${{ steps.cfg.outputs.week }}/quiz_files/**
