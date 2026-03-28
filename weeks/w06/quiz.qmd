@@ -1,5 +1,5 @@
 ---
-title: "Quiz w06 — Placeholder"
+title: "Quiz w06 — Minggu 06 (soal dari strategi2.pdf)"
 format: html
 execute:
   echo: true
@@ -7,4 +7,108 @@ execute:
   message: false
 ---
 
-Week w06 is not released yet.
+## Cara mengerjakan
+
+- Jawab **hanya** dengan mengisi fungsi `q01()` s.d. `q12()` di `submissions/w06/answers.py`.
+- Kamu boleh memakai Python untuk menghitung, misalnya lewat `submissions/w06/laporan.qmd`.
+- Jangan ubah nama fungsi.
+
+### Format jawaban
+
+- **T/F**: kembalikan `True` (Benar) atau `False` (Salah).
+- **MC**: kembalikan huruf `"A"`, `"B"`, `"C"`, atau `"D"`.
+- **Numeric**: kembalikan bilangan `int` atau `float` (pakai titik `.` untuk desimal).
+
+---
+
+## Q01 (T/F)
+
+Distribusi Binomial digunakan untuk eksperimen dengan jumlah percobaan yang
+tidak terbatas.
+
+## Q02 (T/F)
+
+Parameter mean dan variansi pada distribusi Poisson memiliki nilai yang sama.
+
+## Q03 (T/F)
+
+Distribusi Bernoulli adalah kasus khusus dari distribusi Binomial dengan n = 1.
+
+## Q04 (MC)
+
+Jika X Bn(10,0,2), maka nilai harapannya adalah:
+
+- **A)** 2
+
+- **B)** 0,2
+
+- **C)** 8
+
+- **D)** 1,6
+
+
+
+## Q05 (MC)
+
+Distribusi yang paling tepat untuk memodelkan jumlah telepon yang masuk ke call
+center dalam satu menit adalah:
+
+- **A)** Binomial.
+
+- **B)** Poisson.
+
+- **C)** Uniform.
+
+- **D)** Normal.
+
+
+
+## Q06 (MC)
+
+Pada distribusi Binomial, probabilitas sukses p harus:
+
+- **A)** Berubah tiap percobaan.
+
+- **B)** Tetap konstan tiap percobaan.
+
+- **C)** Selalu 0,5.
+
+- **D)** Berkurang seiring waktu.
+
+
+
+## Q07 (MC)
+
+Rumus P(X = ) = − adalah untuk distribusi:
+
+- **A)** Binomial.
+
+- **B)** Poisson.
+
+- **C)** Geometrik.
+
+- **D)** Eksponensial.
+
+
+
+## Q08 (Numeric)
+
+Jika X Bn(4,0,5), hitung P(X = 2).
+
+## Q09 (Numeric)
+
+Untuk distribusi Poisson dengan = 2, berapakah probabilitas P(X = 0)?
+(Gunakan 3 desimal)
+
+## Q10 (Numeric)
+
+Hitung variansi dari variabel acak X Bn(100,0,1).
+
+## Q11 (Numeric)
+
+Berapakah nilai maksimum yang mungkin dari variabel acak X Bn(10,0,5)?
+
+## Q12 (Numeric)
+
+Jika rata-rata kedatangan paket adalah 5 per ms, berapakah variansi jumlah
+paket per ms?

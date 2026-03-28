@@ -1,5 +1,5 @@
 ---
-title: "Quiz w01 — Sample Space & Basic Probability (12 tasks)"
+title: "Quiz w01 — Minggu 01 (soal dari strategi2.pdf)"
 format: html
 execute:
   echo: true
@@ -7,66 +7,112 @@ execute:
   message: false
 ---
 
-## Start here
+## Cara mengerjakan
 
-- Implement your code in: `submissions/w01/answers.py`
-- Push to GitHub → check **Actions** → check your score in Classroom.
+- Jawab **hanya** dengan mengisi fungsi `q01()` s.d. `q12()` di `submissions/w01/answers.py`.
+- Kamu boleh memakai Python untuk menghitung, misalnya lewat `submissions/w01/laporan.qmd`.
+- Jangan ubah nama fungsi.
 
-## Setup import
+### Format jawaban
 
-```{python}
-import sys
-from pathlib import Path
-
-cwd = Path.cwd().resolve()
-repo_root = cwd if (cwd / "weeks").exists() else cwd.parents[1]
-sys.path.insert(0, str(repo_root))
-
-from submissions.w01.answers import q01,q02,q03,q04,q05,q06,q07,q08,q09,q10,q11,q12
-```
+- **T/F**: kembalikan `True` (Benar) atau `False` (Salah).
+- **MC**: kembalikan huruf `"A"`, `"B"`, `"C"`, atau `"D"`.
+- **Numeric**: kembalikan bilangan `int` atau `float` (pakai titik `.` untuk desimal).
 
 ---
 
-## Task 01 — At least one head
-A fair coin is flipped **3 times**. Return P(at least one head).
+## Q01 (T/F)
 
-## Task 02 — Combinations
-From **10** students, choose **3** (order does not matter). Return the number of committees.
+Dalam model probabilistik, output yang sama akan selalu dihasilkan dari input yang
+sama terlepas dari variasi acak.
 
-## Task 03 — Conditional probability
-In a class of 40 students:
-- 22 use Python (P)
-- 18 use R (R)
-- 10 use both  
-Return P(Python | R).
+## Q02 (T/F)
 
-## Task 04 — Bayes
-Disease prevalence P(D)=0.01, sensitivity P(+|D)=0.95, specificity P(-|not D)=0.90.  
-Return P(D | +).
+Ruang sampel dari sebuah eksperimen acak harus mencakup semua hasil yang
+mungkin terjadi tanpa tumpang tindih.
 
-## Task 05 — Expected value
-X in {0,1,2,3} with probs [0.1, 0.2, 0.3, 0.4]. Return E[X].
+## Q03 (T/F)
 
-## Task 06 — Binomial PMF
-X ~ Binomial(n=4, p=0.3). Return [P(X=0),...,P(X=4)].
+Probabilitas empiris mendekati probabilitas teoretis ketika jumlah percobaan
+mendekati tak hingga.
 
-## Task 07 — Variance of a fair die
-X is uniform over {1..6}. Return Var(X).
+## Q04 (MC)
 
-## Task 08 — Correlation
-Cov(X,Y)=2, Var(X)=9, Var(Y)=16. Return Corr(X,Y).
+Manakah yang merupakan contoh variabel acak dalam sistem STI?
 
-## Task 09 — Normal probability
-X ~ Normal(μ=10, σ=2). Return P(8 < X < 12).
+- **A)** Kapasitas total hard disk 1TB.
 
-## Task 10 — Margin of error
-Known σ=4, n=25, 95% z=1.96. Return margin of error.
+- **B)** Jumlah core pada prosesor Intel i7.
 
-## Task 11 — Two-sided p-value
-Two-sided z-test with z=2.1. Return p-value.
+- **C)** Waktu yang dibutuhkan untuk merespons query database.
 
-## Task 12 — Monte Carlo estimate
-Estimate P(Z > 1.5), Z~N(0,1) using:
-- n=200000
-- seed=123
-Return estimated probability.
+- **D)** Jumlah bit dalam satu byte.
+
+
+
+## Q05 (MC)
+
+Jika sebuah ruang sampel S terdiri dari 4 kejadian yang memiliki peluang sama,
+maka probabilitas satu kejadian adalah:
+
+- **A)** 0,5
+
+- **B)** 0,25
+
+- **C)** 0,75
+
+- **D)** 1,0
+
+
+
+## Q06 (MC)
+
+Kejadian yang mustahil terjadi memiliki nilai probabilitas sebesar:
+
+- **A)** 0
+
+- **B)** 1
+
+- **C)** -1
+
+- **D)** 0,5
+
+
+
+## Q07 (MC)
+
+Sekumpulan hasil eksperimen yang merupakan subset dari ruang sampel disebut:
+
+- **A)** Populasi.
+
+- **B)** Parameter.
+
+- **C)** Kejadian (Event).
+
+- **D)** Konstanta.
+
+
+
+## Q08 (Numeric)
+
+Berapa jumlah elemen dalam ruang sampel jika kita melempar dua buah
+dadu bersisi enam?
+
+## Q09 (Numeric)
+
+Jika probabilitas sebuah link internet mati adalah 0,01, berapa probabilitas
+link tersebut hidup?
+
+## Q10 (Numeric)
+
+Berapa banyak susunan berbeda yang bisa dibuat dari kata "DATA"?
+
+## Q11 (Numeric)
+
+Jika sebuah server memiliki probabilitas uptime 0,95, berapa probabilitas
+server tersebut downtime dalam satu periode?
+
+## Q12 (Numeric)
+
+Dalam simulasi 1000 kali login, jika 20 kali gagal, berapa frekuensi relatif
+kegagalan tersebut?

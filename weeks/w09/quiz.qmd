@@ -1,5 +1,5 @@
 ---
-title: "Quiz w09 — Placeholder"
+title: "Quiz w09 — Minggu 09 (soal dari strategi2.pdf)"
 format: html
 execute:
   echo: true
@@ -7,4 +7,108 @@ execute:
   message: false
 ---
 
-Week w09 is not released yet.
+## Cara mengerjakan
+
+- Jawab **hanya** dengan mengisi fungsi `q01()` s.d. `q12()` di `submissions/w09/answers.py`.
+- Kamu boleh memakai Python untuk menghitung, misalnya lewat `submissions/w09/laporan.qmd`.
+- Jangan ubah nama fungsi.
+
+### Format jawaban
+
+- **T/F**: kembalikan `True` (Benar) atau `False` (Salah).
+- **MC**: kembalikan huruf `"A"`, `"B"`, `"C"`, atau `"D"`.
+- **Numeric**: kembalikan bilangan `int` atau `float` (pakai titik `.` untuk desimal).
+
+---
+
+## Q01 (T/F)
+
+Jika korelasi antara dua variabel adalah nol, maka kedua variabel tersebut pasti
+independen.
+
+## Q02 (T/F)
+
+PDF marginal () didapatkan dengan mengintegralkan (,) terhadap dari − ke .
+X
+
+## Q03 (T/F)
+
+Nilai koefisien korelasi selalu berada di antara -1 dan 1.
+
+## Q04 (MC)
+
+Jika X dan independen, maka E sama dengan:
+
+- **A)** E[X]+E
+
+- **B)** E[X]E
+
+- **C)** E[X]/E
+
+- **D)** 0
+
+
+
+## Q05 (MC)
+
+Manakah ukuran yang menunjukkan kekuatan hubungan linear antara dua
+variabel?
+
+- **A)** Variansi.
+
+- **B)** Mean.
+
+- **C)** Korelasi.
+
+- **D)** CDF.
+
+
+
+## Q06 (MC)
+
+Jika (X) = 4,() = 9, dan X, independen, maka (X+) adalah:
+
+- **A)** 13
+
+- **B)** 5
+
+- **C)** 36
+
+- **D)** 6,5
+
+
+
+## Q07 (MC)
+
+Fungsi probabilitas kondisional (|) didefinisikan sebagai:
+
+- **A)** (,)/ () X
+
+- **B)** (,)/()
+
+- **C)** () () X
+
+- **D)** (,)− () X
+
+
+
+## Q08 (Numeric)
+
+Jika (X,) = 2, X = 2, = 2, berapakah koefisien korelasinya?
+
+## Q09 (Numeric)
+
+Berapakah nilai E jika E[X] = 10 dan E = 20?
+
+## Q10 (Numeric)
+
+Jika (,) = 1/4 untuk 0 2 dan 0 2, berapakah P(X 1, 1)?
+
+## Q11 (Numeric)
+
+Dalam tabel diskrit, jika P(1,1) = 0,1P(1,2) = 0,2P(2,1) = 0,3P(2,2) = 0,4,
+berapakah probabilitas marginal P(X = 1)?
+
+## Q12 (Numeric)
+
+Jika X dan memiliki korelasi 1 dan (X) = 4, berapakah (X+X)?

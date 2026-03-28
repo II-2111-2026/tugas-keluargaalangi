@@ -1,5 +1,5 @@
 ---
-title: "Quiz w12 — Placeholder"
+title: "Quiz w12 — Minggu 12 (soal dari strategi2.pdf)"
 format: html
 execute:
   echo: true
@@ -7,4 +7,108 @@ execute:
   message: false
 ---
 
-Week w12 is not released yet.
+## Cara mengerjakan
+
+- Jawab **hanya** dengan mengisi fungsi `q01()` s.d. `q12()` di `submissions/w12/answers.py`.
+- Kamu boleh memakai Python untuk menghitung, misalnya lewat `submissions/w12/laporan.qmd`.
+- Jangan ubah nama fungsi.
+
+### Format jawaban
+
+- **T/F**: kembalikan `True` (Benar) atau `False` (Salah).
+- **MC**: kembalikan huruf `"A"`, `"B"`, `"C"`, atau `"D"`.
+- **Numeric**: kembalikan bilangan `int` atau `float` (pakai titik `.` untuk desimal).
+
+---
+
+## Q01 (T/F)
+
+Jika p-value lebih kecil dari tingkat signifikansi , maka kita gagal menolak hipotesis
+nol.
+
+## Q02 (T/F)
+
+Galat Tipe I adalah kesalahan menolak padahal benar.
+
+## Q03 (T/F)
+
+Meningkatkan ukuran sampel biasanya akan meningkatkan kekuatan uji (power).
+
+## Q04 (MC)
+
+Nilai probabilitas yang menunjukkan kekuatan bukti melawan hipotesis nol disebut:
+
+- **A)** Tingkat kepercayaan.
+
+- **B)** p-value.
+
+- **C)** Statistik uji.
+
+- **D)** Parameter.
+
+
+
+## Q05 (MC)
+
+Jika kita menguji = 50 vs 50, maka kita melakukan uji:
+0 1
+
+- **A)** Satu arah (kanan).
+
+- **B)** Satu arah (kiri).
+
+- **C)** Dua arah.
+
+- **D)** Tanpa arah.
+
+
+
+## Q06 (MC)
+
+Kondisi di mana kita menolak hipotesis nol padahal sebenarnya salah disebut:
+
+- **A)** Keputusan yang benar (Power).
+
+- **B)** Galat Tipe I.
+
+- **C)** Galat Tipe II.
+
+- **D)** Signifikansi.
+
+
+
+## Q07 (MC)
+
+Tingkat signifikansi yang umum digunakan dalam penelitian adalah:
+
+- **A)** 0,5
+
+- **B)** 0,05
+
+- **C)** 0,95
+
+- **D)** 1,0
+
+
+
+## Q08 (Numeric)
+
+Jika statistik uji = 2,58 dan nilai kritis c = 1,96 untuk uji dua arah, apakah 0
+ditolak? (Tulis 1 untuk Ya, 0 untuk Tidak)
+
+## Q09 (Numeric)
+
+Berapakah nilai jika tingkat kepercayaan adalah 99%?
+
+## Q10 (Numeric)
+
+Dalam uji t dengan sampel n = 10, berapakah derajat kebebasannya?
+
+## Q11 (Numeric)
+
+Jika p-value = 0,02 dan = 0,05, apakah kita menolak 0? (Tulis 1 untuk Ya, 0
+untuk Tidak)
+
+## Q12 (Numeric)
+
+Jika statistik = 0, berapakah p-value untuk uji dua arah?

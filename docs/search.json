@@ -22,151 +22,191 @@
   {
     "objectID": "weeks/w01/quiz.html",
     "href": "weeks/w01/quiz.html",
-    "title": "2  Quiz w01 — Sample Space & Basic Probability (12 tasks)",
+    "title": "2  Quiz w01 — Minggu 01 (soal dari strategi.pdf)",
     "section": "",
-    "text": "2.1 Start here",
+    "text": "2.1 Cara mengerjakan",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Sample Space & Basic Probability (12 tasks)</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Minggu 01 (soal dari strategi.pdf)</span>"
     ]
   },
   {
-    "objectID": "weeks/w01/quiz.html#start-here",
-    "href": "weeks/w01/quiz.html#start-here",
-    "title": "2  Quiz w01 — Sample Space & Basic Probability (12 tasks)",
+    "objectID": "weeks/w01/quiz.html#cara-mengerjakan",
+    "href": "weeks/w01/quiz.html#cara-mengerjakan",
+    "title": "2  Quiz w01 — Minggu 01 (soal dari strategi.pdf)",
     "section": "",
-    "text": "Implement your code in: submissions/w01/answers.py\nPush to GitHub → check Actions → check your score in Classroom.",
+    "text": "Jawab hanya dengan mengisi fungsi q01() s.d. q12() di submissions/w01/answers.py.\nKamu boleh memakai Python untuk menghitung, misalnya lewat submissions/w01/laporan.qmd.\nJangan ubah nama fungsi.\n\n\n2.1.1 Format jawaban\n\nT/F: kembalikan True (Benar) atau False (Salah).\nMC: kembalikan huruf \"A\", \"B\", \"C\", atau \"D\".\nNumeric: kembalikan bilangan int atau float (pakai titik . untuk desimal).",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Sample Space & Basic Probability (12 tasks)</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Minggu 01 (soal dari strategi.pdf)</span>"
     ]
   },
   {
-    "objectID": "weeks/w01/quiz.html#setup-import",
-    "href": "weeks/w01/quiz.html#setup-import",
-    "title": "2  Quiz w01 — Sample Space & Basic Probability (12 tasks)",
-    "section": "2.2 Setup import",
-    "text": "2.2 Setup import\n\nimport sys\nfrom pathlib import Path\n\ncwd = Path.cwd().resolve()\nrepo_root = cwd if (cwd / \"weeks\").exists() else cwd.parents[1]\nsys.path.insert(0, str(repo_root))\n\nfrom submissions.w01.answers import q01,q02,q03,q04,q05,q06,q07,q08,q09,q10,q11,q12",
+    "objectID": "weeks/w01/quiz.html#q01-tf",
+    "href": "weeks/w01/quiz.html#q01-tf",
+    "title": "2  Quiz w01 — Minggu 01 (soal dari strategi.pdf)",
+    "section": "2.2 Q01 (T/F)",
+    "text": "2.2 Q01 (T/F)\nDalam model probabilistik, output yang sama akan selalu dihasilkan dari input yang sama terlepas dari variasi acak.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Sample Space & Basic Probability (12 tasks)</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Minggu 01 (soal dari strategi.pdf)</span>"
     ]
   },
   {
-    "objectID": "weeks/w01/quiz.html#task-01-at-least-one-head",
-    "href": "weeks/w01/quiz.html#task-01-at-least-one-head",
-    "title": "2  Quiz w01 — Sample Space & Basic Probability (12 tasks)",
-    "section": "2.3 Task 01 — At least one head",
-    "text": "2.3 Task 01 — At least one head\nA fair coin is flipped 3 times. Return P(at least one head).",
+    "objectID": "weeks/w01/quiz.html#q02-tf",
+    "href": "weeks/w01/quiz.html#q02-tf",
+    "title": "2  Quiz w01 — Minggu 01 (soal dari strategi.pdf)",
+    "section": "2.3 Q02 (T/F)",
+    "text": "2.3 Q02 (T/F)\nRuang sampel dari sebuah eksperimen acak harus mencakup semua hasil yang mungkin terjadi tanpa tumpang tindih.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Sample Space & Basic Probability (12 tasks)</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Minggu 01 (soal dari strategi.pdf)</span>"
     ]
   },
   {
-    "objectID": "weeks/w01/quiz.html#task-02-combinations",
-    "href": "weeks/w01/quiz.html#task-02-combinations",
-    "title": "2  Quiz w01 — Sample Space & Basic Probability (12 tasks)",
-    "section": "2.4 Task 02 — Combinations",
-    "text": "2.4 Task 02 — Combinations\nFrom 10 students, choose 3 (order does not matter). Return the number of committees.",
+    "objectID": "weeks/w01/quiz.html#q03-tf",
+    "href": "weeks/w01/quiz.html#q03-tf",
+    "title": "2  Quiz w01 — Minggu 01 (soal dari strategi.pdf)",
+    "section": "2.4 Q03 (T/F)",
+    "text": "2.4 Q03 (T/F)\nProbabilitas empiris mendekati probabilitas teoretis ketika jumlah percobaan mendekati tak hingga.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Sample Space & Basic Probability (12 tasks)</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Minggu 01 (soal dari strategi.pdf)</span>"
     ]
   },
   {
-    "objectID": "weeks/w01/quiz.html#task-03-conditional-probability",
-    "href": "weeks/w01/quiz.html#task-03-conditional-probability",
-    "title": "2  Quiz w01 — Sample Space & Basic Probability (12 tasks)",
-    "section": "2.5 Task 03 — Conditional probability",
-    "text": "2.5 Task 03 — Conditional probability\nIn a class of 40 students: - 22 use Python (P) - 18 use R (R) - 10 use both\nReturn P(Python | R).",
+    "objectID": "weeks/w01/quiz.html#q04-mc",
+    "href": "weeks/w01/quiz.html#q04-mc",
+    "title": "2  Quiz w01 — Minggu 01 (soal dari strategi.pdf)",
+    "section": "2.5 Q04 (MC)",
+    "text": "2.5 Q04 (MC)\nManakah yang merupakan contoh variabel acak dalam sistem STI?\n\nA) Kapasitas total hard disk 1TB.\nB) Jumlah core pada prosesor Intel i7.\nC) Waktu yang dibutuhkan untuk merespons query database.\nD) Jumlah bit dalam satu byte.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Sample Space & Basic Probability (12 tasks)</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Minggu 01 (soal dari strategi.pdf)</span>"
     ]
   },
   {
-    "objectID": "weeks/w01/quiz.html#task-04-bayes",
-    "href": "weeks/w01/quiz.html#task-04-bayes",
-    "title": "2  Quiz w01 — Sample Space & Basic Probability (12 tasks)",
-    "section": "2.6 Task 04 — Bayes",
-    "text": "2.6 Task 04 — Bayes\nDisease prevalence P(D)=0.01, sensitivity P(+|D)=0.95, specificity P(-|not D)=0.90.\nReturn P(D | +).",
+    "objectID": "weeks/w01/quiz.html#q05-mc",
+    "href": "weeks/w01/quiz.html#q05-mc",
+    "title": "2  Quiz w01 — Minggu 01 (soal dari strategi.pdf)",
+    "section": "2.6 Q05 (MC)",
+    "text": "2.6 Q05 (MC)\nJika sebuah ruang sampel terdiri dari 4 kejadian yang memiliki peluang sama, maka probabilitas satu kejadian adalah:\nMinggu 02: Kerangka Probabilitas dan Operasi Kejadian Minggu kedua memperdalam struktur matematika melalui teori himpunan. Pemahaman tentang irisan, gabungan, dan komplemen sangat krusial dalam merancang logika sistem informasi yang tangguh. Bank Soal Mingguan Pertanyaan Konseptual\n\nA) 0,5\nB) 0,25\nC) 0,75\nD) 1,0",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Sample Space & Basic Probability (12 tasks)</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Minggu 01 (soal dari strategi.pdf)</span>"
     ]
   },
   {
-    "objectID": "weeks/w01/quiz.html#task-05-expected-value",
-    "href": "weeks/w01/quiz.html#task-05-expected-value",
-    "title": "2  Quiz w01 — Sample Space & Basic Probability (12 tasks)",
-    "section": "2.7 Task 05 — Expected value",
-    "text": "2.7 Task 05 — Expected value\nX in {0,1,2,3} with probs [0.1, 0.2, 0.3, 0.4]. Return E[X].",
+    "objectID": "weeks/w01/quiz.html#q06-mc",
+    "href": "weeks/w01/quiz.html#q06-mc",
+    "title": "2  Quiz w01 — Minggu 01 (soal dari strategi.pdf)",
+    "section": "2.7 Q06 (MC)",
+    "text": "2.7 Q06 (MC)\nKejadian yang mustahil terjadi memiliki nilai probabilitas sebesar:\n\nA) 0\nB) 1\nC) -1\nD) 0,5",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Sample Space & Basic Probability (12 tasks)</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Minggu 01 (soal dari strategi.pdf)</span>"
     ]
   },
   {
-    "objectID": "weeks/w01/quiz.html#task-06-binomial-pmf",
-    "href": "weeks/w01/quiz.html#task-06-binomial-pmf",
-    "title": "2  Quiz w01 — Sample Space & Basic Probability (12 tasks)",
-    "section": "2.8 Task 06 — Binomial PMF",
-    "text": "2.8 Task 06 — Binomial PMF\nX ~ Binomial(n=4, p=0.3). Return [P(X=0),…,P(X=4)].",
+    "objectID": "weeks/w01/quiz.html#q07-mc",
+    "href": "weeks/w01/quiz.html#q07-mc",
+    "title": "2  Quiz w01 — Minggu 01 (soal dari strategi.pdf)",
+    "section": "2.8 Q07 (MC)",
+    "text": "2.8 Q07 (MC)\nSekumpulan hasil eksperimen yang merupakan subset dari ruang sampel disebut:\n\nA) Populasi.\nB) Parameter.\nC) Kejadian (Event).\nD) Konstanta.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Sample Space & Basic Probability (12 tasks)</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Minggu 01 (soal dari strategi.pdf)</span>"
     ]
   },
   {
-    "objectID": "weeks/w01/quiz.html#task-07-variance-of-a-fair-die",
-    "href": "weeks/w01/quiz.html#task-07-variance-of-a-fair-die",
-    "title": "2  Quiz w01 — Sample Space & Basic Probability (12 tasks)",
-    "section": "2.9 Task 07 — Variance of a fair die",
-    "text": "2.9 Task 07 — Variance of a fair die\nX is uniform over {1..6}. Return Var(X).",
+    "objectID": "weeks/w01/quiz.html#q08-numeric",
+    "href": "weeks/w01/quiz.html#q08-numeric",
+    "title": "2  Quiz w01 — Minggu 01 (soal dari strategi.pdf)",
+    "section": "2.9 Q08 (Numeric)",
+    "text": "2.9 Q08 (Numeric)\nBerapa jumlah elemen dalam ruang sampel jika kita melempar dua buah dadu bersisi enam?",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Sample Space & Basic Probability (12 tasks)</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Minggu 01 (soal dari strategi.pdf)</span>"
     ]
   },
   {
-    "objectID": "weeks/w01/quiz.html#task-08-correlation",
-    "href": "weeks/w01/quiz.html#task-08-correlation",
-    "title": "2  Quiz w01 — Sample Space & Basic Probability (12 tasks)",
-    "section": "2.10 Task 08 — Correlation",
-    "text": "2.10 Task 08 — Correlation\nCov(X,Y)=2, Var(X)=9, Var(Y)=16. Return Corr(X,Y).",
+    "objectID": "weeks/w01/quiz.html#q09-numeric",
+    "href": "weeks/w01/quiz.html#q09-numeric",
+    "title": "2  Quiz w01 — Minggu 01 (soal dari strategi.pdf)",
+    "section": "2.10 Q09 (Numeric)",
+    "text": "2.10 Q09 (Numeric)\nJika probabilitas sebuah link internet mati adalah 0,01, berapa probabilitas link tersebut hidup?",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Sample Space & Basic Probability (12 tasks)</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Minggu 01 (soal dari strategi.pdf)</span>"
     ]
   },
   {
-    "objectID": "weeks/w01/quiz.html#task-09-normal-probability",
-    "href": "weeks/w01/quiz.html#task-09-normal-probability",
-    "title": "2  Quiz w01 — Sample Space & Basic Probability (12 tasks)",
-    "section": "2.11 Task 09 — Normal probability",
-    "text": "2.11 Task 09 — Normal probability\nX ~ Normal(μ=10, σ=2). Return P(8 &lt; X &lt; 12).",
+    "objectID": "weeks/w01/quiz.html#q10-numeric",
+    "href": "weeks/w01/quiz.html#q10-numeric",
+    "title": "2  Quiz w01 — Minggu 01 (soal dari strategi.pdf)",
+    "section": "2.11 Q10 (Numeric)",
+    "text": "2.11 Q10 (Numeric)\nBerapa banyak susunan berbeda yang bisa dibuat dari kata “DATA”?",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Sample Space & Basic Probability (12 tasks)</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Minggu 01 (soal dari strategi.pdf)</span>"
     ]
   },
   {
-    "objectID": "weeks/w01/quiz.html#task-10-margin-of-error",
-    "href": "weeks/w01/quiz.html#task-10-margin-of-error",
-    "title": "2  Quiz w01 — Sample Space & Basic Probability (12 tasks)",
-    "section": "2.12 Task 10 — Margin of error",
-    "text": "2.12 Task 10 — Margin of error\nKnown σ=4, n=25, 95% z=1.96. Return margin of error.",
+    "objectID": "weeks/w01/quiz.html#q11-numeric",
+    "href": "weeks/w01/quiz.html#q11-numeric",
+    "title": "2  Quiz w01 — Minggu 01 (soal dari strategi.pdf)",
+    "section": "2.12 Q11 (Numeric)",
+    "text": "2.12 Q11 (Numeric)\nJika sebuah server memiliki probabilitas uptime 0,95, berapa probabilitas server tersebut downtime dalam satu periode?",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Sample Space & Basic Probability (12 tasks)</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Minggu 01 (soal dari strategi.pdf)</span>"
     ]
   },
   {
-    "objectID": "weeks/w01/quiz.html#task-11-two-sided-p-value",
-    "href": "weeks/w01/quiz.html#task-11-two-sided-p-value",
-    "title": "2  Quiz w01 — Sample Space & Basic Probability (12 tasks)",
-    "section": "2.13 Task 11 — Two-sided p-value",
-    "text": "2.13 Task 11 — Two-sided p-value\nTwo-sided z-test with z=2.1. Return p-value.",
+    "objectID": "weeks/w01/quiz.html#q12-numeric",
+    "href": "weeks/w01/quiz.html#q12-numeric",
+    "title": "2  Quiz w01 — Minggu 01 (soal dari strategi.pdf)",
+    "section": "2.13 Q12 (Numeric)",
+    "text": "2.13 Q12 (Numeric)\nDalam simulasi 1000 kali login, jika 20 kali gagal, berapa frekuensi relatif kegagalan tersebut?",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Sample Space & Basic Probability (12 tasks)</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Minggu 01 (soal dari strategi.pdf)</span>"
     ]
   },
   {
-    "objectID": "weeks/w01/quiz.html#task-12-monte-carlo-estimate",
-    "href": "weeks/w01/quiz.html#task-12-monte-carlo-estimate",
-    "title": "2  Quiz w01 — Sample Space & Basic Probability (12 tasks)",
-    "section": "2.14 Task 12 — Monte Carlo estimate",
-    "text": "2.14 Task 12 — Monte Carlo estimate\nEstimate P(Z &gt; 1.5), Z~N(0,1) using: - n=200000 - seed=123 Return estimated probability.",
+    "objectID": "submissions/w01/laporan.html",
+    "href": "submissions/w01/laporan.html",
+    "title": "3  Laporan Minggu 01 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "",
+    "text": "3.1 Kenapa ada laporan ini?\nSupaya kamu bisa melihat hasil jawabanmu dalam format yang rapi & ramah dibaca, tanpa membuat “dua versi jawaban”.\n✅ Sumber kebenaran tunggal tetap: submissions/w01/answers.py\nLaporan ini hanya memanggil fungsi q01()..q12() dari answers.py dan menampilkan outputnya.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Sample Space & Basic Probability (12 tasks)</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Laporan Minggu 01 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w01/laporan.html#cara-render-lokal",
+    "href": "submissions/w01/laporan.html#cara-render-lokal",
+    "title": "3  Laporan Minggu 01 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "3.2 Cara render (lokal)",
+    "text": "3.2 Cara render (lokal)\nquarto render submissions/w01/laporan.qmd",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Laporan Minggu 01 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w01/laporan.html#ringkasan-hasil-table-sanity-checks",
+    "href": "submissions/w01/laporan.html#ringkasan-hasil-table-sanity-checks",
+    "title": "3  Laporan Minggu 01 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "3.3 Ringkasan hasil (table + sanity checks)",
+    "text": "3.3 Ringkasan hasil (table + sanity checks)\n\n\n\n\n\n\n\n\n\nTask\nStatus\nPreview\nNotes\n\n\n\n\n0\nQ01\nTODO\n\nImplement this task\n\n\n1\nQ02\nTODO\n\nImplement this task\n\n\n2\nQ03\nTODO\n\nImplement this task\n\n\n3\nQ04\nTODO\n\nImplement this task\n\n\n4\nQ05\nTODO\n\nImplement this task\n\n\n5\nQ06\nTODO\n\nImplement this task\n\n\n6\nQ07\nTODO\n\nImplement this task\n\n\n7\nQ08\nTODO\n\nImplement this task\n\n\n8\nQ09\nTODO\n\nImplement this task\n\n\n9\nQ10\nTODO\n\nImplement this task\n\n\n10\nQ11\nTODO\n\nImplement this task\n\n\n11\nQ12\nTODO\n\nImplement this task",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Laporan Minggu 01 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w01/laporan.html#detail-output-per-task",
+    "href": "submissions/w01/laporan.html#detail-output-per-task",
+    "title": "3  Laporan Minggu 01 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "3.4 Detail output per task",
+    "text": "3.4 Detail output per task\n\n\n### Q01 — TODO\n**Error/Info:** `NotImplementedError`\n\n### Q02 — TODO\n**Error/Info:** `NotImplementedError`\n\n### Q03 — TODO\n**Error/Info:** `NotImplementedError`\n\n### Q04 — TODO\n**Error/Info:** `NotImplementedError`\n\n### Q05 — TODO\n**Error/Info:** `NotImplementedError`\n\n### Q06 — TODO\n**Error/Info:** `NotImplementedError`\n\n### Q07 — TODO\n**Error/Info:** `NotImplementedError`\n\n### Q08 — TODO\n**Error/Info:** `NotImplementedError`\n\n### Q09 — TODO\n**Error/Info:** `NotImplementedError`\n\n### Q10 — TODO\n**Error/Info:** `NotImplementedError`\n\n### Q11 — TODO\n**Error/Info:** `NotImplementedError`\n\n### Q12 — TODO\n**Error/Info:** `NotImplementedError`",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Laporan Minggu 01 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w01/laporan.html#catatan-penting",
+    "href": "submissions/w01/laporan.html#catatan-penting",
+    "title": "3  Laporan Minggu 01 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "3.5 Catatan penting",
+    "text": "3.5 Catatan penting\n\nLaporan ini bukan penilaian. Penilaian resmi tetap dari autograder (pytest).\nLaporan ini tidak membocorkan “kunci jawaban”; hanya menunjukkan output dari kode kamu.\n\nSelf-check resmi (opsional):\npytest -q tests_bank/w01/quiz_tests.py",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Laporan Minggu 01 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
     ]
   },
   {
@@ -187,6 +227,2476 @@
     "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
       "References"
+    ]
+  },
+  {
+    "objectID": "weeks/w14/quiz.html",
+    "href": "weeks/w14/quiz.html",
+    "title": "28  Quiz w14 — Minggu 14 (soal dari strategi.pdf)",
+    "section": "",
+    "text": "28.1 Cara mengerjakan",
+    "crumbs": [
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Quiz w14 — Minggu 14 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w14/quiz.html#cara-mengerjakan",
+    "href": "weeks/w14/quiz.html#cara-mengerjakan",
+    "title": "28  Quiz w14 — Minggu 14 (soal dari strategi.pdf)",
+    "section": "",
+    "text": "Jawab hanya dengan mengisi fungsi q01() s.d. q12() di submissions/w14/answers.py.\nKamu boleh memakai Python untuk menghitung, misalnya lewat submissions/w14/laporan.qmd.\nJangan ubah nama fungsi.\n\n\n28.1.1 Format jawaban\n\nT/F: kembalikan True (Benar) atau False (Salah).\nMC: kembalikan huruf \"A\", \"B\", \"C\", atau \"D\".\nNumeric: kembalikan bilangan int atau float (pakai titik . untuk desimal).",
+    "crumbs": [
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Quiz w14 — Minggu 14 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w14/quiz.html#q01-tf",
+    "href": "weeks/w14/quiz.html#q01-tf",
+    "title": "28  Quiz w14 — Minggu 14 (soal dari strategi.pdf)",
+    "section": "28.2 Q01 (T/F)",
+    "text": "28.2 Q01 (T/F)\nPengujian A/B adalah aplikasi nyata dari uji hipotesis dua sampel.",
+    "crumbs": [
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Quiz w14 — Minggu 14 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w14/quiz.html#q02-tf",
+    "href": "weeks/w14/quiz.html#q02-tf",
+    "title": "28  Quiz w14 — Minggu 14 (soal dari strategi.pdf)",
+    "section": "28.3 Q02 (T/F)",
+    "text": "28.3 Q02 (T/F)\nMetrik “Presisi” mengukur seberapa banyak dari total prediksi positif yang - positif.",
+    "crumbs": [
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Quiz w14 — Minggu 14 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w14/quiz.html#q03-tf",
+    "href": "weeks/w14/quiz.html#q03-tf",
+    "title": "28  Quiz w14 — Minggu 14 (soal dari strategi.pdf)",
+    "section": "28.4 Q03 (T/F)",
+    "text": "28.4 Q03 (T/F)\nDalam monitoring sistem, kita biasanya mengabaikan outlier karena itu bukan bagian dari pola normal. - outlier seringkali menunjukkan anomali atau kegagalan).",
+    "crumbs": [
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Quiz w14 — Minggu 14 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w14/quiz.html#q04-mc",
+    "href": "weeks/w14/quiz.html#q04-mc",
+    "title": "28  Quiz w14 — Minggu 14 (soal dari strategi.pdf)",
+    "section": "28.5 Q04 (MC)",
+    "text": "28.5 Q04 (MC)\nMetrik evaluasi yang tepat untuk dataset dengan kelas yang tidak seimbang (imbalanced) adalah:\n\nA) Akurasi.\nB) F1-Score.\nC) Mean.\nD) Range.",
+    "crumbs": [
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Quiz w14 — Minggu 14 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w14/quiz.html#q05-mc",
+    "href": "weeks/w14/quiz.html#q05-mc",
+    "title": "28  Quiz w14 — Minggu 14 (soal dari strategi.pdf)",
+    "section": "28.6 Q05 (MC)",
+    "text": "28.6 Q05 (MC)\nDalam deteksi anomali, data yang berada di luar biasanya dianggap:\n\nA) Data normal.\nB) Outlier atau anomali.\nC) Nilai rata-rata.\nD) Sampel ideal.",
+    "crumbs": [
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Quiz w14 — Minggu 14 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w14/quiz.html#q06-mc",
+    "href": "weeks/w14/quiz.html#q06-mc",
+    "title": "28  Quiz w14 — Minggu 14 (soal dari strategi.pdf)",
+    "section": "28.7 Q06 (MC)",
+    "text": "28.7 Q06 (MC)\nPengujian A/B dilakukan untuk:\n\nA) Mengurangi biaya server.\nB) Menentukan versi produk mana yang memberikan performa/konversi lebih baik.\nC) Menghapus bug secara otomatis.\nD) Mengganti peran programmer.",
+    "crumbs": [
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Quiz w14 — Minggu 14 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w14/quiz.html#q07-mc",
+    "href": "weeks/w14/quiz.html#q07-mc",
+    "title": "28  Quiz w14 — Minggu 14 (soal dari strategi.pdf)",
+    "section": "28.8 Q07 (MC)",
+    "text": "28.8 Q07 (MC)\nJika sebuah sistem memiliki presisi 1,0, berarti:\n\nA) Tidak ada false positive.\nB) Tidak ada false negative.\nC) Akurasi 100%.\nD) Sistem sempurna.",
+    "crumbs": [
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Quiz w14 — Minggu 14 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w14/quiz.html#q08-numeric",
+    "href": "weeks/w14/quiz.html#q08-numeric",
+    "title": "28  Quiz w14 — Minggu 14 (soal dari strategi.pdf)",
+    "section": "28.9 Q08 (Numeric)",
+    "text": "28.9 Q08 (Numeric)\nJika TP = 80 dan FP = 20, berapakah nilai presisinya?",
+    "crumbs": [
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Quiz w14 — Minggu 14 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w14/quiz.html#q09-numeric",
+    "href": "weeks/w14/quiz.html#q09-numeric",
+    "title": "28  Quiz w14 — Minggu 14 (soal dari strategi.pdf)",
+    "section": "28.10 Q09 (Numeric)",
+    "text": "28.10 Q09 (Numeric)\nJika akurasi model adalah 0,95 dan ada 1.000 data, berapa banyak prediksi yang benar?",
+    "crumbs": [
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Quiz w14 — Minggu 14 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w14/quiz.html#q10-numeric",
+    "href": "weeks/w14/quiz.html#q10-numeric",
+    "title": "28  Quiz w14 — Minggu 14 (soal dari strategi.pdf)",
+    "section": "28.11 Q10 (Numeric)",
+    "text": "28.11 Q10 (Numeric)\nHitung F1-score jika Presisi = 0,8 dan Recall = 0,8.",
+    "crumbs": [
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Quiz w14 — Minggu 14 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w14/quiz.html#q11-numeric",
+    "href": "weeks/w14/quiz.html#q11-numeric",
+    "title": "28  Quiz w14 — Minggu 14 (soal dari strategi.pdf)",
+    "section": "28.12 Q11 (Numeric)",
+    "text": "28.12 Q11 (Numeric)\nBerapakah nilai skor-Z untuk data point 110 jika rata-rata 100 dan simpangan baku 5?",
+    "crumbs": [
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Quiz w14 — Minggu 14 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w14/quiz.html#q12-numeric",
+    "href": "weeks/w14/quiz.html#q12-numeric",
+    "title": "28  Quiz w14 — Minggu 14 (soal dari strategi.pdf)",
+    "section": "28.13 Q12 (Numeric)",
+    "text": "28.13 Q12 (Numeric)\nJika dalam pengujian A/B, p-value yang didapat adalah 0,001, apakah ada perbedaan signifikan pada = 0, 05? (Tulis 1 untuk Ya, 0 untuk Tidak)",
+    "crumbs": [
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Quiz w14 — Minggu 14 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w14/laporan.html",
+    "href": "submissions/w14/laporan.html",
+    "title": "29  Laporan w14 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "",
+    "text": "29.1 Kenapa ada laporan ini?\nSupaya kamu bisa melihat hasil jawabanmu dalam format yang rapi & ramah dibaca, tanpa membuat “dua versi jawaban”.\n✅ Sumber kebenaran tunggal tetap: submissions/w14/answers.py\nLaporan ini hanya memanggil fungsi q01()..q12() dari answers.py dan menampilkan outputnya.",
+    "crumbs": [
+      "<span class='chapter-number'>29</span>  <span class='chapter-title'>Laporan w14 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w14/laporan.html#cara-render-lokal",
+    "href": "submissions/w14/laporan.html#cara-render-lokal",
+    "title": "29  Laporan w14 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "29.2 Cara render (lokal)",
+    "text": "29.2 Cara render (lokal)\nquarto render submissions/w14/laporan.qmd\n\nJika Quarto belum terpasang, kamu tetap bisa melihat hasil lewat GitHub Actions atau menjalankan Python secara manual.",
+    "crumbs": [
+      "<span class='chapter-number'>29</span>  <span class='chapter-title'>Laporan w14 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w14/laporan.html#ringkasan-hasil-table",
+    "href": "submissions/w14/laporan.html#ringkasan-hasil-table",
+    "title": "29  Laporan w14 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "29.3 Ringkasan hasil (table)",
+    "text": "29.3 Ringkasan hasil (table)\n```{python}\nimport sys\nfrom pathlib import Path\n\ncwd = Path.cwd().resolve()\nrepo_root = cwd if (cwd / \"submissions\").exists() else cwd.parents[1]\nsys.path.insert(0, str(repo_root))\n\nimport math\nimport numpy as np\nimport pandas as pd\n\n# Import jawaban (single source of truth)\nfrom submissions.w14 import answers as A\n\n\ndef _preview(val, maxlen=80):\n    if val is None:\n        return \"\"\n    if isinstance(val, (list, tuple, np.ndarray)):\n        arr = list(val)\n        head = arr[:8]\n        s = f\"{type(val).__name__}(len={len(arr)}) \" + repr(head)\n        if len(arr) &gt; 8:\n            s += \" ...\"\n        return s[:maxlen]\n    s = repr(val)\n    return s if len(s) &lt;= maxlen else s[:maxlen] + \"...\"\n\n\ndef _is_number(x):\n    return isinstance(x, (int, float, np.integer, np.floating)) and not (isinstance(x, bool))\n\n\ndef _pmf_heuristic(val):\n    # heuristik: list/tuple/ndarray angka nonnegatif dan jumlah ~ 1\n    if not isinstance(val, (list, tuple, np.ndarray)):\n        return (False, None)\n    try:\n        arr = np.array(val, dtype=float)\n    except Exception:\n        return (False, None)\n    if arr.ndim != 1 or arr.size == 0:\n        return (False, None)\n    if np.any(np.isnan(arr)):\n        return (False, None)\n    s = float(arr.sum())\n    if np.all(arr &gt;= -1e-12) and abs(s - 1.0) &lt;= 1e-6:\n        return (True, s)\n    return (False, s)\n\n\ndef _prob_heuristic(val):\n    # heuristik: angka di [0,1]\n    if not _is_number(val):\n        return False\n    v = float(val)\n    if math.isnan(v) or math.isinf(v):\n        return False\n    return (0.0 &lt;= v &lt;= 1.0)\n\n\nrows = []\ndetails = []\n\nfor i in range(1, 13):\n    name = f\"q{i:02d}\"\n    func = getattr(A, name, None)\n    status = \"OK\"\n    err = \"\"\n    val = None\n\n    if func is None:\n        status = \"MISSING\"\n        err = \"Function not found\"\n    else:\n        try:\n            val = func()\n        except NotImplementedError:\n            status = \"TODO\"\n            err = \"NotImplementedError\"\n        except Exception as e:\n            status = \"ERR\"\n            err = f\"{type(e).__name__}: {e}\"\n\n    notes = []\n    if status == \"OK\":\n        # generic sanity checks (no answer key)\n        if _prob_heuristic(val):\n            notes.append(\"Looks like a probability (0..1)\")\n        ok_pmf, s = _pmf_heuristic(val)\n        if ok_pmf:\n            notes.append(\"Looks like a PMF (sum≈1, all≥0)\")\n        if isinstance(val, float) and (math.isnan(val) or math.isinf(val)):\n            notes.append(\"⚠️ NaN/Inf detected\")\n\n    if status in (\"ERR\", \"MISSING\"):\n        notes.append(\"⚠️ Fix required\")\n    if status == \"TODO\":\n        notes.append(\"Implement this task\")\n\n    rows.append({\n        \"Task\": name.upper(),\n        \"Status\": status,\n        \"Preview\": _preview(val),\n        \"Notes\": \"; \".join(notes),\n    })\n    details.append((name, status, val, err))\n\ndf = pd.DataFrame(rows)\ndf\n```",
+    "crumbs": [
+      "<span class='chapter-number'>29</span>  <span class='chapter-title'>Laporan w14 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w14/laporan.html#detail-output-per-task",
+    "href": "submissions/w14/laporan.html#detail-output-per-task",
+    "title": "29  Laporan w14 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "29.4 Detail output per task",
+    "text": "29.4 Detail output per task\n```{python}\n#| results: asis\n\ndef _md_escape(s: str) -&gt; str:\n    return s.replace(\"`\", \"\\`\")\n\nfor name, status, val, err in details:\n    print(f\"### {name.upper()} — {status}\")\n    if status == \"OK\":\n        print(\"```\")\n        print(repr(val))\n        print(\"```\")\n    else:\n        print(f\"**Error/Info:** `{_md_escape(err)}`\\n\")\n```",
+    "crumbs": [
+      "<span class='chapter-number'>29</span>  <span class='chapter-title'>Laporan w14 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w14/laporan.html#catatan-penting",
+    "href": "submissions/w14/laporan.html#catatan-penting",
+    "title": "29  Laporan w14 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "29.5 Catatan penting",
+    "text": "29.5 Catatan penting\n\nLaporan ini bukan penilaian. Penilaian resmi tetap dari autograder (pytest).\nJika hasil terlihat aneh, cek lagi:\n\nrumus manualnya\ntipe data yang diminta (int/float/list/bool/tuple)\nurutan list (apakah harus sorted?)\nrandom harus pakai seed (jika diminta)\n\n\nSelf-check resmi (opsional):\npytest -q tests_bank/w14/quiz_tests.py",
+    "crumbs": [
+      "<span class='chapter-number'>29</span>  <span class='chapter-title'>Laporan w14 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w02/quiz.html",
+    "href": "weeks/w02/quiz.html",
+    "title": "4  Quiz w02 — Minggu 02 (soal dari strategi2.pdf)",
+    "section": "",
+    "text": "4.1 Cara mengerjakan",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Quiz w02 — Minggu 02 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w02/quiz.html#cara-mengerjakan",
+    "href": "weeks/w02/quiz.html#cara-mengerjakan",
+    "title": "4  Quiz w02 — Minggu 02 (soal dari strategi2.pdf)",
+    "section": "",
+    "text": "Jawab hanya dengan mengisi fungsi q01() s.d. q12() di submissions/w02/answers.py.\nKamu boleh memakai Python untuk menghitung, misalnya lewat submissions/w02/laporan.qmd.\nJangan ubah nama fungsi.\n\n\n4.1.1 Format jawaban\n\nT/F: kembalikan True (Benar) atau False (Salah).\nMC: kembalikan huruf \"A\", \"B\", \"C\", atau \"D\".\nNumeric: kembalikan bilangan int atau float (pakai titik . untuk desimal).",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Quiz w02 — Minggu 02 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w02/quiz.html#q01-tf",
+    "href": "weeks/w02/quiz.html#q01-tf",
+    "title": "4  Quiz w02 — Minggu 02 (soal dari strategi2.pdf)",
+    "section": "4.2 Q01 (T/F)",
+    "text": "4.2 Q01 (T/F)\nJika dua kejadian A dan B saling lepas, maka P(A∩B) = 0.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Quiz w02 — Minggu 02 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w02/quiz.html#q02-tf",
+    "href": "weeks/w02/quiz.html#q02-tf",
+    "title": "4  Quiz w02 — Minggu 02 (soal dari strategi2.pdf)",
+    "section": "4.3 Q02 (T/F)",
+    "text": "4.3 Q02 (T/F)\nProbabilitas dari gabungan dua kejadian selalu lebih besar daripada probabilitas masing-masing kejadian.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Quiz w02 — Minggu 02 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w02/quiz.html#q03-tf",
+    "href": "weeks/w02/quiz.html#q03-tf",
+    "title": "4  Quiz w02 — Minggu 02 (soal dari strategi2.pdf)",
+    "section": "4.4 Q03 (T/F)",
+    "text": "4.4 Q03 (T/F)\nHukum komplemen menyatakan bahwa P(A)+P(Ac) = 1.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Quiz w02 — Minggu 02 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w02/quiz.html#q04-mc",
+    "href": "weeks/w02/quiz.html#q04-mc",
+    "title": "4  Quiz w02 — Minggu 02 (soal dari strategi2.pdf)",
+    "section": "4.5 Q04 (MC)",
+    "text": "4.5 Q04 (MC)\nJika P(A) = 0,4 dan P(B) = 0,3 serta keduanya saling lepas, maka P(A∪B) adalah:\n\nA) 0,7\nB) 0,12\nC) 0,1\nD) 0,5",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Quiz w02 — Minggu 02 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w02/quiz.html#q05-mc",
+    "href": "weeks/w02/quiz.html#q05-mc",
+    "title": "4  Quiz w02 — Minggu 02 (soal dari strategi2.pdf)",
+    "section": "4.6 Q05 (MC)",
+    "text": "4.6 Q05 (MC)\nManakah simbol yang merepresentasikan irisan antara kejadian A dan B?\n\nA) A∪B\nB) A∩B\nC) A∖B\nD) Ac",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Quiz w02 — Minggu 02 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w02/quiz.html#q06-mc",
+    "href": "weeks/w02/quiz.html#q06-mc",
+    "title": "4  Quiz w02 — Minggu 02 (soal dari strategi2.pdf)",
+    "section": "4.7 Q06 (MC)",
+    "text": "4.7 Q06 (MC)\nJika A ⊂ B, maka manakah pernyataan yang benar?\n\nA) P(A) &gt; P(B)\nB) P(A∩B) = P(A)\nC) P(A∪B) = P(A)\nD) P(A)+P(B) = 1",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Quiz w02 — Minggu 02 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w02/quiz.html#q07-mc",
+    "href": "weeks/w02/quiz.html#q07-mc",
+    "title": "4  Quiz w02 — Minggu 02 (soal dari strategi2.pdf)",
+    "section": "4.8 Q07 (MC)",
+    "text": "4.8 Q07 (MC)\nDalam diagram Venn, area di luar lingkaran A merepresentasikan:\n\nA) Kejadian A.\nB) Komplemen kejadian A (Ac).\nC) Irisan A dengan B.\nD) Ruang sampel kosong.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Quiz w02 — Minggu 02 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w02/quiz.html#q08-numeric",
+    "href": "weeks/w02/quiz.html#q08-numeric",
+    "title": "4  Quiz w02 — Minggu 02 (soal dari strategi2.pdf)",
+    "section": "4.9 Q08 (Numeric)",
+    "text": "4.9 Q08 (Numeric)\nJika P(A) = 0,6,P(B) = 0,5, dan P(A∩B) = 0,2, berapakah P(A∪B)?",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Quiz w02 — Minggu 02 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w02/quiz.html#q09-numeric",
+    "href": "weeks/w02/quiz.html#q09-numeric",
+    "title": "4  Quiz w02 — Minggu 02 (soal dari strategi2.pdf)",
+    "section": "4.10 Q09 (Numeric)",
+    "text": "4.10 Q09 (Numeric)\nSebuah sistem memiliki probabilitas gagal 0,05. Berapakah probabilitas sistem tersebut berhasil?",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Quiz w02 — Minggu 02 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w02/quiz.html#q10-numeric",
+    "href": "weeks/w02/quiz.html#q10-numeric",
+    "title": "4  Quiz w02 — Minggu 02 (soal dari strategi2.pdf)",
+    "section": "4.11 Q10 (Numeric)",
+    "text": "4.11 Q10 (Numeric)\nJika kejadian A dan B saling lepas dengan P(A) = 0,2 dan P(B) = 0,5, berapakah P(A∩B)?",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Quiz w02 — Minggu 02 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w02/quiz.html#q11-numeric",
+    "href": "weeks/w02/quiz.html#q11-numeric",
+    "title": "4  Quiz w02 — Minggu 02 (soal dari strategi2.pdf)",
+    "section": "4.12 Q11 (Numeric)",
+    "text": "4.12 Q11 (Numeric)\nBerapa probabilitas munculnya angka genap pada pelemparan satu dadu adil?",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Quiz w02 — Minggu 02 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w02/quiz.html#q12-numeric",
+    "href": "weeks/w02/quiz.html#q12-numeric",
+    "title": "4  Quiz w02 — Minggu 02 (soal dari strategi2.pdf)",
+    "section": "4.13 Q12 (Numeric)",
+    "text": "4.13 Q12 (Numeric)\nJika P(A∪B) = 0,8,P(A) = 0,5, dan A serta B saling lepas, berapakah P(B)?",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Quiz w02 — Minggu 02 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w02/laporan.html",
+    "href": "submissions/w02/laporan.html",
+    "title": "5  Laporan w02 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "",
+    "text": "5.1 Kenapa ada laporan ini?\nSupaya kamu bisa melihat hasil jawabanmu dalam format yang rapi & ramah dibaca, tanpa membuat “dua versi jawaban”.\n✅ Sumber kebenaran tunggal tetap: submissions/w02/answers.py\nLaporan ini hanya memanggil fungsi q01()..q12() dari answers.py dan menampilkan outputnya.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Laporan w02 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w02/laporan.html#cara-render-lokal",
+    "href": "submissions/w02/laporan.html#cara-render-lokal",
+    "title": "5  Laporan w02 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "5.2 Cara render (lokal)",
+    "text": "5.2 Cara render (lokal)\nquarto render submissions/w02/laporan.qmd\n\nJika Quarto belum terpasang, kamu tetap bisa melihat hasil lewat GitHub Actions atau menjalankan Python secara manual.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Laporan w02 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w02/laporan.html#ringkasan-hasil-table",
+    "href": "submissions/w02/laporan.html#ringkasan-hasil-table",
+    "title": "5  Laporan w02 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "5.3 Ringkasan hasil (table)",
+    "text": "5.3 Ringkasan hasil (table)\n```{python}\nimport sys\nfrom pathlib import Path\n\ncwd = Path.cwd().resolve()\nrepo_root = cwd if (cwd / \"submissions\").exists() else cwd.parents[1]\nsys.path.insert(0, str(repo_root))\n\nimport math\nimport numpy as np\nimport pandas as pd\n\n# Import jawaban (single source of truth)\nfrom submissions.w02 import answers as A\n\n\ndef _preview(val, maxlen=80):\n    if val is None:\n        return \"\"\n    if isinstance(val, (list, tuple, np.ndarray)):\n        arr = list(val)\n        head = arr[:8]\n        s = f\"{type(val).__name__}(len={len(arr)}) \" + repr(head)\n        if len(arr) &gt; 8:\n            s += \" ...\"\n        return s[:maxlen]\n    s = repr(val)\n    return s if len(s) &lt;= maxlen else s[:maxlen] + \"...\"\n\n\ndef _is_number(x):\n    return isinstance(x, (int, float, np.integer, np.floating)) and not (isinstance(x, bool))\n\n\ndef _pmf_heuristic(val):\n    # heuristik: list/tuple/ndarray angka nonnegatif dan jumlah ~ 1\n    if not isinstance(val, (list, tuple, np.ndarray)):\n        return (False, None)\n    try:\n        arr = np.array(val, dtype=float)\n    except Exception:\n        return (False, None)\n    if arr.ndim != 1 or arr.size == 0:\n        return (False, None)\n    if np.any(np.isnan(arr)):\n        return (False, None)\n    s = float(arr.sum())\n    if np.all(arr &gt;= -1e-12) and abs(s - 1.0) &lt;= 1e-6:\n        return (True, s)\n    return (False, s)\n\n\ndef _prob_heuristic(val):\n    # heuristik: angka di [0,1]\n    if not _is_number(val):\n        return False\n    v = float(val)\n    if math.isnan(v) or math.isinf(v):\n        return False\n    return (0.0 &lt;= v &lt;= 1.0)\n\n\nrows = []\ndetails = []\n\nfor i in range(1, 13):\n    name = f\"q{i:02d}\"\n    func = getattr(A, name, None)\n    status = \"OK\"\n    err = \"\"\n    val = None\n\n    if func is None:\n        status = \"MISSING\"\n        err = \"Function not found\"\n    else:\n        try:\n            val = func()\n        except NotImplementedError:\n            status = \"TODO\"\n            err = \"NotImplementedError\"\n        except Exception as e:\n            status = \"ERR\"\n            err = f\"{type(e).__name__}: {e}\"\n\n    notes = []\n    if status == \"OK\":\n        # generic sanity checks (no answer key)\n        if _prob_heuristic(val):\n            notes.append(\"Looks like a probability (0..1)\")\n        ok_pmf, s = _pmf_heuristic(val)\n        if ok_pmf:\n            notes.append(\"Looks like a PMF (sum≈1, all≥0)\")\n        if isinstance(val, float) and (math.isnan(val) or math.isinf(val)):\n            notes.append(\"⚠️ NaN/Inf detected\")\n\n    if status in (\"ERR\", \"MISSING\"):\n        notes.append(\"⚠️ Fix required\")\n    if status == \"TODO\":\n        notes.append(\"Implement this task\")\n\n    rows.append({\n        \"Task\": name.upper(),\n        \"Status\": status,\n        \"Preview\": _preview(val),\n        \"Notes\": \"; \".join(notes),\n    })\n    details.append((name, status, val, err))\n\ndf = pd.DataFrame(rows)\ndf\n```",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Laporan w02 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w02/laporan.html#detail-output-per-task",
+    "href": "submissions/w02/laporan.html#detail-output-per-task",
+    "title": "5  Laporan w02 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "5.4 Detail output per task",
+    "text": "5.4 Detail output per task\n```{python}\n#| results: asis\n\ndef _md_escape(s: str) -&gt; str:\n    return s.replace(\"`\", \"\\`\")\n\nfor name, status, val, err in details:\n    print(f\"### {name.upper()} — {status}\")\n    if status == \"OK\":\n        print(\"```\")\n        print(repr(val))\n        print(\"```\")\n    else:\n        print(f\"**Error/Info:** `{_md_escape(err)}`\\n\")\n```",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Laporan w02 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w02/laporan.html#catatan-penting",
+    "href": "submissions/w02/laporan.html#catatan-penting",
+    "title": "5  Laporan w02 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "5.5 Catatan penting",
+    "text": "5.5 Catatan penting\n\nLaporan ini bukan penilaian. Penilaian resmi tetap dari autograder (pytest).\nJika hasil terlihat aneh, cek lagi:\n\nrumus manualnya\ntipe data yang diminta (int/float/list/bool/tuple)\nurutan list (apakah harus sorted?)\nrandom harus pakai seed (jika diminta)\n\n\nSelf-check resmi (opsional):\npytest -q tests_bank/w02/quiz_tests.py",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Laporan w02 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w03/quiz.html",
+    "href": "weeks/w03/quiz.html",
+    "title": "6  Quiz w03 — Minggu 03 (soal dari strategi2.pdf)",
+    "section": "",
+    "text": "6.1 Cara mengerjakan",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Quiz w03 — Minggu 03 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w03/quiz.html#cara-mengerjakan",
+    "href": "weeks/w03/quiz.html#cara-mengerjakan",
+    "title": "6  Quiz w03 — Minggu 03 (soal dari strategi2.pdf)",
+    "section": "",
+    "text": "Jawab hanya dengan mengisi fungsi q01() s.d. q12() di submissions/w03/answers.py.\nKamu boleh memakai Python untuk menghitung, misalnya lewat submissions/w03/laporan.qmd.\nJangan ubah nama fungsi.\n\n\n6.1.1 Format jawaban\n\nT/F: kembalikan True (Benar) atau False (Salah).\nMC: kembalikan huruf \"A\", \"B\", \"C\", atau \"D\".\nNumeric: kembalikan bilangan int atau float (pakai titik . untuk desimal).",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Quiz w03 — Minggu 03 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w03/quiz.html#q01-tf",
+    "href": "weeks/w03/quiz.html#q01-tf",
+    "title": "6  Quiz w03 — Minggu 03 (soal dari strategi2.pdf)",
+    "section": "6.2 Q01 (T/F)",
+    "text": "6.2 Q01 (T/F)\nDalam konfigurasi paralel, sistem akan gagal hanya jika semua komponen gagal.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Quiz w03 — Minggu 03 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w03/quiz.html#q02-tf",
+    "href": "weeks/w03/quiz.html#q02-tf",
+    "title": "6  Quiz w03 — Minggu 03 (soal dari strategi2.pdf)",
+    "section": "6.3 Q02 (T/F)",
+    "text": "6.3 Q02 (T/F)\nMenambahkan komponen secara seri akan meningkatkan reliabilitas keseluruhan sistem.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Quiz w03 — Minggu 03 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w03/quiz.html#q03-tf",
+    "href": "weeks/w03/quiz.html#q03-tf",
+    "title": "6  Quiz w03 — Minggu 03 (soal dari strategi2.pdf)",
+    "section": "6.4 Q03 (T/F)",
+    "text": "6.4 Q03 (T/F)\nReliabilitas total sistem seri selalu lebih kecil atau sama dengan reliabilitas komponen terlemahnya.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Quiz w03 — Minggu 03 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w03/quiz.html#q04-mc",
+    "href": "weeks/w03/quiz.html#q04-mc",
+    "title": "6  Quiz w03 — Minggu 03 (soal dari strategi2.pdf)",
+    "section": "6.5 Q04 (MC)",
+    "text": "6.5 Q04 (MC)\nSebuah sistem terdiri dari dua komponen dengan reliabilitas 0,9 yang disusun secara paralel. Reliabilitas sistem adalah:\n\nA) 0,81\nB) 0,99\nC) 0,90\nD) 1,80",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Quiz w03 — Minggu 03 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w03/quiz.html#q05-mc",
+    "href": "weeks/w03/quiz.html#q05-mc",
+    "title": "6  Quiz w03 — Minggu 03 (soal dari strategi2.pdf)",
+    "section": "6.6 Q05 (MC)",
+    "text": "6.6 Q05 (MC)\nJika tiga switch identik dengan reliabilitas 0,8 disusun seri, reliabilitas totalnya adalah:\n\nA) 0,512\nB) 0,8\nC) 2,4\nD) 0,2",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Quiz w03 — Minggu 03 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w03/quiz.html#q06-mc",
+    "href": "weeks/w03/quiz.html#q06-mc",
+    "title": "6  Quiz w03 — Minggu 03 (soal dari strategi2.pdf)",
+    "section": "6.7 Q06 (MC)",
+    "text": "6.7 Q06 (MC)\nManakah konfigurasi yang paling tahan terhadap kegagalan komponen tunggal?\n\nA) Seri.\nB) Paralel.\nC) Campuran seri-paralel.\nD) Sistem tanpa redundansi.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Quiz w03 — Minggu 03 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w03/quiz.html#q07-mc",
+    "href": "weeks/w03/quiz.html#q07-mc",
+    "title": "6  Quiz w03 — Minggu 03 (soal dari strategi2.pdf)",
+    "section": "6.8 Q07 (MC)",
+    "text": "6.8 Q07 (MC)\nIstilah untuk probabilitas sistem berfungsi pada waktu tertentu t adalah:\n\nA) Efisiensi.\nB) Reliabilitas.\nC) Kapasitas.\nD) Latensi.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Quiz w03 — Minggu 03 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w03/quiz.html#q08-numeric",
+    "href": "weeks/w03/quiz.html#q08-numeric",
+    "title": "6  Quiz w03 — Minggu 03 (soal dari strategi2.pdf)",
+    "section": "6.9 Q08 (Numeric)",
+    "text": "6.9 Q08 (Numeric)\nHitung reliabilitas sistem seri dari dua komponen dengan reliabilitas 0,95 dan 0,8.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Quiz w03 — Minggu 03 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w03/quiz.html#q09-numeric",
+    "href": "weeks/w03/quiz.html#q09-numeric",
+    "title": "6  Quiz w03 — Minggu 03 (soal dari strategi2.pdf)",
+    "section": "6.10 Q09 (Numeric)",
+    "text": "6.10 Q09 (Numeric)\nJika reliabilitas satu server adalah 0,9, berapa probabilitas dua server tersebut gagal bersamaan dalam susunan paralel?",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Quiz w03 — Minggu 03 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w03/quiz.html#q10-numeric",
+    "href": "weeks/w03/quiz.html#q10-numeric",
+    "title": "6  Quiz w03 — Minggu 03 (soal dari strategi2.pdf)",
+    "section": "6.11 Q10 (Numeric)",
+    "text": "6.11 Q10 (Numeric)\nSebuah sistem memiliki reliabilitas 0,99. Berapa probabilitas kegagalannya?",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Quiz w03 — Minggu 03 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w03/quiz.html#q11-numeric",
+    "href": "weeks/w03/quiz.html#q11-numeric",
+    "title": "6  Quiz w03 — Minggu 03 (soal dari strategi2.pdf)",
+    "section": "6.12 Q11 (Numeric)",
+    "text": "6.12 Q11 (Numeric)\nTiga lampu disusun paralel dengan reliabilitas masing-masing 0,5. Berapa reliabilitas total sistem lampu tersebut?",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Quiz w03 — Minggu 03 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w03/quiz.html#q12-numeric",
+    "href": "weeks/w03/quiz.html#q12-numeric",
+    "title": "6  Quiz w03 — Minggu 03 (soal dari strategi2.pdf)",
+    "section": "6.13 Q12 (Numeric)",
+    "text": "6.13 Q12 (Numeric)\nBerapa probabilitas sistem seri dengan 10 komponen identik (masing-masing R = 0,99) tetap berfungsi? (Gunakan 3 desimal)",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Quiz w03 — Minggu 03 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w03/laporan.html",
+    "href": "submissions/w03/laporan.html",
+    "title": "7  Laporan w03 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "",
+    "text": "7.1 Kenapa ada laporan ini?\nSupaya kamu bisa melihat hasil jawabanmu dalam format yang rapi & ramah dibaca, tanpa membuat “dua versi jawaban”.\n✅ Sumber kebenaran tunggal tetap: submissions/w03/answers.py\nLaporan ini hanya memanggil fungsi q01()..q12() dari answers.py dan menampilkan outputnya.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Laporan w03 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w03/laporan.html#cara-render-lokal",
+    "href": "submissions/w03/laporan.html#cara-render-lokal",
+    "title": "7  Laporan w03 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "7.2 Cara render (lokal)",
+    "text": "7.2 Cara render (lokal)\nquarto render submissions/w03/laporan.qmd\n\nJika Quarto belum terpasang, kamu tetap bisa melihat hasil lewat GitHub Actions atau menjalankan Python secara manual.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Laporan w03 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w03/laporan.html#ringkasan-hasil-table",
+    "href": "submissions/w03/laporan.html#ringkasan-hasil-table",
+    "title": "7  Laporan w03 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "7.3 Ringkasan hasil (table)",
+    "text": "7.3 Ringkasan hasil (table)\n```{python}\nimport sys\nfrom pathlib import Path\n\ncwd = Path.cwd().resolve()\nrepo_root = cwd if (cwd / \"submissions\").exists() else cwd.parents[1]\nsys.path.insert(0, str(repo_root))\n\nimport math\nimport numpy as np\nimport pandas as pd\n\n# Import jawaban (single source of truth)\nfrom submissions.w03 import answers as A\n\n\ndef _preview(val, maxlen=80):\n    if val is None:\n        return \"\"\n    if isinstance(val, (list, tuple, np.ndarray)):\n        arr = list(val)\n        head = arr[:8]\n        s = f\"{type(val).__name__}(len={len(arr)}) \" + repr(head)\n        if len(arr) &gt; 8:\n            s += \" ...\"\n        return s[:maxlen]\n    s = repr(val)\n    return s if len(s) &lt;= maxlen else s[:maxlen] + \"...\"\n\n\ndef _is_number(x):\n    return isinstance(x, (int, float, np.integer, np.floating)) and not (isinstance(x, bool))\n\n\ndef _pmf_heuristic(val):\n    # heuristik: list/tuple/ndarray angka nonnegatif dan jumlah ~ 1\n    if not isinstance(val, (list, tuple, np.ndarray)):\n        return (False, None)\n    try:\n        arr = np.array(val, dtype=float)\n    except Exception:\n        return (False, None)\n    if arr.ndim != 1 or arr.size == 0:\n        return (False, None)\n    if np.any(np.isnan(arr)):\n        return (False, None)\n    s = float(arr.sum())\n    if np.all(arr &gt;= -1e-12) and abs(s - 1.0) &lt;= 1e-6:\n        return (True, s)\n    return (False, s)\n\n\ndef _prob_heuristic(val):\n    # heuristik: angka di [0,1]\n    if not _is_number(val):\n        return False\n    v = float(val)\n    if math.isnan(v) or math.isinf(v):\n        return False\n    return (0.0 &lt;= v &lt;= 1.0)\n\n\nrows = []\ndetails = []\n\nfor i in range(1, 13):\n    name = f\"q{i:02d}\"\n    func = getattr(A, name, None)\n    status = \"OK\"\n    err = \"\"\n    val = None\n\n    if func is None:\n        status = \"MISSING\"\n        err = \"Function not found\"\n    else:\n        try:\n            val = func()\n        except NotImplementedError:\n            status = \"TODO\"\n            err = \"NotImplementedError\"\n        except Exception as e:\n            status = \"ERR\"\n            err = f\"{type(e).__name__}: {e}\"\n\n    notes = []\n    if status == \"OK\":\n        # generic sanity checks (no answer key)\n        if _prob_heuristic(val):\n            notes.append(\"Looks like a probability (0..1)\")\n        ok_pmf, s = _pmf_heuristic(val)\n        if ok_pmf:\n            notes.append(\"Looks like a PMF (sum≈1, all≥0)\")\n        if isinstance(val, float) and (math.isnan(val) or math.isinf(val)):\n            notes.append(\"⚠️ NaN/Inf detected\")\n\n    if status in (\"ERR\", \"MISSING\"):\n        notes.append(\"⚠️ Fix required\")\n    if status == \"TODO\":\n        notes.append(\"Implement this task\")\n\n    rows.append({\n        \"Task\": name.upper(),\n        \"Status\": status,\n        \"Preview\": _preview(val),\n        \"Notes\": \"; \".join(notes),\n    })\n    details.append((name, status, val, err))\n\ndf = pd.DataFrame(rows)\ndf\n```",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Laporan w03 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w03/laporan.html#detail-output-per-task",
+    "href": "submissions/w03/laporan.html#detail-output-per-task",
+    "title": "7  Laporan w03 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "7.4 Detail output per task",
+    "text": "7.4 Detail output per task\n```{python}\n#| results: asis\n\ndef _md_escape(s: str) -&gt; str:\n    return s.replace(\"`\", \"\\`\")\n\nfor name, status, val, err in details:\n    print(f\"### {name.upper()} — {status}\")\n    if status == \"OK\":\n        print(\"```\")\n        print(repr(val))\n        print(\"```\")\n    else:\n        print(f\"**Error/Info:** `{_md_escape(err)}`\\n\")\n```",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Laporan w03 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w03/laporan.html#catatan-penting",
+    "href": "submissions/w03/laporan.html#catatan-penting",
+    "title": "7  Laporan w03 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "7.5 Catatan penting",
+    "text": "7.5 Catatan penting\n\nLaporan ini bukan penilaian. Penilaian resmi tetap dari autograder (pytest).\nJika hasil terlihat aneh, cek lagi:\n\nrumus manualnya\ntipe data yang diminta (int/float/list/bool/tuple)\nurutan list (apakah harus sorted?)\nrandom harus pakai seed (jika diminta)\n\n\nSelf-check resmi (opsional):\npytest -q tests_bank/w03/quiz_tests.py",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Laporan w03 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w04/quiz.html",
+    "href": "weeks/w04/quiz.html",
+    "title": "8  Quiz w04 — Minggu 04 (soal dari strategi.pdf)",
+    "section": "",
+    "text": "8.1 Cara mengerjakan",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Quiz w04 — Minggu 04 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w04/quiz.html#cara-mengerjakan",
+    "href": "weeks/w04/quiz.html#cara-mengerjakan",
+    "title": "8  Quiz w04 — Minggu 04 (soal dari strategi.pdf)",
+    "section": "",
+    "text": "Jawab hanya dengan mengisi fungsi q01() s.d. q12() di submissions/w04/answers.py.\nKamu boleh memakai Python untuk menghitung, misalnya lewat submissions/w04/laporan.qmd.\nJangan ubah nama fungsi.\n\n\n8.1.1 Format jawaban\n\nT/F: kembalikan True (Benar) atau False (Salah).\nMC: kembalikan huruf \"A\", \"B\", \"C\", atau \"D\".\nNumeric: kembalikan bilangan int atau float (pakai titik . untuk desimal).",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Quiz w04 — Minggu 04 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w04/quiz.html#q01-tf",
+    "href": "weeks/w04/quiz.html#q01-tf",
+    "title": "8  Quiz w04 — Minggu 04 (soal dari strategi.pdf)",
+    "section": "8.2 Q01 (T/F)",
+    "text": "8.2 Q01 (T/F)\nJika kejadian dan independen, maka = .",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Quiz w04 — Minggu 04 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w04/quiz.html#q02-tf",
+    "href": "weeks/w04/quiz.html#q02-tf",
+    "title": "8  Quiz w04 — Minggu 04 (soal dari strategi.pdf)",
+    "section": "8.3 Q02 (T/F)",
+    "text": "8.3 Q02 (T/F)\nProbabilitas kondisional selalu sama dengan .",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Quiz w04 — Minggu 04 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w04/quiz.html#q03-tf",
+    "href": "weeks/w04/quiz.html#q03-tf",
+    "title": "8  Quiz w04 — Minggu 04 (soal dari strategi.pdf)",
+    "section": "8.4 Q03 (T/F)",
+    "text": "8.4 Q03 (T/F)\nTeorema Bayes memungkinkan kita untuk membalik kondisi probabilitas dari menjadi .",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Quiz w04 — Minggu 04 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w04/quiz.html#q04-mc",
+    "href": "weeks/w04/quiz.html#q04-mc",
+    "title": "8  Quiz w04 — Minggu 04 (soal dari strategi.pdf)",
+    "section": "8.5 Q04 (MC)",
+    "text": "8.5 Q04 (MC)\nJika = 0, 5, = 0, dan , independen, maka adalah:\n\nA) 0,9\nB) 0,1\nC) 0,2\nD) 0,5",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Quiz w04 — Minggu 04 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w04/quiz.html#q05-mc",
+    "href": "weeks/w04/quiz.html#q05-mc",
+    "title": "8  Quiz w04 — Minggu 04 (soal dari strategi.pdf)",
+    "section": "8.6 Q05 (MC)",
+    "text": "8.6 Q05 (MC)\nRumus Bayes menyatakan bahwa sama dengan:\nMinggu 05: Variabel Acak, Ekspektasi, dan Variansi Minggu ini menandai transisi dari kejadian diskrit ke variabel numerik. Mahasiswa belajar memetakan hasil dunia nyata ke dalam fungsi matematika. Konsep nilai harapan (ekspektasi) diperkenalkan sebagai representasi keuntungan jangka panjang atau rata-rata beban sistem.\n\nA)\nB)\nC)\nD)",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Quiz w04 — Minggu 04 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w04/quiz.html#q06-mc",
+    "href": "weeks/w04/quiz.html#q06-mc",
+    "title": "8  Quiz w04 — Minggu 04 (soal dari strategi.pdf)",
+    "section": "8.7 Q06 (MC)",
+    "text": "8.7 Q06 (MC)\nKejadian di mana hasil satu eksperimen tidak mempengaruhi hasil eksperimen lainnya disebut:\n\nA) Saling lepas.\nB) Independen.\nC) Kondisional.\nD) Komplementer.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Quiz w04 — Minggu 04 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w04/quiz.html#q07-mc",
+    "href": "weeks/w04/quiz.html#q07-mc",
+    "title": "8  Quiz w04 — Minggu 04 (soal dari strategi.pdf)",
+    "section": "8.8 Q07 (MC)",
+    "text": "8.8 Q07 (MC)\nJika sebuah tes medis memiliki sensitivitas tinggi, maka:\n\nA) Banyak hasil false positive.\nB) Probabilitas mendeteksi orang sakit sangat tinggi.\nC) Probabilitas mendeteksi orang sehat sangat tinggi.\nD) Tes tersebut tidak berguna.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Quiz w04 — Minggu 04 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w04/quiz.html#q08-numeric",
+    "href": "weeks/w04/quiz.html#q08-numeric",
+    "title": "8  Quiz w04 — Minggu 04 (soal dari strategi.pdf)",
+    "section": "8.9 Q08 (Numeric)",
+    "text": "8.9 Q08 (Numeric)\nJika = 0, dan = 0, 5, berapakah ?",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Quiz w04 — Minggu 04 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w04/quiz.html#q09-numeric",
+    "href": "weeks/w04/quiz.html#q09-numeric",
+    "title": "8  Quiz w04 — Minggu 04 (soal dari strategi.pdf)",
+    "section": "8.10 Q09 (Numeric)",
+    "text": "8.10 Q09 (Numeric)\nProbabilitas hujan adalah 0,1. Jika hujan, probabilitas jalan macet adalah 0,8. Berapa probabilitas (Hujan DAN Macet)?",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Quiz w04 — Minggu 04 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w04/quiz.html#q10-numeric",
+    "href": "weeks/w04/quiz.html#q10-numeric",
+    "title": "8  Quiz w04 — Minggu 04 (soal dari strategi.pdf)",
+    "section": "8.11 Q10 (Numeric)",
+    "text": "8.11 Q10 (Numeric)\nDalam sebuah populasi, 1% menderita penyakit. Sebuah tes memiliki akurasi 99% (baik untuk yang sakit maupun sehat). Jika seseorang dites positif, berapa probabilitas dia benar-benar sakit?",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Quiz w04 — Minggu 04 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w04/quiz.html#q11-numeric",
+    "href": "weeks/w04/quiz.html#q11-numeric",
+    "title": "8  Quiz w04 — Minggu 04 (soal dari strategi.pdf)",
+    "section": "8.12 Q11 (Numeric)",
+    "text": "8.12 Q11 (Numeric)\nJika = 0, , = 0, dan = 0, , hitung menggunakan Hukum Probabilitas Total.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Quiz w04 — Minggu 04 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w04/quiz.html#q12-numeric",
+    "href": "weeks/w04/quiz.html#q12-numeric",
+    "title": "8  Quiz w04 — Minggu 04 (soal dari strategi.pdf)",
+    "section": "8.13 Q12 (Numeric)",
+    "text": "8.13 Q12 (Numeric)\nDari soal nomor 11, hitung menggunakan Teorema Bayes (Gunakan 3 desimal).",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Quiz w04 — Minggu 04 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w04/laporan.html",
+    "href": "submissions/w04/laporan.html",
+    "title": "9  Laporan w04 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "",
+    "text": "9.1 Kenapa ada laporan ini?\nSupaya kamu bisa melihat hasil jawabanmu dalam format yang rapi & ramah dibaca, tanpa membuat “dua versi jawaban”.\n✅ Sumber kebenaran tunggal tetap: submissions/w04/answers.py\nLaporan ini hanya memanggil fungsi q01()..q12() dari answers.py dan menampilkan outputnya.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Laporan w04 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w04/laporan.html#cara-render-lokal",
+    "href": "submissions/w04/laporan.html#cara-render-lokal",
+    "title": "9  Laporan w04 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "9.2 Cara render (lokal)",
+    "text": "9.2 Cara render (lokal)\nquarto render submissions/w04/laporan.qmd\n\nJika Quarto belum terpasang, kamu tetap bisa melihat hasil lewat GitHub Actions atau menjalankan Python secara manual.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Laporan w04 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w04/laporan.html#ringkasan-hasil-table",
+    "href": "submissions/w04/laporan.html#ringkasan-hasil-table",
+    "title": "9  Laporan w04 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "9.3 Ringkasan hasil (table)",
+    "text": "9.3 Ringkasan hasil (table)\n```{python}\nimport sys\nfrom pathlib import Path\n\ncwd = Path.cwd().resolve()\nrepo_root = cwd if (cwd / \"submissions\").exists() else cwd.parents[1]\nsys.path.insert(0, str(repo_root))\n\nimport math\nimport numpy as np\nimport pandas as pd\n\n# Import jawaban (single source of truth)\nfrom submissions.w04 import answers as A\n\n\ndef _preview(val, maxlen=80):\n    if val is None:\n        return \"\"\n    if isinstance(val, (list, tuple, np.ndarray)):\n        arr = list(val)\n        head = arr[:8]\n        s = f\"{type(val).__name__}(len={len(arr)}) \" + repr(head)\n        if len(arr) &gt; 8:\n            s += \" ...\"\n        return s[:maxlen]\n    s = repr(val)\n    return s if len(s) &lt;= maxlen else s[:maxlen] + \"...\"\n\n\ndef _is_number(x):\n    return isinstance(x, (int, float, np.integer, np.floating)) and not (isinstance(x, bool))\n\n\ndef _pmf_heuristic(val):\n    # heuristik: list/tuple/ndarray angka nonnegatif dan jumlah ~ 1\n    if not isinstance(val, (list, tuple, np.ndarray)):\n        return (False, None)\n    try:\n        arr = np.array(val, dtype=float)\n    except Exception:\n        return (False, None)\n    if arr.ndim != 1 or arr.size == 0:\n        return (False, None)\n    if np.any(np.isnan(arr)):\n        return (False, None)\n    s = float(arr.sum())\n    if np.all(arr &gt;= -1e-12) and abs(s - 1.0) &lt;= 1e-6:\n        return (True, s)\n    return (False, s)\n\n\ndef _prob_heuristic(val):\n    # heuristik: angka di [0,1]\n    if not _is_number(val):\n        return False\n    v = float(val)\n    if math.isnan(v) or math.isinf(v):\n        return False\n    return (0.0 &lt;= v &lt;= 1.0)\n\n\nrows = []\ndetails = []\n\nfor i in range(1, 13):\n    name = f\"q{i:02d}\"\n    func = getattr(A, name, None)\n    status = \"OK\"\n    err = \"\"\n    val = None\n\n    if func is None:\n        status = \"MISSING\"\n        err = \"Function not found\"\n    else:\n        try:\n            val = func()\n        except NotImplementedError:\n            status = \"TODO\"\n            err = \"NotImplementedError\"\n        except Exception as e:\n            status = \"ERR\"\n            err = f\"{type(e).__name__}: {e}\"\n\n    notes = []\n    if status == \"OK\":\n        # generic sanity checks (no answer key)\n        if _prob_heuristic(val):\n            notes.append(\"Looks like a probability (0..1)\")\n        ok_pmf, s = _pmf_heuristic(val)\n        if ok_pmf:\n            notes.append(\"Looks like a PMF (sum≈1, all≥0)\")\n        if isinstance(val, float) and (math.isnan(val) or math.isinf(val)):\n            notes.append(\"⚠️ NaN/Inf detected\")\n\n    if status in (\"ERR\", \"MISSING\"):\n        notes.append(\"⚠️ Fix required\")\n    if status == \"TODO\":\n        notes.append(\"Implement this task\")\n\n    rows.append({\n        \"Task\": name.upper(),\n        \"Status\": status,\n        \"Preview\": _preview(val),\n        \"Notes\": \"; \".join(notes),\n    })\n    details.append((name, status, val, err))\n\ndf = pd.DataFrame(rows)\ndf\n```",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Laporan w04 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w04/laporan.html#detail-output-per-task",
+    "href": "submissions/w04/laporan.html#detail-output-per-task",
+    "title": "9  Laporan w04 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "9.4 Detail output per task",
+    "text": "9.4 Detail output per task\n```{python}\n#| results: asis\n\ndef _md_escape(s: str) -&gt; str:\n    return s.replace(\"`\", \"\\`\")\n\nfor name, status, val, err in details:\n    print(f\"### {name.upper()} — {status}\")\n    if status == \"OK\":\n        print(\"```\")\n        print(repr(val))\n        print(\"```\")\n    else:\n        print(f\"**Error/Info:** `{_md_escape(err)}`\\n\")\n```",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Laporan w04 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w04/laporan.html#catatan-penting",
+    "href": "submissions/w04/laporan.html#catatan-penting",
+    "title": "9  Laporan w04 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "9.5 Catatan penting",
+    "text": "9.5 Catatan penting\n\nLaporan ini bukan penilaian. Penilaian resmi tetap dari autograder (pytest).\nJika hasil terlihat aneh, cek lagi:\n\nrumus manualnya\ntipe data yang diminta (int/float/list/bool/tuple)\nurutan list (apakah harus sorted?)\nrandom harus pakai seed (jika diminta)\n\n\nSelf-check resmi (opsional):\npytest -q tests_bank/w04/quiz_tests.py",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Laporan w04 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w05/quiz.html",
+    "href": "weeks/w05/quiz.html",
+    "title": "10  Quiz w05 — Minggu 05 (soal dari strategi.pdf)",
+    "section": "",
+    "text": "10.1 Cara mengerjakan",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Quiz w05 — Minggu 05 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w05/quiz.html#cara-mengerjakan",
+    "href": "weeks/w05/quiz.html#cara-mengerjakan",
+    "title": "10  Quiz w05 — Minggu 05 (soal dari strategi.pdf)",
+    "section": "",
+    "text": "Jawab hanya dengan mengisi fungsi q01() s.d. q12() di submissions/w05/answers.py.\nKamu boleh memakai Python untuk menghitung, misalnya lewat submissions/w05/laporan.qmd.\nJangan ubah nama fungsi.\n\n\n10.1.1 Format jawaban\n\nT/F: kembalikan True (Benar) atau False (Salah).\nMC: kembalikan huruf \"A\", \"B\", \"C\", atau \"D\".\nNumeric: kembalikan bilangan int atau float (pakai titik . untuk desimal).",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Quiz w05 — Minggu 05 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w05/quiz.html#q01-tf",
+    "href": "weeks/w05/quiz.html#q01-tf",
+    "title": "10  Quiz w05 — Minggu 05 (soal dari strategi.pdf)",
+    "section": "10.2 Q01 (T/F)",
+    "text": "10.2 Q01 (T/F)\nNilai harapan dari sebuah variabel acak harus merupakan satu nilai yang mungkin muncul dari variabel tersebut.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Quiz w05 — Minggu 05 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w05/quiz.html#q02-tf",
+    "href": "weeks/w05/quiz.html#q02-tf",
+    "title": "10  Quiz w05 — Minggu 05 (soal dari strategi.pdf)",
+    "section": "10.3 Q02 (T/F)",
+    "text": "10.3 Q02 (T/F)\nVariansi dari sebuah variabel acak tidak pernah bernilai negatif.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Quiz w05 — Minggu 05 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w05/quiz.html#q03-tf",
+    "href": "weeks/w05/quiz.html#q03-tf",
+    "title": "10  Quiz w05 — Minggu 05 (soal dari strategi.pdf)",
+    "section": "10.4 Q03 (T/F)",
+    "text": "10.4 Q03 (T/F)\nJika adalah konstanta , maka = dan = 0.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Quiz w05 — Minggu 05 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w05/quiz.html#q04-mc",
+    "href": "weeks/w05/quiz.html#q04-mc",
+    "title": "10  Quiz w05 — Minggu 05 (soal dari strategi.pdf)",
+    "section": "10.5 Q04 (MC)",
+    "text": "10.5 Q04 (MC)\nJika = 5, maka adalah:\n\nA) 10\nB) 13\nC) 8\nD) 5",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Quiz w05 — Minggu 05 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w05/quiz.html#q05-mc",
+    "href": "weeks/w05/quiz.html#q05-mc",
+    "title": "10  Quiz w05 — Minggu 05 (soal dari strategi.pdf)",
+    "section": "10.6 Q05 (MC)",
+    "text": "10.6 Q05 (MC)\nVariansi dari variabel acak didefinisikan sebagai:\n\nA) −\nB) −\nC)\nD)",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Quiz w05 — Minggu 05 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w05/quiz.html#q06-mc",
+    "href": "weeks/w05/quiz.html#q06-mc",
+    "title": "10  Quiz w05 — Minggu 05 (soal dari strategi.pdf)",
+    "section": "10.7 Q06 (MC)",
+    "text": "10.7 Q06 (MC)\nFungsi yang memberikan probabilitas disebut:\n\nA) PMF.\nB) PDF.\nC) CDF.\nD) MGF.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Quiz w05 — Minggu 05 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w05/quiz.html#q07-mc",
+    "href": "weeks/w05/quiz.html#q07-mc",
+    "title": "10  Quiz w05 — Minggu 05 (soal dari strategi.pdf)",
+    "section": "10.8 Q07 (MC)",
+    "text": "10.8 Q07 (MC)\nSimpangan baku (\\(\\sigma\\)) adalah:\n\nA) Akar kuadrat dari variansi.\nB) Kuadrat dari mean.\nC) Selisih antara nilai maksimum dan minimum.\nD) Nilai harapan dari \\(X\\).",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Quiz w05 — Minggu 05 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w05/quiz.html#q08-numeric",
+    "href": "weeks/w05/quiz.html#q08-numeric",
+    "title": "10  Quiz w05 — Minggu 05 (soal dari strategi.pdf)",
+    "section": "10.9 Q08 (Numeric)",
+    "text": "10.9 Q08 (Numeric)\nJika memiliki nilai 0, 1 dengan probabilitas 0, , 0, 6, berapakah ?",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Quiz w05 — Minggu 05 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w05/quiz.html#q09-numeric",
+    "href": "weeks/w05/quiz.html#q09-numeric",
+    "title": "10  Quiz w05 — Minggu 05 (soal dari strategi.pdf)",
+    "section": "10.10 Q09 (Numeric)",
+    "text": "10.10 Q09 (Numeric)\nHitung untuk variabel pada soal nomor 8.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Quiz w05 — Minggu 05 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w05/quiz.html#q10-numeric",
+    "href": "weeks/w05/quiz.html#q10-numeric",
+    "title": "10  Quiz w05 — Minggu 05 (soal dari strategi.pdf)",
+    "section": "10.11 Q10 (Numeric)",
+    "text": "10.11 Q10 (Numeric)\nJika = 10 dan = 116, berapakah variansinya?",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Quiz w05 — Minggu 05 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w05/quiz.html#q11-numeric",
+    "href": "weeks/w05/quiz.html#q11-numeric",
+    "title": "10  Quiz w05 — Minggu 05 (soal dari strategi.pdf)",
+    "section": "10.12 Q11 (Numeric)",
+    "text": "10.12 Q11 (Numeric)\nSebuah variabel acak memiliki nilai 1, , dengan peluang sama. Berapakah nilai harapannya?",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Quiz w05 — Minggu 05 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w05/quiz.html#q12-numeric",
+    "href": "weeks/w05/quiz.html#q12-numeric",
+    "title": "10  Quiz w05 — Minggu 05 (soal dari strategi.pdf)",
+    "section": "10.13 Q12 (Numeric)",
+    "text": "10.13 Q12 (Numeric)\nJika = , berapakah 5?",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Quiz w05 — Minggu 05 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w05/laporan.html",
+    "href": "submissions/w05/laporan.html",
+    "title": "11  Laporan w05 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "",
+    "text": "11.1 Kenapa ada laporan ini?\nSupaya kamu bisa melihat hasil jawabanmu dalam format yang rapi & ramah dibaca, tanpa membuat “dua versi jawaban”.\n✅ Sumber kebenaran tunggal tetap: submissions/w05/answers.py\nLaporan ini hanya memanggil fungsi q01()..q12() dari answers.py dan menampilkan outputnya.",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Laporan w05 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w05/laporan.html#cara-render-lokal",
+    "href": "submissions/w05/laporan.html#cara-render-lokal",
+    "title": "11  Laporan w05 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "11.2 Cara render (lokal)",
+    "text": "11.2 Cara render (lokal)\nquarto render submissions/w05/laporan.qmd\n\nJika Quarto belum terpasang, kamu tetap bisa melihat hasil lewat GitHub Actions atau menjalankan Python secara manual.",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Laporan w05 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w05/laporan.html#ringkasan-hasil-table",
+    "href": "submissions/w05/laporan.html#ringkasan-hasil-table",
+    "title": "11  Laporan w05 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "11.3 Ringkasan hasil (table)",
+    "text": "11.3 Ringkasan hasil (table)\n```{python}\nimport sys\nfrom pathlib import Path\n\ncwd = Path.cwd().resolve()\nrepo_root = cwd if (cwd / \"submissions\").exists() else cwd.parents[1]\nsys.path.insert(0, str(repo_root))\n\nimport math\nimport numpy as np\nimport pandas as pd\n\n# Import jawaban (single source of truth)\nfrom submissions.w05 import answers as A\n\n\ndef _preview(val, maxlen=80):\n    if val is None:\n        return \"\"\n    if isinstance(val, (list, tuple, np.ndarray)):\n        arr = list(val)\n        head = arr[:8]\n        s = f\"{type(val).__name__}(len={len(arr)}) \" + repr(head)\n        if len(arr) &gt; 8:\n            s += \" ...\"\n        return s[:maxlen]\n    s = repr(val)\n    return s if len(s) &lt;= maxlen else s[:maxlen] + \"...\"\n\n\ndef _is_number(x):\n    return isinstance(x, (int, float, np.integer, np.floating)) and not (isinstance(x, bool))\n\n\ndef _pmf_heuristic(val):\n    # heuristik: list/tuple/ndarray angka nonnegatif dan jumlah ~ 1\n    if not isinstance(val, (list, tuple, np.ndarray)):\n        return (False, None)\n    try:\n        arr = np.array(val, dtype=float)\n    except Exception:\n        return (False, None)\n    if arr.ndim != 1 or arr.size == 0:\n        return (False, None)\n    if np.any(np.isnan(arr)):\n        return (False, None)\n    s = float(arr.sum())\n    if np.all(arr &gt;= -1e-12) and abs(s - 1.0) &lt;= 1e-6:\n        return (True, s)\n    return (False, s)\n\n\ndef _prob_heuristic(val):\n    # heuristik: angka di [0,1]\n    if not _is_number(val):\n        return False\n    v = float(val)\n    if math.isnan(v) or math.isinf(v):\n        return False\n    return (0.0 &lt;= v &lt;= 1.0)\n\n\nrows = []\ndetails = []\n\nfor i in range(1, 13):\n    name = f\"q{i:02d}\"\n    func = getattr(A, name, None)\n    status = \"OK\"\n    err = \"\"\n    val = None\n\n    if func is None:\n        status = \"MISSING\"\n        err = \"Function not found\"\n    else:\n        try:\n            val = func()\n        except NotImplementedError:\n            status = \"TODO\"\n            err = \"NotImplementedError\"\n        except Exception as e:\n            status = \"ERR\"\n            err = f\"{type(e).__name__}: {e}\"\n\n    notes = []\n    if status == \"OK\":\n        # generic sanity checks (no answer key)\n        if _prob_heuristic(val):\n            notes.append(\"Looks like a probability (0..1)\")\n        ok_pmf, s = _pmf_heuristic(val)\n        if ok_pmf:\n            notes.append(\"Looks like a PMF (sum≈1, all≥0)\")\n        if isinstance(val, float) and (math.isnan(val) or math.isinf(val)):\n            notes.append(\"⚠️ NaN/Inf detected\")\n\n    if status in (\"ERR\", \"MISSING\"):\n        notes.append(\"⚠️ Fix required\")\n    if status == \"TODO\":\n        notes.append(\"Implement this task\")\n\n    rows.append({\n        \"Task\": name.upper(),\n        \"Status\": status,\n        \"Preview\": _preview(val),\n        \"Notes\": \"; \".join(notes),\n    })\n    details.append((name, status, val, err))\n\ndf = pd.DataFrame(rows)\ndf\n```",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Laporan w05 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w05/laporan.html#detail-output-per-task",
+    "href": "submissions/w05/laporan.html#detail-output-per-task",
+    "title": "11  Laporan w05 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "11.4 Detail output per task",
+    "text": "11.4 Detail output per task\n```{python}\n#| results: asis\n\ndef _md_escape(s: str) -&gt; str:\n    return s.replace(\"`\", \"\\`\")\n\nfor name, status, val, err in details:\n    print(f\"### {name.upper()} — {status}\")\n    if status == \"OK\":\n        print(\"```\")\n        print(repr(val))\n        print(\"```\")\n    else:\n        print(f\"**Error/Info:** `{_md_escape(err)}`\\n\")\n```",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Laporan w05 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w05/laporan.html#catatan-penting",
+    "href": "submissions/w05/laporan.html#catatan-penting",
+    "title": "11  Laporan w05 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "11.5 Catatan penting",
+    "text": "11.5 Catatan penting\n\nLaporan ini bukan penilaian. Penilaian resmi tetap dari autograder (pytest).\nJika hasil terlihat aneh, cek lagi:\n\nrumus manualnya\ntipe data yang diminta (int/float/list/bool/tuple)\nurutan list (apakah harus sorted?)\nrandom harus pakai seed (jika diminta)\n\n\nSelf-check resmi (opsional):\npytest -q tests_bank/w05/quiz_tests.py",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Laporan w05 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w06/quiz.html",
+    "href": "weeks/w06/quiz.html",
+    "title": "12  Quiz w06 — Minggu 06 (soal dari strategi.pdf)",
+    "section": "",
+    "text": "12.1 Cara mengerjakan",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Quiz w06 — Minggu 06 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w06/quiz.html#cara-mengerjakan",
+    "href": "weeks/w06/quiz.html#cara-mengerjakan",
+    "title": "12  Quiz w06 — Minggu 06 (soal dari strategi.pdf)",
+    "section": "",
+    "text": "Jawab hanya dengan mengisi fungsi q01() s.d. q12() di submissions/w06/answers.py.\nKamu boleh memakai Python untuk menghitung, misalnya lewat submissions/w06/laporan.qmd.\nJangan ubah nama fungsi.\n\n\n12.1.1 Format jawaban\n\nT/F: kembalikan True (Benar) atau False (Salah).\nMC: kembalikan huruf \"A\", \"B\", \"C\", atau \"D\".\nNumeric: kembalikan bilangan int atau float (pakai titik . untuk desimal).",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Quiz w06 — Minggu 06 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w06/quiz.html#q01-tf",
+    "href": "weeks/w06/quiz.html#q01-tf",
+    "title": "12  Quiz w06 — Minggu 06 (soal dari strategi.pdf)",
+    "section": "12.2 Q01 (T/F)",
+    "text": "12.2 Q01 (T/F)\nDistribusi Binomial digunakan untuk eksperimen dengan jumlah percobaan yang tidak terbatas.",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Quiz w06 — Minggu 06 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w06/quiz.html#q02-tf",
+    "href": "weeks/w06/quiz.html#q02-tf",
+    "title": "12  Quiz w06 — Minggu 06 (soal dari strategi.pdf)",
+    "section": "12.3 Q02 (T/F)",
+    "text": "12.3 Q02 (T/F)\nParameter mean dan variansi pada distribusi Poisson memiliki nilai yang sama.",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Quiz w06 — Minggu 06 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w06/quiz.html#q03-tf",
+    "href": "weeks/w06/quiz.html#q03-tf",
+    "title": "12  Quiz w06 — Minggu 06 (soal dari strategi.pdf)",
+    "section": "12.4 Q03 (T/F)",
+    "text": "12.4 Q03 (T/F)\nDistribusi Bernoulli adalah kasus khusus dari distribusi Binomial dengan = 1.",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Quiz w06 — Minggu 06 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w06/quiz.html#q04-mc",
+    "href": "weeks/w06/quiz.html#q04-mc",
+    "title": "12  Quiz w06 — Minggu 06 (soal dari strategi.pdf)",
+    "section": "12.5 Q04 (MC)",
+    "text": "12.5 Q04 (MC)\nJika 10, 0, , maka nilai harapannya adalah:\n\nA) 2\nB) 0,2\nC) 8\nD) 1,6",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Quiz w06 — Minggu 06 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w06/quiz.html#q05-mc",
+    "href": "weeks/w06/quiz.html#q05-mc",
+    "title": "12  Quiz w06 — Minggu 06 (soal dari strategi.pdf)",
+    "section": "12.6 Q05 (MC)",
+    "text": "12.6 Q05 (MC)\nDistribusi yang paling tepat untuk memodelkan jumlah telepon yang masuk ke call center dalam satu menit adalah:\n\nA) Binomial.\nB) Poisson.\nC) Uniform.\nD) Normal.",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Quiz w06 — Minggu 06 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w06/quiz.html#q06-mc",
+    "href": "weeks/w06/quiz.html#q06-mc",
+    "title": "12  Quiz w06 — Minggu 06 (soal dari strategi.pdf)",
+    "section": "12.7 Q06 (MC)",
+    "text": "12.7 Q06 (MC)\nPada distribusi Binomial, probabilitas sukses p harus:\n\nA) Berubah tiap percobaan.\nB) Tetap konstan tiap percobaan.\nC) Selalu 0,5.\nD) Berkurang seiring waktu.",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Quiz w06 — Minggu 06 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w06/quiz.html#q07-mc",
+    "href": "weeks/w06/quiz.html#q07-mc",
+    "title": "12  Quiz w06 — Minggu 06 (soal dari strategi.pdf)",
+    "section": "12.8 Q07 (MC)",
+    "text": "12.8 Q07 (MC)\nRumus = = − adalah untuk distribusi:\nMinggu 07: Distribusi Probabilitas Kontinu - Normal dan Eksponensial Minggu ketujuh memperkenalkan distribusi paling penting dalam statistika: Distribusi Normal (Gaussian) dan pasangannya untuk waktu tunggu, distribusi Eksponensial. Bank Soal Mingguan Pertanyaan Konseptual Pertanyaan Aplikatif\n\nA) Binomial.\nB) Poisson.\nC) Geometrik.\nD) Eksponensial.",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Quiz w06 — Minggu 06 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w06/quiz.html#q08-numeric",
+    "href": "weeks/w06/quiz.html#q08-numeric",
+    "title": "12  Quiz w06 — Minggu 06 (soal dari strategi.pdf)",
+    "section": "12.9 Q08 (Numeric)",
+    "text": "12.9 Q08 (Numeric)\nJika , 0, 5, hitung = .",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Quiz w06 — Minggu 06 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w06/quiz.html#q09-numeric",
+    "href": "weeks/w06/quiz.html#q09-numeric",
+    "title": "12  Quiz w06 — Minggu 06 (soal dari strategi.pdf)",
+    "section": "12.10 Q09 (Numeric)",
+    "text": "12.10 Q09 (Numeric)\nUntuk distribusi Poisson dengan = , berapakah probabilitas = 0? (Gunakan 3 desimal)",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Quiz w06 — Minggu 06 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w06/quiz.html#q10-numeric",
+    "href": "weeks/w06/quiz.html#q10-numeric",
+    "title": "12  Quiz w06 — Minggu 06 (soal dari strategi.pdf)",
+    "section": "12.11 Q10 (Numeric)",
+    "text": "12.11 Q10 (Numeric)\nHitung variansi dari variabel acak 100, 0, 1.",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Quiz w06 — Minggu 06 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w06/quiz.html#q11-numeric",
+    "href": "weeks/w06/quiz.html#q11-numeric",
+    "title": "12  Quiz w06 — Minggu 06 (soal dari strategi.pdf)",
+    "section": "12.12 Q11 (Numeric)",
+    "text": "12.12 Q11 (Numeric)\nBerapakah nilai maksimum yang mungkin dari variabel acak 10, 0, 5?",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Quiz w06 — Minggu 06 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w06/quiz.html#q12-numeric",
+    "href": "weeks/w06/quiz.html#q12-numeric",
+    "title": "12  Quiz w06 — Minggu 06 (soal dari strategi.pdf)",
+    "section": "12.13 Q12 (Numeric)",
+    "text": "12.13 Q12 (Numeric)\nJika rata-rata kedatangan paket adalah 5 per ms, berapakah variansi jumlah paket per ms?",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Quiz w06 — Minggu 06 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w06/laporan.html",
+    "href": "submissions/w06/laporan.html",
+    "title": "13  Laporan w06 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "",
+    "text": "13.1 Kenapa ada laporan ini?\nSupaya kamu bisa melihat hasil jawabanmu dalam format yang rapi & ramah dibaca, tanpa membuat “dua versi jawaban”.\n✅ Sumber kebenaran tunggal tetap: submissions/w06/answers.py\nLaporan ini hanya memanggil fungsi q01()..q12() dari answers.py dan menampilkan outputnya.",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Laporan w06 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w06/laporan.html#cara-render-lokal",
+    "href": "submissions/w06/laporan.html#cara-render-lokal",
+    "title": "13  Laporan w06 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "13.2 Cara render (lokal)",
+    "text": "13.2 Cara render (lokal)\nquarto render submissions/w06/laporan.qmd\n\nJika Quarto belum terpasang, kamu tetap bisa melihat hasil lewat GitHub Actions atau menjalankan Python secara manual.",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Laporan w06 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w06/laporan.html#ringkasan-hasil-table",
+    "href": "submissions/w06/laporan.html#ringkasan-hasil-table",
+    "title": "13  Laporan w06 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "13.3 Ringkasan hasil (table)",
+    "text": "13.3 Ringkasan hasil (table)\n```{python}\nimport sys\nfrom pathlib import Path\n\ncwd = Path.cwd().resolve()\nrepo_root = cwd if (cwd / \"submissions\").exists() else cwd.parents[1]\nsys.path.insert(0, str(repo_root))\n\nimport math\nimport numpy as np\nimport pandas as pd\n\n# Import jawaban (single source of truth)\nfrom submissions.w06 import answers as A\n\n\ndef _preview(val, maxlen=80):\n    if val is None:\n        return \"\"\n    if isinstance(val, (list, tuple, np.ndarray)):\n        arr = list(val)\n        head = arr[:8]\n        s = f\"{type(val).__name__}(len={len(arr)}) \" + repr(head)\n        if len(arr) &gt; 8:\n            s += \" ...\"\n        return s[:maxlen]\n    s = repr(val)\n    return s if len(s) &lt;= maxlen else s[:maxlen] + \"...\"\n\n\ndef _is_number(x):\n    return isinstance(x, (int, float, np.integer, np.floating)) and not (isinstance(x, bool))\n\n\ndef _pmf_heuristic(val):\n    # heuristik: list/tuple/ndarray angka nonnegatif dan jumlah ~ 1\n    if not isinstance(val, (list, tuple, np.ndarray)):\n        return (False, None)\n    try:\n        arr = np.array(val, dtype=float)\n    except Exception:\n        return (False, None)\n    if arr.ndim != 1 or arr.size == 0:\n        return (False, None)\n    if np.any(np.isnan(arr)):\n        return (False, None)\n    s = float(arr.sum())\n    if np.all(arr &gt;= -1e-12) and abs(s - 1.0) &lt;= 1e-6:\n        return (True, s)\n    return (False, s)\n\n\ndef _prob_heuristic(val):\n    # heuristik: angka di [0,1]\n    if not _is_number(val):\n        return False\n    v = float(val)\n    if math.isnan(v) or math.isinf(v):\n        return False\n    return (0.0 &lt;= v &lt;= 1.0)\n\n\nrows = []\ndetails = []\n\nfor i in range(1, 13):\n    name = f\"q{i:02d}\"\n    func = getattr(A, name, None)\n    status = \"OK\"\n    err = \"\"\n    val = None\n\n    if func is None:\n        status = \"MISSING\"\n        err = \"Function not found\"\n    else:\n        try:\n            val = func()\n        except NotImplementedError:\n            status = \"TODO\"\n            err = \"NotImplementedError\"\n        except Exception as e:\n            status = \"ERR\"\n            err = f\"{type(e).__name__}: {e}\"\n\n    notes = []\n    if status == \"OK\":\n        # generic sanity checks (no answer key)\n        if _prob_heuristic(val):\n            notes.append(\"Looks like a probability (0..1)\")\n        ok_pmf, s = _pmf_heuristic(val)\n        if ok_pmf:\n            notes.append(\"Looks like a PMF (sum≈1, all≥0)\")\n        if isinstance(val, float) and (math.isnan(val) or math.isinf(val)):\n            notes.append(\"⚠️ NaN/Inf detected\")\n\n    if status in (\"ERR\", \"MISSING\"):\n        notes.append(\"⚠️ Fix required\")\n    if status == \"TODO\":\n        notes.append(\"Implement this task\")\n\n    rows.append({\n        \"Task\": name.upper(),\n        \"Status\": status,\n        \"Preview\": _preview(val),\n        \"Notes\": \"; \".join(notes),\n    })\n    details.append((name, status, val, err))\n\ndf = pd.DataFrame(rows)\ndf\n```",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Laporan w06 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w06/laporan.html#detail-output-per-task",
+    "href": "submissions/w06/laporan.html#detail-output-per-task",
+    "title": "13  Laporan w06 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "13.4 Detail output per task",
+    "text": "13.4 Detail output per task\n```{python}\n#| results: asis\n\ndef _md_escape(s: str) -&gt; str:\n    return s.replace(\"`\", \"\\`\")\n\nfor name, status, val, err in details:\n    print(f\"### {name.upper()} — {status}\")\n    if status == \"OK\":\n        print(\"```\")\n        print(repr(val))\n        print(\"```\")\n    else:\n        print(f\"**Error/Info:** `{_md_escape(err)}`\\n\")\n```",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Laporan w06 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w06/laporan.html#catatan-penting",
+    "href": "submissions/w06/laporan.html#catatan-penting",
+    "title": "13  Laporan w06 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "13.5 Catatan penting",
+    "text": "13.5 Catatan penting\n\nLaporan ini bukan penilaian. Penilaian resmi tetap dari autograder (pytest).\nJika hasil terlihat aneh, cek lagi:\n\nrumus manualnya\ntipe data yang diminta (int/float/list/bool/tuple)\nurutan list (apakah harus sorted?)\nrandom harus pakai seed (jika diminta)\n\n\nSelf-check resmi (opsional):\npytest -q tests_bank/w06/quiz_tests.py",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Laporan w06 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w07/quiz.html",
+    "href": "weeks/w07/quiz.html",
+    "title": "14  Quiz w07 — Minggu 07 (soal dari strategi.pdf)",
+    "section": "",
+    "text": "14.1 Cara mengerjakan",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Quiz w07 — Minggu 07 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w07/quiz.html#cara-mengerjakan",
+    "href": "weeks/w07/quiz.html#cara-mengerjakan",
+    "title": "14  Quiz w07 — Minggu 07 (soal dari strategi.pdf)",
+    "section": "",
+    "text": "Jawab hanya dengan mengisi fungsi q01() s.d. q12() di submissions/w07/answers.py.\nKamu boleh memakai Python untuk menghitung, misalnya lewat submissions/w07/laporan.qmd.\nJangan ubah nama fungsi.\n\n\n14.1.1 Format jawaban\n\nT/F: kembalikan True (Benar) atau False (Salah).\nMC: kembalikan huruf \"A\", \"B\", \"C\", atau \"D\".\nNumeric: kembalikan bilangan int atau float (pakai titik . untuk desimal).",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Quiz w07 — Minggu 07 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w07/quiz.html#q01-tf",
+    "href": "weeks/w07/quiz.html#q01-tf",
+    "title": "14  Quiz w07 — Minggu 07 (soal dari strategi.pdf)",
+    "section": "14.2 Q01 (T/F)",
+    "text": "14.2 Q01 (T/F)\nTotal luas di bawah kurva fungsi padat probabilitas (PDF) selalu sama dengan 1.",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Quiz w07 — Minggu 07 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w07/quiz.html#q02-tf",
+    "href": "weeks/w07/quiz.html#q02-tf",
+    "title": "14  Quiz w07 — Minggu 07 (soal dari strategi.pdf)",
+    "section": "14.3 Q02 (T/F)",
+    "text": "14.3 Q02 (T/F)\nDistribusi Normal Standar memiliki mean 0 dan variansi 1.",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Quiz w07 — Minggu 07 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w07/quiz.html#q03-tf",
+    "href": "weeks/w07/quiz.html#q03-tf",
+    "title": "14  Quiz w07 — Minggu 07 (soal dari strategi.pdf)",
+    "section": "14.4 Q03 (T/F)",
+    "text": "14.4 Q03 (T/F)\nPada distribusi kontinu, selalu sama dengan .",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Quiz w07 — Minggu 07 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w07/quiz.html#q04-mc",
+    "href": "weeks/w07/quiz.html#q04-mc",
+    "title": "14  Quiz w07 — Minggu 07 (soal dari strategi.pdf)",
+    "section": "14.5 Q04 (MC)",
+    "text": "14.5 Q04 (MC)\nNilai yang bersesuaian dengan nilai pada distribusi , adalah:\n\nA) −\nB)\nC) −\nD) −",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Quiz w07 — Minggu 07 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w07/quiz.html#q05-mc",
+    "href": "weeks/w07/quiz.html#q05-mc",
+    "title": "14  Quiz w07 — Minggu 07 (soal dari strategi.pdf)",
+    "section": "14.6 Q05 (MC)",
+    "text": "14.6 Q05 (MC)\nDistribusi mana yang sering digunakan untuk memodelkan waktu antar kejadian dalam proses Poisson?\n\nA) Binomial.\nB) Normal.\nC) Eksponensial.\nD) Uniform.",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Quiz w07 — Minggu 07 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w07/quiz.html#q06-mc",
+    "href": "weeks/w07/quiz.html#q06-mc",
+    "title": "14  Quiz w07 — Minggu 07 (soal dari strategi.pdf)",
+    "section": "14.7 Q06 (MC)",
+    "text": "14.7 Q06 (MC)\nSekitar 95% data dalam distribusi Normal berada dalam rentang:\nMinggu 09: Variabel Acak Bivariat dan Transformasi Variabel Minggu kesembilan mengeksplorasi hubungan antara dua variabel acak, seperti hubungan antara penggunaan CPU dan konsumsi daya, serta bagaimana fungsi dari variabel acak mengubah distribusinya. Bank Soal Mingguan Pertanyaan Konseptual\n\nA)\nB)\nC)\nD) 0 1",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Quiz w07 — Minggu 07 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w07/quiz.html#q07-mc",
+    "href": "weeks/w07/quiz.html#q07-mc",
+    "title": "14  Quiz w07 — Minggu 07 (soal dari strategi.pdf)",
+    "section": "14.8 Q07 (MC)",
+    "text": "14.8 Q07 (MC)\nJika = 0, 5 pada distribusi Eksponensial, maka nilai harapannya adalah:\n\nA) 0,5\nB) 2,0\nC) 1,0\nD) 0,25",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Quiz w07 — Minggu 07 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w07/quiz.html#q08-numeric",
+    "href": "weeks/w07/quiz.html#q08-numeric",
+    "title": "14  Quiz w07 — Minggu 07 (soal dari strategi.pdf)",
+    "section": "14.9 Q08 (Numeric)",
+    "text": "14.9 Q08 (Numeric)\nJika 0, 1, berapakah 0?",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Quiz w07 — Minggu 07 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w07/quiz.html#q09-numeric",
+    "href": "weeks/w07/quiz.html#q09-numeric",
+    "title": "14  Quiz w07 — Minggu 07 (soal dari strategi.pdf)",
+    "section": "14.10 Q09 (Numeric)",
+    "text": "14.10 Q09 (Numeric)\nSebuah komponen memiliki rata-rata waktu hidup 100 jam (Eksponensial). Berapakah parameter -nya?",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Quiz w07 — Minggu 07 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w07/quiz.html#q10-numeric",
+    "href": "weeks/w07/quiz.html#q10-numeric",
+    "title": "14  Quiz w07 — Minggu 07 (soal dari strategi.pdf)",
+    "section": "14.11 Q10 (Numeric)",
+    "text": "14.11 Q10 (Numeric)\nNilai untuk probabilitas kumulatif 0,975 adalah sekitar… (Gunakan 2 desimal)",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Quiz w07 — Minggu 07 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w07/quiz.html#q11-numeric",
+    "href": "weeks/w07/quiz.html#q11-numeric",
+    "title": "14  Quiz w07 — Minggu 07 (soal dari strategi.pdf)",
+    "section": "14.12 Q11 (Numeric)",
+    "text": "14.12 Q11 (Numeric)\nJika 10, , berapakah nilai skor-Z untuk = 1?",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Quiz w07 — Minggu 07 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w07/quiz.html#q12-numeric",
+    "href": "weeks/w07/quiz.html#q12-numeric",
+    "title": "14  Quiz w07 — Minggu 07 (soal dari strategi.pdf)",
+    "section": "14.13 Q12 (Numeric)",
+    "text": "14.13 Q12 (Numeric)\nPada distribusi Normal Standar, berapakah nilai mendekati? (Gunakan 4 desimal)",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Quiz w07 — Minggu 07 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w07/laporan.html",
+    "href": "submissions/w07/laporan.html",
+    "title": "15  Laporan w07 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "",
+    "text": "15.1 Kenapa ada laporan ini?\nSupaya kamu bisa melihat hasil jawabanmu dalam format yang rapi & ramah dibaca, tanpa membuat “dua versi jawaban”.\n✅ Sumber kebenaran tunggal tetap: submissions/w07/answers.py\nLaporan ini hanya memanggil fungsi q01()..q12() dari answers.py dan menampilkan outputnya.",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Laporan w07 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w07/laporan.html#cara-render-lokal",
+    "href": "submissions/w07/laporan.html#cara-render-lokal",
+    "title": "15  Laporan w07 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "15.2 Cara render (lokal)",
+    "text": "15.2 Cara render (lokal)\nquarto render submissions/w07/laporan.qmd\n\nJika Quarto belum terpasang, kamu tetap bisa melihat hasil lewat GitHub Actions atau menjalankan Python secara manual.",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Laporan w07 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w07/laporan.html#ringkasan-hasil-table",
+    "href": "submissions/w07/laporan.html#ringkasan-hasil-table",
+    "title": "15  Laporan w07 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "15.3 Ringkasan hasil (table)",
+    "text": "15.3 Ringkasan hasil (table)\n```{python}\nimport sys\nfrom pathlib import Path\n\ncwd = Path.cwd().resolve()\nrepo_root = cwd if (cwd / \"submissions\").exists() else cwd.parents[1]\nsys.path.insert(0, str(repo_root))\n\nimport math\nimport numpy as np\nimport pandas as pd\n\n# Import jawaban (single source of truth)\nfrom submissions.w07 import answers as A\n\n\ndef _preview(val, maxlen=80):\n    if val is None:\n        return \"\"\n    if isinstance(val, (list, tuple, np.ndarray)):\n        arr = list(val)\n        head = arr[:8]\n        s = f\"{type(val).__name__}(len={len(arr)}) \" + repr(head)\n        if len(arr) &gt; 8:\n            s += \" ...\"\n        return s[:maxlen]\n    s = repr(val)\n    return s if len(s) &lt;= maxlen else s[:maxlen] + \"...\"\n\n\ndef _is_number(x):\n    return isinstance(x, (int, float, np.integer, np.floating)) and not (isinstance(x, bool))\n\n\ndef _pmf_heuristic(val):\n    # heuristik: list/tuple/ndarray angka nonnegatif dan jumlah ~ 1\n    if not isinstance(val, (list, tuple, np.ndarray)):\n        return (False, None)\n    try:\n        arr = np.array(val, dtype=float)\n    except Exception:\n        return (False, None)\n    if arr.ndim != 1 or arr.size == 0:\n        return (False, None)\n    if np.any(np.isnan(arr)):\n        return (False, None)\n    s = float(arr.sum())\n    if np.all(arr &gt;= -1e-12) and abs(s - 1.0) &lt;= 1e-6:\n        return (True, s)\n    return (False, s)\n\n\ndef _prob_heuristic(val):\n    # heuristik: angka di [0,1]\n    if not _is_number(val):\n        return False\n    v = float(val)\n    if math.isnan(v) or math.isinf(v):\n        return False\n    return (0.0 &lt;= v &lt;= 1.0)\n\n\nrows = []\ndetails = []\n\nfor i in range(1, 13):\n    name = f\"q{i:02d}\"\n    func = getattr(A, name, None)\n    status = \"OK\"\n    err = \"\"\n    val = None\n\n    if func is None:\n        status = \"MISSING\"\n        err = \"Function not found\"\n    else:\n        try:\n            val = func()\n        except NotImplementedError:\n            status = \"TODO\"\n            err = \"NotImplementedError\"\n        except Exception as e:\n            status = \"ERR\"\n            err = f\"{type(e).__name__}: {e}\"\n\n    notes = []\n    if status == \"OK\":\n        # generic sanity checks (no answer key)\n        if _prob_heuristic(val):\n            notes.append(\"Looks like a probability (0..1)\")\n        ok_pmf, s = _pmf_heuristic(val)\n        if ok_pmf:\n            notes.append(\"Looks like a PMF (sum≈1, all≥0)\")\n        if isinstance(val, float) and (math.isnan(val) or math.isinf(val)):\n            notes.append(\"⚠️ NaN/Inf detected\")\n\n    if status in (\"ERR\", \"MISSING\"):\n        notes.append(\"⚠️ Fix required\")\n    if status == \"TODO\":\n        notes.append(\"Implement this task\")\n\n    rows.append({\n        \"Task\": name.upper(),\n        \"Status\": status,\n        \"Preview\": _preview(val),\n        \"Notes\": \"; \".join(notes),\n    })\n    details.append((name, status, val, err))\n\ndf = pd.DataFrame(rows)\ndf\n```",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Laporan w07 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w07/laporan.html#detail-output-per-task",
+    "href": "submissions/w07/laporan.html#detail-output-per-task",
+    "title": "15  Laporan w07 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "15.4 Detail output per task",
+    "text": "15.4 Detail output per task\n```{python}\n#| results: asis\n\ndef _md_escape(s: str) -&gt; str:\n    return s.replace(\"`\", \"\\`\")\n\nfor name, status, val, err in details:\n    print(f\"### {name.upper()} — {status}\")\n    if status == \"OK\":\n        print(\"```\")\n        print(repr(val))\n        print(\"```\")\n    else:\n        print(f\"**Error/Info:** `{_md_escape(err)}`\\n\")\n```",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Laporan w07 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w07/laporan.html#catatan-penting",
+    "href": "submissions/w07/laporan.html#catatan-penting",
+    "title": "15  Laporan w07 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "15.5 Catatan penting",
+    "text": "15.5 Catatan penting\n\nLaporan ini bukan penilaian. Penilaian resmi tetap dari autograder (pytest).\nJika hasil terlihat aneh, cek lagi:\n\nrumus manualnya\ntipe data yang diminta (int/float/list/bool/tuple)\nurutan list (apakah harus sorted?)\nrandom harus pakai seed (jika diminta)\n\n\nSelf-check resmi (opsional):\npytest -q tests_bank/w07/quiz_tests.py",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Laporan w07 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w08/quiz.html",
+    "href": "weeks/w08/quiz.html",
+    "title": "16  Quiz w08 — Minggu 08 (UTS / Review — kumpulan soal Minggu 01-07)",
+    "section": "",
+    "text": "16.1 Cara mengerjakan",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Quiz w08 — Minggu 08 (UTS / Review — kumpulan soal Minggu 01-07)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w08/quiz.html#cara-mengerjakan",
+    "href": "weeks/w08/quiz.html#cara-mengerjakan",
+    "title": "16  Quiz w08 — Minggu 08 (UTS / Review — kumpulan soal Minggu 01-07)",
+    "section": "",
+    "text": "Jawab hanya dengan mengisi fungsi q01() s.d. q12() di submissions/w08/answers.py.\nKamu boleh memakai Python untuk menghitung, misalnya lewat submissions/w08/laporan.qmd.\nJangan ubah nama fungsi.\n\n\n16.1.1 Format jawaban\n\nT/F: kembalikan True (Benar) atau False (Salah).\nMC: kembalikan huruf \"A\", \"B\", \"C\", atau \"D\".\nNumeric: kembalikan bilangan int atau float (pakai titik . untuk desimal).",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Quiz w08 — Minggu 08 (UTS / Review — kumpulan soal Minggu 01-07)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w08/quiz.html#q01-tf",
+    "href": "weeks/w08/quiz.html#q01-tf",
+    "title": "16  Quiz w08 — Minggu 08 (UTS / Review — kumpulan soal Minggu 01-07)",
+    "section": "16.2 Q01 (T/F)",
+    "text": "16.2 Q01 (T/F)\nDalam model probabilistik, output yang sama akan selalu dihasilkan dari input yang sama terlepas dari variasi acak.",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Quiz w08 — Minggu 08 (UTS / Review — kumpulan soal Minggu 01-07)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w08/quiz.html#q02-tf",
+    "href": "weeks/w08/quiz.html#q02-tf",
+    "title": "16  Quiz w08 — Minggu 08 (UTS / Review — kumpulan soal Minggu 01-07)",
+    "section": "16.3 Q02 (T/F)",
+    "text": "16.3 Q02 (T/F)\nProbabilitas dari gabungan dua kejadian selalu lebih besar daripada probabilitas masing-masing kejadian.",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Quiz w08 — Minggu 08 (UTS / Review — kumpulan soal Minggu 01-07)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w08/quiz.html#q03-tf",
+    "href": "weeks/w08/quiz.html#q03-tf",
+    "title": "16  Quiz w08 — Minggu 08 (UTS / Review — kumpulan soal Minggu 01-07)",
+    "section": "16.4 Q03 (T/F)",
+    "text": "16.4 Q03 (T/F)\nPada distribusi kontinu, selalu sama dengan .",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Quiz w08 — Minggu 08 (UTS / Review — kumpulan soal Minggu 01-07)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w08/quiz.html#q04-mc",
+    "href": "weeks/w08/quiz.html#q04-mc",
+    "title": "16  Quiz w08 — Minggu 08 (UTS / Review — kumpulan soal Minggu 01-07)",
+    "section": "16.5 Q04 (MC)",
+    "text": "16.5 Q04 (MC)\nJika = 0, 5, = 0, dan , independen, maka adalah:\n\nA) 0,9\nB) 0,1\nC) 0,2\nD) 0,5",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Quiz w08 — Minggu 08 (UTS / Review — kumpulan soal Minggu 01-07)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w08/quiz.html#q05-mc",
+    "href": "weeks/w08/quiz.html#q05-mc",
+    "title": "16  Quiz w08 — Minggu 08 (UTS / Review — kumpulan soal Minggu 01-07)",
+    "section": "16.6 Q05 (MC)",
+    "text": "16.6 Q05 (MC)\nVariansi dari variabel acak didefinisikan sebagai:\n\nA) −\nB) −\nC)\nD)",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Quiz w08 — Minggu 08 (UTS / Review — kumpulan soal Minggu 01-07)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w08/quiz.html#q06-mc",
+    "href": "weeks/w08/quiz.html#q06-mc",
+    "title": "16  Quiz w08 — Minggu 08 (UTS / Review — kumpulan soal Minggu 01-07)",
+    "section": "16.7 Q06 (MC)",
+    "text": "16.7 Q06 (MC)\nPada distribusi Binomial, probabilitas sukses p harus:\n\nA) Berubah tiap percobaan.\nB) Tetap konstan tiap percobaan.\nC) Selalu 0,5.\nD) Berkurang seiring waktu.",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Quiz w08 — Minggu 08 (UTS / Review — kumpulan soal Minggu 01-07)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w08/quiz.html#q07-mc",
+    "href": "weeks/w08/quiz.html#q07-mc",
+    "title": "16  Quiz w08 — Minggu 08 (UTS / Review — kumpulan soal Minggu 01-07)",
+    "section": "16.8 Q07 (MC)",
+    "text": "16.8 Q07 (MC)\nJika = 0, 5 pada distribusi Eksponensial, maka nilai harapannya adalah:\n\nA) 0,5\nB) 2,0\nC) 1,0\nD) 0,25",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Quiz w08 — Minggu 08 (UTS / Review — kumpulan soal Minggu 01-07)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w08/quiz.html#q08-numeric",
+    "href": "weeks/w08/quiz.html#q08-numeric",
+    "title": "16  Quiz w08 — Minggu 08 (UTS / Review — kumpulan soal Minggu 01-07)",
+    "section": "16.9 Q08 (Numeric)",
+    "text": "16.9 Q08 (Numeric)\nBerapa jumlah elemen dalam ruang sampel jika kita melempar dua buah dadu bersisi enam?",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Quiz w08 — Minggu 08 (UTS / Review — kumpulan soal Minggu 01-07)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w08/quiz.html#q09-numeric",
+    "href": "weeks/w08/quiz.html#q09-numeric",
+    "title": "16  Quiz w08 — Minggu 08 (UTS / Review — kumpulan soal Minggu 01-07)",
+    "section": "16.10 Q09 (Numeric)",
+    "text": "16.10 Q09 (Numeric)\nSebuah sistem memiliki probabilitas gagal 0,05. Berapakah probabilitas sistem tersebut berhasil?",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Quiz w08 — Minggu 08 (UTS / Review — kumpulan soal Minggu 01-07)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w08/quiz.html#q10-numeric",
+    "href": "weeks/w08/quiz.html#q10-numeric",
+    "title": "16  Quiz w08 — Minggu 08 (UTS / Review — kumpulan soal Minggu 01-07)",
+    "section": "16.11 Q10 (Numeric)",
+    "text": "16.11 Q10 (Numeric)\nSebuah sistem memiliki reliabilitas 0,99. Berapa probabilitas kegagalannya?",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Quiz w08 — Minggu 08 (UTS / Review — kumpulan soal Minggu 01-07)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w08/quiz.html#q11-numeric",
+    "href": "weeks/w08/quiz.html#q11-numeric",
+    "title": "16  Quiz w08 — Minggu 08 (UTS / Review — kumpulan soal Minggu 01-07)",
+    "section": "16.12 Q11 (Numeric)",
+    "text": "16.12 Q11 (Numeric)\nJika = 0, , = 0, dan = 0, , hitung menggunakan Hukum Probabilitas Total.",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Quiz w08 — Minggu 08 (UTS / Review — kumpulan soal Minggu 01-07)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w08/quiz.html#q12-numeric",
+    "href": "weeks/w08/quiz.html#q12-numeric",
+    "title": "16  Quiz w08 — Minggu 08 (UTS / Review — kumpulan soal Minggu 01-07)",
+    "section": "16.13 Q12 (Numeric)",
+    "text": "16.13 Q12 (Numeric)\nJika rata-rata kedatangan paket adalah 5 per ms, berapakah variansi jumlah paket per ms?",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Quiz w08 — Minggu 08 (UTS / Review — kumpulan soal Minggu 01-07)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w08/laporan.html",
+    "href": "submissions/w08/laporan.html",
+    "title": "17  Laporan w08 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "",
+    "text": "17.1 Kenapa ada laporan ini?\nSupaya kamu bisa melihat hasil jawabanmu dalam format yang rapi & ramah dibaca, tanpa membuat “dua versi jawaban”.\n✅ Sumber kebenaran tunggal tetap: submissions/w08/answers.py\nLaporan ini hanya memanggil fungsi q01()..q12() dari answers.py dan menampilkan outputnya.",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Laporan w08 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w08/laporan.html#cara-render-lokal",
+    "href": "submissions/w08/laporan.html#cara-render-lokal",
+    "title": "17  Laporan w08 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "17.2 Cara render (lokal)",
+    "text": "17.2 Cara render (lokal)\nquarto render submissions/w08/laporan.qmd\n\nJika Quarto belum terpasang, kamu tetap bisa melihat hasil lewat GitHub Actions atau menjalankan Python secara manual.",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Laporan w08 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w08/laporan.html#ringkasan-hasil-table",
+    "href": "submissions/w08/laporan.html#ringkasan-hasil-table",
+    "title": "17  Laporan w08 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "17.3 Ringkasan hasil (table)",
+    "text": "17.3 Ringkasan hasil (table)\n```{python}\nimport sys\nfrom pathlib import Path\n\ncwd = Path.cwd().resolve()\nrepo_root = cwd if (cwd / \"submissions\").exists() else cwd.parents[1]\nsys.path.insert(0, str(repo_root))\n\nimport math\nimport numpy as np\nimport pandas as pd\n\n# Import jawaban (single source of truth)\nfrom submissions.w08 import answers as A\n\n\ndef _preview(val, maxlen=80):\n    if val is None:\n        return \"\"\n    if isinstance(val, (list, tuple, np.ndarray)):\n        arr = list(val)\n        head = arr[:8]\n        s = f\"{type(val).__name__}(len={len(arr)}) \" + repr(head)\n        if len(arr) &gt; 8:\n            s += \" ...\"\n        return s[:maxlen]\n    s = repr(val)\n    return s if len(s) &lt;= maxlen else s[:maxlen] + \"...\"\n\n\ndef _is_number(x):\n    return isinstance(x, (int, float, np.integer, np.floating)) and not (isinstance(x, bool))\n\n\ndef _pmf_heuristic(val):\n    # heuristik: list/tuple/ndarray angka nonnegatif dan jumlah ~ 1\n    if not isinstance(val, (list, tuple, np.ndarray)):\n        return (False, None)\n    try:\n        arr = np.array(val, dtype=float)\n    except Exception:\n        return (False, None)\n    if arr.ndim != 1 or arr.size == 0:\n        return (False, None)\n    if np.any(np.isnan(arr)):\n        return (False, None)\n    s = float(arr.sum())\n    if np.all(arr &gt;= -1e-12) and abs(s - 1.0) &lt;= 1e-6:\n        return (True, s)\n    return (False, s)\n\n\ndef _prob_heuristic(val):\n    # heuristik: angka di [0,1]\n    if not _is_number(val):\n        return False\n    v = float(val)\n    if math.isnan(v) or math.isinf(v):\n        return False\n    return (0.0 &lt;= v &lt;= 1.0)\n\n\nrows = []\ndetails = []\n\nfor i in range(1, 13):\n    name = f\"q{i:02d}\"\n    func = getattr(A, name, None)\n    status = \"OK\"\n    err = \"\"\n    val = None\n\n    if func is None:\n        status = \"MISSING\"\n        err = \"Function not found\"\n    else:\n        try:\n            val = func()\n        except NotImplementedError:\n            status = \"TODO\"\n            err = \"NotImplementedError\"\n        except Exception as e:\n            status = \"ERR\"\n            err = f\"{type(e).__name__}: {e}\"\n\n    notes = []\n    if status == \"OK\":\n        # generic sanity checks (no answer key)\n        if _prob_heuristic(val):\n            notes.append(\"Looks like a probability (0..1)\")\n        ok_pmf, s = _pmf_heuristic(val)\n        if ok_pmf:\n            notes.append(\"Looks like a PMF (sum≈1, all≥0)\")\n        if isinstance(val, float) and (math.isnan(val) or math.isinf(val)):\n            notes.append(\"⚠️ NaN/Inf detected\")\n\n    if status in (\"ERR\", \"MISSING\"):\n        notes.append(\"⚠️ Fix required\")\n    if status == \"TODO\":\n        notes.append(\"Implement this task\")\n\n    rows.append({\n        \"Task\": name.upper(),\n        \"Status\": status,\n        \"Preview\": _preview(val),\n        \"Notes\": \"; \".join(notes),\n    })\n    details.append((name, status, val, err))\n\ndf = pd.DataFrame(rows)\ndf\n```",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Laporan w08 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w08/laporan.html#detail-output-per-task",
+    "href": "submissions/w08/laporan.html#detail-output-per-task",
+    "title": "17  Laporan w08 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "17.4 Detail output per task",
+    "text": "17.4 Detail output per task\n```{python}\n#| results: asis\n\ndef _md_escape(s: str) -&gt; str:\n    return s.replace(\"`\", \"\\`\")\n\nfor name, status, val, err in details:\n    print(f\"### {name.upper()} — {status}\")\n    if status == \"OK\":\n        print(\"```\")\n        print(repr(val))\n        print(\"```\")\n    else:\n        print(f\"**Error/Info:** `{_md_escape(err)}`\\n\")\n```",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Laporan w08 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w08/laporan.html#catatan-penting",
+    "href": "submissions/w08/laporan.html#catatan-penting",
+    "title": "17  Laporan w08 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "17.5 Catatan penting",
+    "text": "17.5 Catatan penting\n\nLaporan ini bukan penilaian. Penilaian resmi tetap dari autograder (pytest).\nJika hasil terlihat aneh, cek lagi:\n\nrumus manualnya\ntipe data yang diminta (int/float/list/bool/tuple)\nurutan list (apakah harus sorted?)\nrandom harus pakai seed (jika diminta)\n\n\nSelf-check resmi (opsional):\npytest -q tests_bank/w08/quiz_tests.py",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Laporan w08 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w09/quiz.html",
+    "href": "weeks/w09/quiz.html",
+    "title": "18  Quiz w09 — Minggu 09 (soal dari strategi.pdf)",
+    "section": "",
+    "text": "18.1 Cara mengerjakan",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quiz w09 — Minggu 09 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w09/quiz.html#cara-mengerjakan",
+    "href": "weeks/w09/quiz.html#cara-mengerjakan",
+    "title": "18  Quiz w09 — Minggu 09 (soal dari strategi.pdf)",
+    "section": "",
+    "text": "Jawab hanya dengan mengisi fungsi q01() s.d. q12() di submissions/w09/answers.py.\nKamu boleh memakai Python untuk menghitung, misalnya lewat submissions/w09/laporan.qmd.\nJangan ubah nama fungsi.\n\n\n18.1.1 Format jawaban\n\nT/F: kembalikan True (Benar) atau False (Salah).\nMC: kembalikan huruf \"A\", \"B\", \"C\", atau \"D\".\nNumeric: kembalikan bilangan int atau float (pakai titik . untuk desimal).",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quiz w09 — Minggu 09 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w09/quiz.html#q01-tf",
+    "href": "weeks/w09/quiz.html#q01-tf",
+    "title": "18  Quiz w09 — Minggu 09 (soal dari strategi.pdf)",
+    "section": "18.2 Q01 (T/F)",
+    "text": "18.2 Q01 (T/F)\nJika korelasi antara dua variabel adalah nol, maka kedua variabel tersebut pasti independen.",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quiz w09 — Minggu 09 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w09/quiz.html#q02-tf",
+    "href": "weeks/w09/quiz.html#q02-tf",
+    "title": "18  Quiz w09 — Minggu 09 (soal dari strategi.pdf)",
+    "section": "18.3 Q02 (T/F)",
+    "text": "18.3 Q02 (T/F)\nPDF marginal didapatkan dengan mengintegralkan , terhadap dari − ke .",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quiz w09 — Minggu 09 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w09/quiz.html#q03-tf",
+    "href": "weeks/w09/quiz.html#q03-tf",
+    "title": "18  Quiz w09 — Minggu 09 (soal dari strategi.pdf)",
+    "section": "18.4 Q03 (T/F)",
+    "text": "18.4 Q03 (T/F)\nNilai koefisien korelasi selalu berada di antara -1 dan 1.",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quiz w09 — Minggu 09 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w09/quiz.html#q04-mc",
+    "href": "weeks/w09/quiz.html#q04-mc",
+    "title": "18  Quiz w09 — Minggu 09 (soal dari strategi.pdf)",
+    "section": "18.5 Q04 (MC)",
+    "text": "18.5 Q04 (MC)\nJika dan independen, maka sama dengan:\n\nA)\nB)\nC)\nD) 0",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quiz w09 — Minggu 09 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w09/quiz.html#q05-mc",
+    "href": "weeks/w09/quiz.html#q05-mc",
+    "title": "18  Quiz w09 — Minggu 09 (soal dari strategi.pdf)",
+    "section": "18.6 Q05 (MC)",
+    "text": "18.6 Q05 (MC)\nManakah ukuran yang menunjukkan kekuatan hubungan linear antara dua variabel?\nMinggu 10: Distribusi Sampling dan Teorema Limit Pusat Minggu kesepuluh merupakan jembatan menuju statistika inferensial. Mahasiswa mempelajari perilaku rata-rata sampel dan keajaiban Teorema Limit Pusat (CLT) yang memungkinkan inferensi pada populasi besar. Bank Soal Mingguan Pertanyaan Konseptual\n\nA) Variansi.\nB) Mean.\nC) Korelasi.\nD) CDF.",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quiz w09 — Minggu 09 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w09/quiz.html#q06-mc",
+    "href": "weeks/w09/quiz.html#q06-mc",
+    "title": "18  Quiz w09 — Minggu 09 (soal dari strategi.pdf)",
+    "section": "18.7 Q06 (MC)",
+    "text": "18.7 Q06 (MC)\nJika = , = , dan , independen, maka adalah:\n\nA) 13\nB) 5\nC) 36\nD) 6,5",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quiz w09 — Minggu 09 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w09/quiz.html#q07-mc",
+    "href": "weeks/w09/quiz.html#q07-mc",
+    "title": "18  Quiz w09 — Minggu 09 (soal dari strategi.pdf)",
+    "section": "18.8 Q07 (MC)",
+    "text": "18.8 Q07 (MC)\nFungsi probabilitas kondisional didefinisikan sebagai:\n\nA) ,\nB) ,\nC)\nD) , −",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quiz w09 — Minggu 09 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w09/quiz.html#q08-numeric",
+    "href": "weeks/w09/quiz.html#q08-numeric",
+    "title": "18  Quiz w09 — Minggu 09 (soal dari strategi.pdf)",
+    "section": "18.9 Q08 (Numeric)",
+    "text": "18.9 Q08 (Numeric)\nJika , = , = , = , berapakah koefisien korelasinya?",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quiz w09 — Minggu 09 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w09/quiz.html#q09-numeric",
+    "href": "weeks/w09/quiz.html#q09-numeric",
+    "title": "18  Quiz w09 — Minggu 09 (soal dari strategi.pdf)",
+    "section": "18.10 Q09 (Numeric)",
+    "text": "18.10 Q09 (Numeric)\nBerapakah nilai jika = 10 dan = 0?",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quiz w09 — Minggu 09 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w09/quiz.html#q10-numeric",
+    "href": "weeks/w09/quiz.html#q10-numeric",
+    "title": "18  Quiz w09 — Minggu 09 (soal dari strategi.pdf)",
+    "section": "18.11 Q10 (Numeric)",
+    "text": "18.11 Q10 (Numeric)\nJika , = 1 untuk 0 dan 0 , berapakah 1, 1?",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quiz w09 — Minggu 09 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w09/quiz.html#q11-numeric",
+    "href": "weeks/w09/quiz.html#q11-numeric",
+    "title": "18  Quiz w09 — Minggu 09 (soal dari strategi.pdf)",
+    "section": "18.12 Q11 (Numeric)",
+    "text": "18.12 Q11 (Numeric)\nDalam tabel diskrit, jika 1, 1 = 0, 1 1, = 0, , 1 = 0, , = 0, , berapakah probabilitas marginal = 1?",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quiz w09 — Minggu 09 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w09/quiz.html#q12-numeric",
+    "href": "weeks/w09/quiz.html#q12-numeric",
+    "title": "18  Quiz w09 — Minggu 09 (soal dari strategi.pdf)",
+    "section": "18.13 Q12 (Numeric)",
+    "text": "18.13 Q12 (Numeric)\nJika dan memiliki korelasi 1 dan = , berapakah ?",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Quiz w09 — Minggu 09 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w09/laporan.html",
+    "href": "submissions/w09/laporan.html",
+    "title": "19  Laporan w09 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "",
+    "text": "19.1 Kenapa ada laporan ini?\nSupaya kamu bisa melihat hasil jawabanmu dalam format yang rapi & ramah dibaca, tanpa membuat “dua versi jawaban”.\n✅ Sumber kebenaran tunggal tetap: submissions/w09/answers.py\nLaporan ini hanya memanggil fungsi q01()..q12() dari answers.py dan menampilkan outputnya.",
+    "crumbs": [
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Laporan w09 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w09/laporan.html#cara-render-lokal",
+    "href": "submissions/w09/laporan.html#cara-render-lokal",
+    "title": "19  Laporan w09 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "19.2 Cara render (lokal)",
+    "text": "19.2 Cara render (lokal)\nquarto render submissions/w09/laporan.qmd\n\nJika Quarto belum terpasang, kamu tetap bisa melihat hasil lewat GitHub Actions atau menjalankan Python secara manual.",
+    "crumbs": [
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Laporan w09 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w09/laporan.html#ringkasan-hasil-table",
+    "href": "submissions/w09/laporan.html#ringkasan-hasil-table",
+    "title": "19  Laporan w09 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "19.3 Ringkasan hasil (table)",
+    "text": "19.3 Ringkasan hasil (table)\n```{python}\nimport sys\nfrom pathlib import Path\n\ncwd = Path.cwd().resolve()\nrepo_root = cwd if (cwd / \"submissions\").exists() else cwd.parents[1]\nsys.path.insert(0, str(repo_root))\n\nimport math\nimport numpy as np\nimport pandas as pd\n\n# Import jawaban (single source of truth)\nfrom submissions.w09 import answers as A\n\n\ndef _preview(val, maxlen=80):\n    if val is None:\n        return \"\"\n    if isinstance(val, (list, tuple, np.ndarray)):\n        arr = list(val)\n        head = arr[:8]\n        s = f\"{type(val).__name__}(len={len(arr)}) \" + repr(head)\n        if len(arr) &gt; 8:\n            s += \" ...\"\n        return s[:maxlen]\n    s = repr(val)\n    return s if len(s) &lt;= maxlen else s[:maxlen] + \"...\"\n\n\ndef _is_number(x):\n    return isinstance(x, (int, float, np.integer, np.floating)) and not (isinstance(x, bool))\n\n\ndef _pmf_heuristic(val):\n    # heuristik: list/tuple/ndarray angka nonnegatif dan jumlah ~ 1\n    if not isinstance(val, (list, tuple, np.ndarray)):\n        return (False, None)\n    try:\n        arr = np.array(val, dtype=float)\n    except Exception:\n        return (False, None)\n    if arr.ndim != 1 or arr.size == 0:\n        return (False, None)\n    if np.any(np.isnan(arr)):\n        return (False, None)\n    s = float(arr.sum())\n    if np.all(arr &gt;= -1e-12) and abs(s - 1.0) &lt;= 1e-6:\n        return (True, s)\n    return (False, s)\n\n\ndef _prob_heuristic(val):\n    # heuristik: angka di [0,1]\n    if not _is_number(val):\n        return False\n    v = float(val)\n    if math.isnan(v) or math.isinf(v):\n        return False\n    return (0.0 &lt;= v &lt;= 1.0)\n\n\nrows = []\ndetails = []\n\nfor i in range(1, 13):\n    name = f\"q{i:02d}\"\n    func = getattr(A, name, None)\n    status = \"OK\"\n    err = \"\"\n    val = None\n\n    if func is None:\n        status = \"MISSING\"\n        err = \"Function not found\"\n    else:\n        try:\n            val = func()\n        except NotImplementedError:\n            status = \"TODO\"\n            err = \"NotImplementedError\"\n        except Exception as e:\n            status = \"ERR\"\n            err = f\"{type(e).__name__}: {e}\"\n\n    notes = []\n    if status == \"OK\":\n        # generic sanity checks (no answer key)\n        if _prob_heuristic(val):\n            notes.append(\"Looks like a probability (0..1)\")\n        ok_pmf, s = _pmf_heuristic(val)\n        if ok_pmf:\n            notes.append(\"Looks like a PMF (sum≈1, all≥0)\")\n        if isinstance(val, float) and (math.isnan(val) or math.isinf(val)):\n            notes.append(\"⚠️ NaN/Inf detected\")\n\n    if status in (\"ERR\", \"MISSING\"):\n        notes.append(\"⚠️ Fix required\")\n    if status == \"TODO\":\n        notes.append(\"Implement this task\")\n\n    rows.append({\n        \"Task\": name.upper(),\n        \"Status\": status,\n        \"Preview\": _preview(val),\n        \"Notes\": \"; \".join(notes),\n    })\n    details.append((name, status, val, err))\n\ndf = pd.DataFrame(rows)\ndf\n```",
+    "crumbs": [
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Laporan w09 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w09/laporan.html#detail-output-per-task",
+    "href": "submissions/w09/laporan.html#detail-output-per-task",
+    "title": "19  Laporan w09 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "19.4 Detail output per task",
+    "text": "19.4 Detail output per task\n```{python}\n#| results: asis\n\ndef _md_escape(s: str) -&gt; str:\n    return s.replace(\"`\", \"\\`\")\n\nfor name, status, val, err in details:\n    print(f\"### {name.upper()} — {status}\")\n    if status == \"OK\":\n        print(\"```\")\n        print(repr(val))\n        print(\"```\")\n    else:\n        print(f\"**Error/Info:** `{_md_escape(err)}`\\n\")\n```",
+    "crumbs": [
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Laporan w09 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w09/laporan.html#catatan-penting",
+    "href": "submissions/w09/laporan.html#catatan-penting",
+    "title": "19  Laporan w09 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "19.5 Catatan penting",
+    "text": "19.5 Catatan penting\n\nLaporan ini bukan penilaian. Penilaian resmi tetap dari autograder (pytest).\nJika hasil terlihat aneh, cek lagi:\n\nrumus manualnya\ntipe data yang diminta (int/float/list/bool/tuple)\nurutan list (apakah harus sorted?)\nrandom harus pakai seed (jika diminta)\n\n\nSelf-check resmi (opsional):\npytest -q tests_bank/w09/quiz_tests.py",
+    "crumbs": [
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Laporan w09 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w10/quiz.html",
+    "href": "weeks/w10/quiz.html",
+    "title": "20  Quiz w10 — Minggu 10 (soal dari strategi.pdf)",
+    "section": "",
+    "text": "20.1 Cara mengerjakan",
+    "crumbs": [
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Quiz w10 — Minggu 10 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w10/quiz.html#cara-mengerjakan",
+    "href": "weeks/w10/quiz.html#cara-mengerjakan",
+    "title": "20  Quiz w10 — Minggu 10 (soal dari strategi.pdf)",
+    "section": "",
+    "text": "Jawab hanya dengan mengisi fungsi q01() s.d. q12() di submissions/w10/answers.py.\nKamu boleh memakai Python untuk menghitung, misalnya lewat submissions/w10/laporan.qmd.\nJangan ubah nama fungsi.\n\n\n20.1.1 Format jawaban\n\nT/F: kembalikan True (Benar) atau False (Salah).\nMC: kembalikan huruf \"A\", \"B\", \"C\", atau \"D\".\nNumeric: kembalikan bilangan int atau float (pakai titik . untuk desimal).",
+    "crumbs": [
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Quiz w10 — Minggu 10 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w10/quiz.html#q01-tf",
+    "href": "weeks/w10/quiz.html#q01-tf",
+    "title": "20  Quiz w10 — Minggu 10 (soal dari strategi.pdf)",
+    "section": "20.2 Q01 (T/F)",
+    "text": "20.2 Q01 (T/F)\nTeorema Limit Pusat menyatakan bahwa rata-rata sampel akan mendekati distribusi Normal jika ukuran sampel cukup besar ( 0).",
+    "crumbs": [
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Quiz w10 — Minggu 10 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w10/quiz.html#q02-tf",
+    "href": "weeks/w10/quiz.html#q02-tf",
+    "title": "20  Quiz w10 — Minggu 10 (soal dari strategi.pdf)",
+    "section": "20.3 Q02 (T/F)",
+    "text": "20.3 Q02 (T/F)\nRata-rata dari distribusi sampling rata-rata (\\(\\bar{X}\\)) selalu sama dengan rata-rata populasi .",
+    "crumbs": [
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Quiz w10 — Minggu 10 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w10/quiz.html#q03-tf",
+    "href": "weeks/w10/quiz.html#q03-tf",
+    "title": "20  Quiz w10 — Minggu 10 (soal dari strategi.pdf)",
+    "section": "20.4 Q03 (T/F)",
+    "text": "20.4 Q03 (T/F)\nSemakin besar ukuran sampel, semakin besar pula Standard Error-nya.",
+    "crumbs": [
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Quiz w10 — Minggu 10 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w10/quiz.html#q04-mc",
+    "href": "weeks/w10/quiz.html#q04-mc",
+    "title": "20  Quiz w10 — Minggu 10 (soal dari strategi.pdf)",
+    "section": "20.5 Q04 (MC)",
+    "text": "20.5 Q04 (MC)\nJika populasi memiliki \\(\\sigma = 10\\) dan ukuran sampel \\(n = 100\\), maka Standard Error (SE) adalah:\n\nA) 10\nB) 1\nC) 0,1\nD) 100",
+    "crumbs": [
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Quiz w10 — Minggu 10 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w10/quiz.html#q05-mc",
+    "href": "weeks/w10/quiz.html#q05-mc",
+    "title": "20  Quiz w10 — Minggu 10 (soal dari strategi.pdf)",
+    "section": "20.6 Q05 (MC)",
+    "text": "20.6 Q05 (MC)\nDistribusi sampling dari proporsi sampel p akan mendekati Normal jika:\n\nA) sangat kecil.\nB) p 5 dan 1 −p 5.\nC) Populasi sangat heterogen.\nD) p = 0, 5.",
+    "crumbs": [
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Quiz w10 — Minggu 10 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w10/quiz.html#q06-mc",
+    "href": "weeks/w10/quiz.html#q06-mc",
+    "title": "20  Quiz w10 — Minggu 10 (soal dari strategi.pdf)",
+    "section": "20.7 Q06 (MC)",
+    "text": "20.7 Q06 (MC)\nFaktor dalam rumus Standard Error menunjukkan bahwa:\n\nA) Error berkurang secara linear dengan .\nB) Untuk mengurangi error menjadi setengahnya, kita butuh sampel 4 kali lebih banyak.\nC) Error tidak dipengaruhi oleh .\nD) Sampel besar selalu buruk.",
+    "crumbs": [
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Quiz w10 — Minggu 10 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w10/quiz.html#q07-mc",
+    "href": "weeks/w10/quiz.html#q07-mc",
+    "title": "20  Quiz w10 — Minggu 10 (soal dari strategi.pdf)",
+    "section": "20.8 Q07 (MC)",
+    "text": "20.8 Q07 (MC)\nStatistik sampel yang digunakan untuk menduga parameter populasi disebut:\n\nA) Estimator.\nB) Variabel.\nC) Konstanta.\nD) Bias.",
+    "crumbs": [
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Quiz w10 — Minggu 10 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w10/quiz.html#q08-numeric",
+    "href": "weeks/w10/quiz.html#q08-numeric",
+    "title": "20  Quiz w10 — Minggu 10 (soal dari strategi.pdf)",
+    "section": "20.9 Q08 (Numeric)",
+    "text": "20.9 Q08 (Numeric)\nJika = 50 dan = 10, berapakah nilai rata-rata dari distribusi sampling rata- rata untuk = 5?",
+    "crumbs": [
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Quiz w10 — Minggu 10 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w10/quiz.html#q09-numeric",
+    "href": "weeks/w10/quiz.html#q09-numeric",
+    "title": "20  Quiz w10 — Minggu 10 (soal dari strategi.pdf)",
+    "section": "20.10 Q09 (Numeric)",
+    "text": "20.10 Q09 (Numeric)\nHitung Standard Error jika = 1 dan = 6.",
+    "crumbs": [
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Quiz w10 — Minggu 10 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w10/quiz.html#q10-numeric",
+    "href": "weeks/w10/quiz.html#q10-numeric",
+    "title": "20  Quiz w10 — Minggu 10 (soal dari strategi.pdf)",
+    "section": "20.11 Q10 (Numeric)",
+    "text": "20.11 Q10 (Numeric)\nJika rata-rata populasi 100 dan Standard Error 2, berapakah skor-Z untuk rata-rata sampel = 10?",
+    "crumbs": [
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Quiz w10 — Minggu 10 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w10/quiz.html#q11-numeric",
+    "href": "weeks/w10/quiz.html#q11-numeric",
+    "title": "20  Quiz w10 — Minggu 10 (soal dari strategi.pdf)",
+    "section": "20.12 Q11 (Numeric)",
+    "text": "20.12 Q11 (Numeric)\nJika ukuran sampel adalah 64 dan simpangan baku populasi 8, berapakah simpangan baku distribusi rata-rata sampel?",
+    "crumbs": [
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Quiz w10 — Minggu 10 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w10/quiz.html#q12-numeric",
+    "href": "weeks/w10/quiz.html#q12-numeric",
+    "title": "20  Quiz w10 — Minggu 10 (soal dari strategi.pdf)",
+    "section": "20.13 Q12 (Numeric)",
+    "text": "20.13 Q12 (Numeric)\nBerapakah nilai rata-rata sampel jika skor-Z nya adalah 1,5, = 0, dan Standard Error = 4?",
+    "crumbs": [
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Quiz w10 — Minggu 10 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w10/laporan.html",
+    "href": "submissions/w10/laporan.html",
+    "title": "21  Laporan w10 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "",
+    "text": "21.1 Kenapa ada laporan ini?\nSupaya kamu bisa melihat hasil jawabanmu dalam format yang rapi & ramah dibaca, tanpa membuat “dua versi jawaban”.\n✅ Sumber kebenaran tunggal tetap: submissions/w10/answers.py\nLaporan ini hanya memanggil fungsi q01()..q12() dari answers.py dan menampilkan outputnya.",
+    "crumbs": [
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Laporan w10 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w10/laporan.html#cara-render-lokal",
+    "href": "submissions/w10/laporan.html#cara-render-lokal",
+    "title": "21  Laporan w10 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "21.2 Cara render (lokal)",
+    "text": "21.2 Cara render (lokal)\nquarto render submissions/w10/laporan.qmd\n\nJika Quarto belum terpasang, kamu tetap bisa melihat hasil lewat GitHub Actions atau menjalankan Python secara manual.",
+    "crumbs": [
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Laporan w10 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w10/laporan.html#ringkasan-hasil-table",
+    "href": "submissions/w10/laporan.html#ringkasan-hasil-table",
+    "title": "21  Laporan w10 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "21.3 Ringkasan hasil (table)",
+    "text": "21.3 Ringkasan hasil (table)\n```{python}\nimport sys\nfrom pathlib import Path\n\ncwd = Path.cwd().resolve()\nrepo_root = cwd if (cwd / \"submissions\").exists() else cwd.parents[1]\nsys.path.insert(0, str(repo_root))\n\nimport math\nimport numpy as np\nimport pandas as pd\n\n# Import jawaban (single source of truth)\nfrom submissions.w10 import answers as A\n\n\ndef _preview(val, maxlen=80):\n    if val is None:\n        return \"\"\n    if isinstance(val, (list, tuple, np.ndarray)):\n        arr = list(val)\n        head = arr[:8]\n        s = f\"{type(val).__name__}(len={len(arr)}) \" + repr(head)\n        if len(arr) &gt; 8:\n            s += \" ...\"\n        return s[:maxlen]\n    s = repr(val)\n    return s if len(s) &lt;= maxlen else s[:maxlen] + \"...\"\n\n\ndef _is_number(x):\n    return isinstance(x, (int, float, np.integer, np.floating)) and not (isinstance(x, bool))\n\n\ndef _pmf_heuristic(val):\n    # heuristik: list/tuple/ndarray angka nonnegatif dan jumlah ~ 1\n    if not isinstance(val, (list, tuple, np.ndarray)):\n        return (False, None)\n    try:\n        arr = np.array(val, dtype=float)\n    except Exception:\n        return (False, None)\n    if arr.ndim != 1 or arr.size == 0:\n        return (False, None)\n    if np.any(np.isnan(arr)):\n        return (False, None)\n    s = float(arr.sum())\n    if np.all(arr &gt;= -1e-12) and abs(s - 1.0) &lt;= 1e-6:\n        return (True, s)\n    return (False, s)\n\n\ndef _prob_heuristic(val):\n    # heuristik: angka di [0,1]\n    if not _is_number(val):\n        return False\n    v = float(val)\n    if math.isnan(v) or math.isinf(v):\n        return False\n    return (0.0 &lt;= v &lt;= 1.0)\n\n\nrows = []\ndetails = []\n\nfor i in range(1, 13):\n    name = f\"q{i:02d}\"\n    func = getattr(A, name, None)\n    status = \"OK\"\n    err = \"\"\n    val = None\n\n    if func is None:\n        status = \"MISSING\"\n        err = \"Function not found\"\n    else:\n        try:\n            val = func()\n        except NotImplementedError:\n            status = \"TODO\"\n            err = \"NotImplementedError\"\n        except Exception as e:\n            status = \"ERR\"\n            err = f\"{type(e).__name__}: {e}\"\n\n    notes = []\n    if status == \"OK\":\n        # generic sanity checks (no answer key)\n        if _prob_heuristic(val):\n            notes.append(\"Looks like a probability (0..1)\")\n        ok_pmf, s = _pmf_heuristic(val)\n        if ok_pmf:\n            notes.append(\"Looks like a PMF (sum≈1, all≥0)\")\n        if isinstance(val, float) and (math.isnan(val) or math.isinf(val)):\n            notes.append(\"⚠️ NaN/Inf detected\")\n\n    if status in (\"ERR\", \"MISSING\"):\n        notes.append(\"⚠️ Fix required\")\n    if status == \"TODO\":\n        notes.append(\"Implement this task\")\n\n    rows.append({\n        \"Task\": name.upper(),\n        \"Status\": status,\n        \"Preview\": _preview(val),\n        \"Notes\": \"; \".join(notes),\n    })\n    details.append((name, status, val, err))\n\ndf = pd.DataFrame(rows)\ndf\n```",
+    "crumbs": [
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Laporan w10 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w10/laporan.html#detail-output-per-task",
+    "href": "submissions/w10/laporan.html#detail-output-per-task",
+    "title": "21  Laporan w10 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "21.4 Detail output per task",
+    "text": "21.4 Detail output per task\n```{python}\n#| results: asis\n\ndef _md_escape(s: str) -&gt; str:\n    return s.replace(\"`\", \"\\`\")\n\nfor name, status, val, err in details:\n    print(f\"### {name.upper()} — {status}\")\n    if status == \"OK\":\n        print(\"```\")\n        print(repr(val))\n        print(\"```\")\n    else:\n        print(f\"**Error/Info:** `{_md_escape(err)}`\\n\")\n```",
+    "crumbs": [
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Laporan w10 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w10/laporan.html#catatan-penting",
+    "href": "submissions/w10/laporan.html#catatan-penting",
+    "title": "21  Laporan w10 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "21.5 Catatan penting",
+    "text": "21.5 Catatan penting\n\nLaporan ini bukan penilaian. Penilaian resmi tetap dari autograder (pytest).\nJika hasil terlihat aneh, cek lagi:\n\nrumus manualnya\ntipe data yang diminta (int/float/list/bool/tuple)\nurutan list (apakah harus sorted?)\nrandom harus pakai seed (jika diminta)\n\n\nSelf-check resmi (opsional):\npytest -q tests_bank/w10/quiz_tests.py",
+    "crumbs": [
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Laporan w10 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w11/quiz.html",
+    "href": "weeks/w11/quiz.html",
+    "title": "22  Quiz w11 — Minggu 11 (soal dari strategi.pdf)",
+    "section": "",
+    "text": "22.1 Cara mengerjakan",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Quiz w11 — Minggu 11 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w11/quiz.html#cara-mengerjakan",
+    "href": "weeks/w11/quiz.html#cara-mengerjakan",
+    "title": "22  Quiz w11 — Minggu 11 (soal dari strategi.pdf)",
+    "section": "",
+    "text": "Jawab hanya dengan mengisi fungsi q01() s.d. q12() di submissions/w11/answers.py.\nKamu boleh memakai Python untuk menghitung, misalnya lewat submissions/w11/laporan.qmd.\nJangan ubah nama fungsi.\n\n\n22.1.1 Format jawaban\n\nT/F: kembalikan True (Benar) atau False (Salah).\nMC: kembalikan huruf \"A\", \"B\", \"C\", atau \"D\".\nNumeric: kembalikan bilangan int atau float (pakai titik . untuk desimal).",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Quiz w11 — Minggu 11 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w11/quiz.html#q01-tf",
+    "href": "weeks/w11/quiz.html#q01-tf",
+    "title": "22  Quiz w11 — Minggu 11 (soal dari strategi.pdf)",
+    "section": "22.2 Q01 (T/F)",
+    "text": "22.2 Q01 (T/F)\nSemakin tinggi tingkat kepercayaan yang diinginkan, semakin lebar interval kepercayaan yang dihasilkan.",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Quiz w11 — Minggu 11 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w11/quiz.html#q02-tf",
+    "href": "weeks/w11/quiz.html#q02-tf",
+    "title": "22  Quiz w11 — Minggu 11 (soal dari strategi.pdf)",
+    "section": "22.3 Q02 (T/F)",
+    "text": "22.3 Q02 (T/F)\nInterval kepercayaan 95% berarti ada peluang 95% bahwa parameter populasi berada dalam rentang tersebut untuk satu interval yang sudah dihitung. - secara teknis interpretasinya tentang proses sampling).",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Quiz w11 — Minggu 11 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w11/quiz.html#q03-tf",
+    "href": "weeks/w11/quiz.html#q03-tf",
+    "title": "22  Quiz w11 — Minggu 11 (soal dari strategi.pdf)",
+    "section": "22.4 Q03 (T/F)",
+    "text": "22.4 Q03 (T/F)\nDistribusi t-Student mendekati distribusi Normal saat derajat kebebasan (df) menjadi sangat besar.",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Quiz w11 — Minggu 11 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w11/quiz.html#q04-mc",
+    "href": "weeks/w11/quiz.html#q04-mc",
+    "title": "22  Quiz w11 — Minggu 11 (soal dari strategi.pdf)",
+    "section": "22.5 Q04 (MC)",
+    "text": "22.5 Q04 (MC)\nJika kita ingin mempersempit interval kepercayaan tanpa mengubah tingkat kepercayaan, kita harus:\n\nA) Mengurangi ukuran sampel.\nB) Meningkatkan ukuran sampel.\nC) Meningkatkan simpangan baku.\nD) Tidak melakukan apa-apa.",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Quiz w11 — Minggu 11 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w11/quiz.html#q05-mc",
+    "href": "weeks/w11/quiz.html#q05-mc",
+    "title": "22  Quiz w11 — Minggu 11 (soal dari strategi.pdf)",
+    "section": "22.6 Q05 (MC)",
+    "text": "22.6 Q05 (MC)\nNilai kritis untuk tingkat kepercayaan 95% adalah:\n\nA) 1,645\nB) 1,96\nC) 2,58\nD) 1,00",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Quiz w11 — Minggu 11 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w11/quiz.html#q06-mc",
+    "href": "weeks/w11/quiz.html#q06-mc",
+    "title": "22  Quiz w11 — Minggu 11 (soal dari strategi.pdf)",
+    "section": "22.7 Q06 (MC)",
+    "text": "22.7 Q06 (MC)\nDerajat kebebasan (df) untuk interval kepercayaan rata-rata satu sampel berukuran \\(n\\) adalah:\n\nA) \\(n\\)\nB) \\(1\\)\nC) \\(n - 1\\)\nD) \\(n + 1\\)",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Quiz w11 — Minggu 11 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w11/quiz.html#q07-mc",
+    "href": "weeks/w11/quiz.html#q07-mc",
+    "title": "22  Quiz w11 — Minggu 11 (soal dari strategi.pdf)",
+    "section": "22.8 Q07 (MC)",
+    "text": "22.8 Q07 (MC)\nEstimasi titik terbaik untuk rata-rata populasi \\(\\mu\\) adalah:\n\nA) Median sampel.\nB) Modus sampel.\nC) Rata-rata sampel (\\(\\bar{x}\\)).\nD) Standar deviasi sampel.",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Quiz w11 — Minggu 11 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w11/quiz.html#q08-numeric",
+    "href": "weeks/w11/quiz.html#q08-numeric",
+    "title": "22  Quiz w11 — Minggu 11 (soal dari strategi.pdf)",
+    "section": "22.9 Q08 (Numeric)",
+    "text": "22.9 Q08 (Numeric)\nJika = 100, Margin Error = 5, berapakah batas bawah interval kepercayaan?",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Quiz w11 — Minggu 11 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w11/quiz.html#q09-numeric",
+    "href": "weeks/w11/quiz.html#q09-numeric",
+    "title": "22  Quiz w11 — Minggu 11 (soal dari strategi.pdf)",
+    "section": "22.10 Q09 (Numeric)",
+    "text": "22.10 Q09 (Numeric)\nUntuk sampel = 16 dan simpangan baku sampel = , berapakah nilai estimasi Standard Error-nya?",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Quiz w11 — Minggu 11 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w11/quiz.html#q10-numeric",
+    "href": "weeks/w11/quiz.html#q10-numeric",
+    "title": "22  Quiz w11 — Minggu 11 (soal dari strategi.pdf)",
+    "section": "22.11 Q10 (Numeric)",
+    "text": "22.11 Q10 (Numeric)\nBerapakah derajat kebebasan jika ukuran sampel adalah 25?",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Quiz w11 — Minggu 11 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w11/quiz.html#q11-numeric",
+    "href": "weeks/w11/quiz.html#q11-numeric",
+    "title": "22  Quiz w11 — Minggu 11 (soal dari strategi.pdf)",
+    "section": "22.12 Q11 (Numeric)",
+    "text": "22.12 Q11 (Numeric)\nJika interval kepercayaan adalah , berapakah nilai estimasi titik rata-ratanya?",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Quiz w11 — Minggu 11 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w11/quiz.html#q12-numeric",
+    "href": "weeks/w11/quiz.html#q12-numeric",
+    "title": "22  Quiz w11 — Minggu 11 (soal dari strategi.pdf)",
+    "section": "22.13 Q12 (Numeric)",
+    "text": "22.13 Q12 (Numeric)\nJika margin error adalah 2 dan nilai kritis = , berapakah Standard Error-nya?",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Quiz w11 — Minggu 11 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w11/laporan.html",
+    "href": "submissions/w11/laporan.html",
+    "title": "23  Laporan w11 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "",
+    "text": "23.1 Kenapa ada laporan ini?\nSupaya kamu bisa melihat hasil jawabanmu dalam format yang rapi & ramah dibaca, tanpa membuat “dua versi jawaban”.\n✅ Sumber kebenaran tunggal tetap: submissions/w11/answers.py\nLaporan ini hanya memanggil fungsi q01()..q12() dari answers.py dan menampilkan outputnya.",
+    "crumbs": [
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Laporan w11 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w11/laporan.html#cara-render-lokal",
+    "href": "submissions/w11/laporan.html#cara-render-lokal",
+    "title": "23  Laporan w11 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "23.2 Cara render (lokal)",
+    "text": "23.2 Cara render (lokal)\nquarto render submissions/w11/laporan.qmd\n\nJika Quarto belum terpasang, kamu tetap bisa melihat hasil lewat GitHub Actions atau menjalankan Python secara manual.",
+    "crumbs": [
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Laporan w11 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w11/laporan.html#ringkasan-hasil-table",
+    "href": "submissions/w11/laporan.html#ringkasan-hasil-table",
+    "title": "23  Laporan w11 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "23.3 Ringkasan hasil (table)",
+    "text": "23.3 Ringkasan hasil (table)\n```{python}\nimport sys\nfrom pathlib import Path\n\ncwd = Path.cwd().resolve()\nrepo_root = cwd if (cwd / \"submissions\").exists() else cwd.parents[1]\nsys.path.insert(0, str(repo_root))\n\nimport math\nimport numpy as np\nimport pandas as pd\n\n# Import jawaban (single source of truth)\nfrom submissions.w11 import answers as A\n\n\ndef _preview(val, maxlen=80):\n    if val is None:\n        return \"\"\n    if isinstance(val, (list, tuple, np.ndarray)):\n        arr = list(val)\n        head = arr[:8]\n        s = f\"{type(val).__name__}(len={len(arr)}) \" + repr(head)\n        if len(arr) &gt; 8:\n            s += \" ...\"\n        return s[:maxlen]\n    s = repr(val)\n    return s if len(s) &lt;= maxlen else s[:maxlen] + \"...\"\n\n\ndef _is_number(x):\n    return isinstance(x, (int, float, np.integer, np.floating)) and not (isinstance(x, bool))\n\n\ndef _pmf_heuristic(val):\n    # heuristik: list/tuple/ndarray angka nonnegatif dan jumlah ~ 1\n    if not isinstance(val, (list, tuple, np.ndarray)):\n        return (False, None)\n    try:\n        arr = np.array(val, dtype=float)\n    except Exception:\n        return (False, None)\n    if arr.ndim != 1 or arr.size == 0:\n        return (False, None)\n    if np.any(np.isnan(arr)):\n        return (False, None)\n    s = float(arr.sum())\n    if np.all(arr &gt;= -1e-12) and abs(s - 1.0) &lt;= 1e-6:\n        return (True, s)\n    return (False, s)\n\n\ndef _prob_heuristic(val):\n    # heuristik: angka di [0,1]\n    if not _is_number(val):\n        return False\n    v = float(val)\n    if math.isnan(v) or math.isinf(v):\n        return False\n    return (0.0 &lt;= v &lt;= 1.0)\n\n\nrows = []\ndetails = []\n\nfor i in range(1, 13):\n    name = f\"q{i:02d}\"\n    func = getattr(A, name, None)\n    status = \"OK\"\n    err = \"\"\n    val = None\n\n    if func is None:\n        status = \"MISSING\"\n        err = \"Function not found\"\n    else:\n        try:\n            val = func()\n        except NotImplementedError:\n            status = \"TODO\"\n            err = \"NotImplementedError\"\n        except Exception as e:\n            status = \"ERR\"\n            err = f\"{type(e).__name__}: {e}\"\n\n    notes = []\n    if status == \"OK\":\n        # generic sanity checks (no answer key)\n        if _prob_heuristic(val):\n            notes.append(\"Looks like a probability (0..1)\")\n        ok_pmf, s = _pmf_heuristic(val)\n        if ok_pmf:\n            notes.append(\"Looks like a PMF (sum≈1, all≥0)\")\n        if isinstance(val, float) and (math.isnan(val) or math.isinf(val)):\n            notes.append(\"⚠️ NaN/Inf detected\")\n\n    if status in (\"ERR\", \"MISSING\"):\n        notes.append(\"⚠️ Fix required\")\n    if status == \"TODO\":\n        notes.append(\"Implement this task\")\n\n    rows.append({\n        \"Task\": name.upper(),\n        \"Status\": status,\n        \"Preview\": _preview(val),\n        \"Notes\": \"; \".join(notes),\n    })\n    details.append((name, status, val, err))\n\ndf = pd.DataFrame(rows)\ndf\n```",
+    "crumbs": [
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Laporan w11 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w11/laporan.html#detail-output-per-task",
+    "href": "submissions/w11/laporan.html#detail-output-per-task",
+    "title": "23  Laporan w11 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "23.4 Detail output per task",
+    "text": "23.4 Detail output per task\n```{python}\n#| results: asis\n\ndef _md_escape(s: str) -&gt; str:\n    return s.replace(\"`\", \"\\`\")\n\nfor name, status, val, err in details:\n    print(f\"### {name.upper()} — {status}\")\n    if status == \"OK\":\n        print(\"```\")\n        print(repr(val))\n        print(\"```\")\n    else:\n        print(f\"**Error/Info:** `{_md_escape(err)}`\\n\")\n```",
+    "crumbs": [
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Laporan w11 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w11/laporan.html#catatan-penting",
+    "href": "submissions/w11/laporan.html#catatan-penting",
+    "title": "23  Laporan w11 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "23.5 Catatan penting",
+    "text": "23.5 Catatan penting\n\nLaporan ini bukan penilaian. Penilaian resmi tetap dari autograder (pytest).\nJika hasil terlihat aneh, cek lagi:\n\nrumus manualnya\ntipe data yang diminta (int/float/list/bool/tuple)\nurutan list (apakah harus sorted?)\nrandom harus pakai seed (jika diminta)\n\n\nSelf-check resmi (opsional):\npytest -q tests_bank/w11/quiz_tests.py",
+    "crumbs": [
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Laporan w11 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w12/quiz.html",
+    "href": "weeks/w12/quiz.html",
+    "title": "24  Quiz w12 — Minggu 12 (soal dari strategi.pdf)",
+    "section": "",
+    "text": "24.1 Cara mengerjakan",
+    "crumbs": [
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Quiz w12 — Minggu 12 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w12/quiz.html#cara-mengerjakan",
+    "href": "weeks/w12/quiz.html#cara-mengerjakan",
+    "title": "24  Quiz w12 — Minggu 12 (soal dari strategi.pdf)",
+    "section": "",
+    "text": "Jawab hanya dengan mengisi fungsi q01() s.d. q12() di submissions/w12/answers.py.\nKamu boleh memakai Python untuk menghitung, misalnya lewat submissions/w12/laporan.qmd.\nJangan ubah nama fungsi.\n\n\n24.1.1 Format jawaban\n\nT/F: kembalikan True (Benar) atau False (Salah).\nMC: kembalikan huruf \"A\", \"B\", \"C\", atau \"D\".\nNumeric: kembalikan bilangan int atau float (pakai titik . untuk desimal).",
+    "crumbs": [
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Quiz w12 — Minggu 12 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w12/quiz.html#q01-tf",
+    "href": "weeks/w12/quiz.html#q01-tf",
+    "title": "24  Quiz w12 — Minggu 12 (soal dari strategi.pdf)",
+    "section": "24.2 Q01 (T/F)",
+    "text": "24.2 Q01 (T/F)\nJika p-value lebih kecil dari tingkat signifikansi , maka kita gagal menolak hipotesis nol.",
+    "crumbs": [
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Quiz w12 — Minggu 12 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w12/quiz.html#q02-tf",
+    "href": "weeks/w12/quiz.html#q02-tf",
+    "title": "24  Quiz w12 — Minggu 12 (soal dari strategi.pdf)",
+    "section": "24.3 Q02 (T/F)",
+    "text": "24.3 Q02 (T/F)\nGalat Tipe I adalah kean menolak 0 padahal 0 .",
+    "crumbs": [
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Quiz w12 — Minggu 12 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w12/quiz.html#q03-tf",
+    "href": "weeks/w12/quiz.html#q03-tf",
+    "title": "24  Quiz w12 — Minggu 12 (soal dari strategi.pdf)",
+    "section": "24.4 Q03 (T/F)",
+    "text": "24.4 Q03 (T/F)\nMeningkatkan ukuran sampel biasanya akan meningkatkan kekuatan uji (power).",
+    "crumbs": [
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Quiz w12 — Minggu 12 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w12/quiz.html#q04-mc",
+    "href": "weeks/w12/quiz.html#q04-mc",
+    "title": "24  Quiz w12 — Minggu 12 (soal dari strategi.pdf)",
+    "section": "24.5 Q04 (MC)",
+    "text": "24.5 Q04 (MC)\nNilai probabilitas yang menunjukkan kekuatan bukti melawan hipotesis nol disebut:\n\nA) Tingkat kepercayaan.\nB) p-value.\nC) Statistik uji.\nD) Parameter.",
+    "crumbs": [
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Quiz w12 — Minggu 12 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w12/quiz.html#q05-mc",
+    "href": "weeks/w12/quiz.html#q05-mc",
+    "title": "24  Quiz w12 — Minggu 12 (soal dari strategi.pdf)",
+    "section": "24.6 Q05 (MC)",
+    "text": "24.6 Q05 (MC)\nJika kita menguji 0 = 50 vs 1 50, maka kita melakukan uji:\nMinggu 13: Analisis Regresi Linear dan Korelasi Minggu ketiga belas memperkenalkan pemodelan prediktif. Mahasiswa belajar mencari hubungan linear antara variabel, yang merupakan dasar dari algoritma machine learning modern. Bank Soal Mingguan Pertanyaan Konseptual\n\nA) Satu arah (kanan).\nB) Satu arah (kiri).\nC) Dua arah.\nD) Tanpa arah.",
+    "crumbs": [
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Quiz w12 — Minggu 12 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w12/quiz.html#q06-mc",
+    "href": "weeks/w12/quiz.html#q06-mc",
+    "title": "24  Quiz w12 — Minggu 12 (soal dari strategi.pdf)",
+    "section": "24.7 Q06 (MC)",
+    "text": "24.7 Q06 (MC)\nKondisi di mana kita menolak hipotesis nol padahal sebenarnya salah disebut:\n\nA) Keputusan yang benar (Power).\nB) Galat Tipe I.\nC) Galat Tipe II.\nD) Signifikansi.",
+    "crumbs": [
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Quiz w12 — Minggu 12 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w12/quiz.html#q07-mc",
+    "href": "weeks/w12/quiz.html#q07-mc",
+    "title": "24  Quiz w12 — Minggu 12 (soal dari strategi.pdf)",
+    "section": "24.8 Q07 (MC)",
+    "text": "24.8 Q07 (MC)\nTingkat signifikansi yang umum digunakan dalam penelitian adalah:\n\nA) 0,5\nB) 0,05\nC) 0,95\nD) 1,0",
+    "crumbs": [
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Quiz w12 — Minggu 12 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w12/quiz.html#q08-numeric",
+    "href": "weeks/w12/quiz.html#q08-numeric",
+    "title": "24  Quiz w12 — Minggu 12 (soal dari strategi.pdf)",
+    "section": "24.9 Q08 (Numeric)",
+    "text": "24.9 Q08 (Numeric)\nJika statistik uji = , 5 dan nilai kritis = 1, 6 untuk uji dua arah, apakah 0 ditolak? (Tulis 1 untuk Ya, 0 untuk Tidak)",
+    "crumbs": [
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Quiz w12 — Minggu 12 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w12/quiz.html#q09-numeric",
+    "href": "weeks/w12/quiz.html#q09-numeric",
+    "title": "24  Quiz w12 — Minggu 12 (soal dari strategi.pdf)",
+    "section": "24.10 Q09 (Numeric)",
+    "text": "24.10 Q09 (Numeric)\nBerapakah nilai jika tingkat kepercayaan adalah 99%?",
+    "crumbs": [
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Quiz w12 — Minggu 12 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w12/quiz.html#q10-numeric",
+    "href": "weeks/w12/quiz.html#q10-numeric",
+    "title": "24  Quiz w12 — Minggu 12 (soal dari strategi.pdf)",
+    "section": "24.11 Q10 (Numeric)",
+    "text": "24.11 Q10 (Numeric)\nDalam uji t dengan sampel = 10, berapakah derajat kebebasannya?",
+    "crumbs": [
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Quiz w12 — Minggu 12 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w12/quiz.html#q11-numeric",
+    "href": "weeks/w12/quiz.html#q11-numeric",
+    "title": "24  Quiz w12 — Minggu 12 (soal dari strategi.pdf)",
+    "section": "24.12 Q11 (Numeric)",
+    "text": "24.12 Q11 (Numeric)\nJika p-value = 0,02 dan = 0,05, apakah kita menolak 0? (Tulis 1 untuk Ya, 0 untuk Tidak)",
+    "crumbs": [
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Quiz w12 — Minggu 12 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w12/quiz.html#q12-numeric",
+    "href": "weeks/w12/quiz.html#q12-numeric",
+    "title": "24  Quiz w12 — Minggu 12 (soal dari strategi.pdf)",
+    "section": "24.13 Q12 (Numeric)",
+    "text": "24.13 Q12 (Numeric)\nJika statistik = 0, berapakah p-value untuk uji dua arah?",
+    "crumbs": [
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Quiz w12 — Minggu 12 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w12/laporan.html",
+    "href": "submissions/w12/laporan.html",
+    "title": "25  Laporan w12 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "",
+    "text": "25.1 Kenapa ada laporan ini?\nSupaya kamu bisa melihat hasil jawabanmu dalam format yang rapi & ramah dibaca, tanpa membuat “dua versi jawaban”.\n✅ Sumber kebenaran tunggal tetap: submissions/w12/answers.py\nLaporan ini hanya memanggil fungsi q01()..q12() dari answers.py dan menampilkan outputnya.",
+    "crumbs": [
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Laporan w12 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w12/laporan.html#cara-render-lokal",
+    "href": "submissions/w12/laporan.html#cara-render-lokal",
+    "title": "25  Laporan w12 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "25.2 Cara render (lokal)",
+    "text": "25.2 Cara render (lokal)\nquarto render submissions/w12/laporan.qmd\n\nJika Quarto belum terpasang, kamu tetap bisa melihat hasil lewat GitHub Actions atau menjalankan Python secara manual.",
+    "crumbs": [
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Laporan w12 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w12/laporan.html#ringkasan-hasil-table",
+    "href": "submissions/w12/laporan.html#ringkasan-hasil-table",
+    "title": "25  Laporan w12 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "25.3 Ringkasan hasil (table)",
+    "text": "25.3 Ringkasan hasil (table)\n```{python}\nimport sys\nfrom pathlib import Path\n\ncwd = Path.cwd().resolve()\nrepo_root = cwd if (cwd / \"submissions\").exists() else cwd.parents[1]\nsys.path.insert(0, str(repo_root))\n\nimport math\nimport numpy as np\nimport pandas as pd\n\n# Import jawaban (single source of truth)\nfrom submissions.w12 import answers as A\n\n\ndef _preview(val, maxlen=80):\n    if val is None:\n        return \"\"\n    if isinstance(val, (list, tuple, np.ndarray)):\n        arr = list(val)\n        head = arr[:8]\n        s = f\"{type(val).__name__}(len={len(arr)}) \" + repr(head)\n        if len(arr) &gt; 8:\n            s += \" ...\"\n        return s[:maxlen]\n    s = repr(val)\n    return s if len(s) &lt;= maxlen else s[:maxlen] + \"...\"\n\n\ndef _is_number(x):\n    return isinstance(x, (int, float, np.integer, np.floating)) and not (isinstance(x, bool))\n\n\ndef _pmf_heuristic(val):\n    # heuristik: list/tuple/ndarray angka nonnegatif dan jumlah ~ 1\n    if not isinstance(val, (list, tuple, np.ndarray)):\n        return (False, None)\n    try:\n        arr = np.array(val, dtype=float)\n    except Exception:\n        return (False, None)\n    if arr.ndim != 1 or arr.size == 0:\n        return (False, None)\n    if np.any(np.isnan(arr)):\n        return (False, None)\n    s = float(arr.sum())\n    if np.all(arr &gt;= -1e-12) and abs(s - 1.0) &lt;= 1e-6:\n        return (True, s)\n    return (False, s)\n\n\ndef _prob_heuristic(val):\n    # heuristik: angka di [0,1]\n    if not _is_number(val):\n        return False\n    v = float(val)\n    if math.isnan(v) or math.isinf(v):\n        return False\n    return (0.0 &lt;= v &lt;= 1.0)\n\n\nrows = []\ndetails = []\n\nfor i in range(1, 13):\n    name = f\"q{i:02d}\"\n    func = getattr(A, name, None)\n    status = \"OK\"\n    err = \"\"\n    val = None\n\n    if func is None:\n        status = \"MISSING\"\n        err = \"Function not found\"\n    else:\n        try:\n            val = func()\n        except NotImplementedError:\n            status = \"TODO\"\n            err = \"NotImplementedError\"\n        except Exception as e:\n            status = \"ERR\"\n            err = f\"{type(e).__name__}: {e}\"\n\n    notes = []\n    if status == \"OK\":\n        # generic sanity checks (no answer key)\n        if _prob_heuristic(val):\n            notes.append(\"Looks like a probability (0..1)\")\n        ok_pmf, s = _pmf_heuristic(val)\n        if ok_pmf:\n            notes.append(\"Looks like a PMF (sum≈1, all≥0)\")\n        if isinstance(val, float) and (math.isnan(val) or math.isinf(val)):\n            notes.append(\"⚠️ NaN/Inf detected\")\n\n    if status in (\"ERR\", \"MISSING\"):\n        notes.append(\"⚠️ Fix required\")\n    if status == \"TODO\":\n        notes.append(\"Implement this task\")\n\n    rows.append({\n        \"Task\": name.upper(),\n        \"Status\": status,\n        \"Preview\": _preview(val),\n        \"Notes\": \"; \".join(notes),\n    })\n    details.append((name, status, val, err))\n\ndf = pd.DataFrame(rows)\ndf\n```",
+    "crumbs": [
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Laporan w12 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w12/laporan.html#detail-output-per-task",
+    "href": "submissions/w12/laporan.html#detail-output-per-task",
+    "title": "25  Laporan w12 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "25.4 Detail output per task",
+    "text": "25.4 Detail output per task\n```{python}\n#| results: asis\n\ndef _md_escape(s: str) -&gt; str:\n    return s.replace(\"`\", \"\\`\")\n\nfor name, status, val, err in details:\n    print(f\"### {name.upper()} — {status}\")\n    if status == \"OK\":\n        print(\"```\")\n        print(repr(val))\n        print(\"```\")\n    else:\n        print(f\"**Error/Info:** `{_md_escape(err)}`\\n\")\n```",
+    "crumbs": [
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Laporan w12 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w12/laporan.html#catatan-penting",
+    "href": "submissions/w12/laporan.html#catatan-penting",
+    "title": "25  Laporan w12 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "25.5 Catatan penting",
+    "text": "25.5 Catatan penting\n\nLaporan ini bukan penilaian. Penilaian resmi tetap dari autograder (pytest).\nJika hasil terlihat aneh, cek lagi:\n\nrumus manualnya\ntipe data yang diminta (int/float/list/bool/tuple)\nurutan list (apakah harus sorted?)\nrandom harus pakai seed (jika diminta)\n\n\nSelf-check resmi (opsional):\npytest -q tests_bank/w12/quiz_tests.py",
+    "crumbs": [
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Laporan w12 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w13/quiz.html",
+    "href": "weeks/w13/quiz.html",
+    "title": "26  Quiz w13 — Minggu 13 (soal dari strategi.pdf)",
+    "section": "",
+    "text": "26.1 Cara mengerjakan",
+    "crumbs": [
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Quiz w13 — Minggu 13 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w13/quiz.html#cara-mengerjakan",
+    "href": "weeks/w13/quiz.html#cara-mengerjakan",
+    "title": "26  Quiz w13 — Minggu 13 (soal dari strategi.pdf)",
+    "section": "",
+    "text": "Jawab hanya dengan mengisi fungsi q01() s.d. q12() di submissions/w13/answers.py.\nKamu boleh memakai Python untuk menghitung, misalnya lewat submissions/w13/laporan.qmd.\nJangan ubah nama fungsi.\n\n\n26.1.1 Format jawaban\n\nT/F: kembalikan True (Benar) atau False (Salah).\nMC: kembalikan huruf \"A\", \"B\", \"C\", atau \"D\".\nNumeric: kembalikan bilangan int atau float (pakai titik . untuk desimal).",
+    "crumbs": [
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Quiz w13 — Minggu 13 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w13/quiz.html#q01-tf",
+    "href": "weeks/w13/quiz.html#q01-tf",
+    "title": "26  Quiz w13 — Minggu 13 (soal dari strategi.pdf)",
+    "section": "26.2 Q01 (T/F)",
+    "text": "26.2 Q01 (T/F)\nGaris regresi meminimalkan jumlah total selisih absolut antara data dan garis. - meminimalkan kuadrat selisih).",
+    "crumbs": [
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Quiz w13 — Minggu 13 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w13/quiz.html#q02-tf",
+    "href": "weeks/w13/quiz.html#q02-tf",
+    "title": "26  Quiz w13 — Minggu 13 (soal dari strategi.pdf)",
+    "section": "26.3 Q02 (T/F)",
+    "text": "26.3 Q02 (T/F)\nNilai sebesar 0,85 berarti 85% variasi pada variabel dependen dapat dijelaskan oleh variabel independen.",
+    "crumbs": [
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Quiz w13 — Minggu 13 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w13/quiz.html#q03-tf",
+    "href": "weeks/w13/quiz.html#q03-tf",
+    "title": "26  Quiz w13 — Minggu 13 (soal dari strategi.pdf)",
+    "section": "26.4 Q03 (T/F)",
+    "text": "26.4 Q03 (T/F)\nRegresi linear berganda menggunakan lebih dari satu variabel independen untuk memprediksi satu variabel dependen.",
+    "crumbs": [
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Quiz w13 — Minggu 13 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w13/quiz.html#q04-mc",
+    "href": "weeks/w13/quiz.html#q04-mc",
+    "title": "26  Quiz w13 — Minggu 13 (soal dari strategi.pdf)",
+    "section": "26.5 Q04 (MC)",
+    "text": "26.5 Q04 (MC)\nDalam persamaan = , merepresentasikan:\n\nA) Intersep.\nB) Kemiringan (slope).\nC) Varians.\nD) Galat.",
+    "crumbs": [
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Quiz w13 — Minggu 13 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w13/quiz.html#q05-mc",
+    "href": "weeks/w13/quiz.html#q05-mc",
+    "title": "26  Quiz w13 — Minggu 13 (soal dari strategi.pdf)",
+    "section": "26.6 Q05 (MC)",
+    "text": "26.6 Q05 (MC)\nJika korelasi = −0, , maka hubungan antara kedua variabel adalah:\nMinggu 14: Aplikasi Statistika dalam Domain STI Lanjutan Minggu terakhir difokuskan pada sintesis seluruh materi melalui aplikasi modern seperti pengujian A/B, deteksi anomali, dan dasar-dasar inferensi untuk algoritma AI. Bank Soal Mingguan Pertanyaan Konseptual\n\nA) Sangat lemah.\nB) Sangat kuat dan negatif.\nC) Tidak ada hubungan.\nD) Positif.",
+    "crumbs": [
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Quiz w13 — Minggu 13 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w13/quiz.html#q06-mc",
+    "href": "weeks/w13/quiz.html#q06-mc",
+    "title": "26  Quiz w13 — Minggu 13 (soal dari strategi.pdf)",
+    "section": "26.7 Q06 (MC)",
+    "text": "26.7 Q06 (MC)\nManakah nilai yang menunjukkan model paling buruk?\n\nA) 0,99\nB) 0,50\nC) 0,00\nD) -1,00",
+    "crumbs": [
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Quiz w13 — Minggu 13 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w13/quiz.html#q07-mc",
+    "href": "weeks/w13/quiz.html#q07-mc",
+    "title": "26  Quiz w13 — Minggu 13 (soal dari strategi.pdf)",
+    "section": "26.8 Q07 (MC)",
+    "text": "26.8 Q07 (MC)\nTitik di mana garis regresi memotong sumbu disebut:\n\nA) Slope.\nB) Intersep.\nC) Origin.\nD) Outlier.",
+    "crumbs": [
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Quiz w13 — Minggu 13 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w13/quiz.html#q08-numeric",
+    "href": "weeks/w13/quiz.html#q08-numeric",
+    "title": "26  Quiz w13 — Minggu 13 (soal dari strategi.pdf)",
+    "section": "26.9 Q08 (Numeric)",
+    "text": "26.9 Q08 (Numeric)\nJika persamaan regresi adalah = 5 , berapakah nilai prediksi untuk = 10?",
+    "crumbs": [
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Quiz w13 — Minggu 13 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w13/quiz.html#q09-numeric",
+    "href": "weeks/w13/quiz.html#q09-numeric",
+    "title": "26  Quiz w13 — Minggu 13 (soal dari strategi.pdf)",
+    "section": "26.10 Q09 (Numeric)",
+    "text": "26.10 Q09 (Numeric)\nJika = 0, 6, berapakah nilai korelasi (ambil nilai positif)?",
+    "crumbs": [
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Quiz w13 — Minggu 13 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w13/quiz.html#q10-numeric",
+    "href": "weeks/w13/quiz.html#q10-numeric",
+    "title": "26  Quiz w13 — Minggu 13 (soal dari strategi.pdf)",
+    "section": "26.11 Q10 (Numeric)",
+    "text": "26.11 Q10 (Numeric)\nBerapakah nilai rata-rata dari residual pada model regresi linear klasik?",
+    "crumbs": [
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Quiz w13 — Minggu 13 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w13/quiz.html#q11-numeric",
+    "href": "weeks/w13/quiz.html#q11-numeric",
+    "title": "26  Quiz w13 — Minggu 13 (soal dari strategi.pdf)",
+    "section": "26.12 Q11 (Numeric)",
+    "text": "26.12 Q11 (Numeric)\nJika naik 10 unit ketika naik 2 unit, berapakah nilai slope ?",
+    "crumbs": [
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Quiz w13 — Minggu 13 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w13/quiz.html#q12-numeric",
+    "href": "weeks/w13/quiz.html#q12-numeric",
+    "title": "26  Quiz w13 — Minggu 13 (soal dari strategi.pdf)",
+    "section": "26.13 Q12 (Numeric)",
+    "text": "26.13 Q12 (Numeric)\nJika = 0 dan = 10, berapakah nilai estimasi slope ?",
+    "crumbs": [
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Quiz w13 — Minggu 13 (soal dari strategi.pdf)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w13/laporan.html",
+    "href": "submissions/w13/laporan.html",
+    "title": "27  Laporan w13 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "",
+    "text": "27.1 Kenapa ada laporan ini?\nSupaya kamu bisa melihat hasil jawabanmu dalam format yang rapi & ramah dibaca, tanpa membuat “dua versi jawaban”.\n✅ Sumber kebenaran tunggal tetap: submissions/w13/answers.py\nLaporan ini hanya memanggil fungsi q01()..q12() dari answers.py dan menampilkan outputnya.",
+    "crumbs": [
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Laporan w13 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w13/laporan.html#cara-render-lokal",
+    "href": "submissions/w13/laporan.html#cara-render-lokal",
+    "title": "27  Laporan w13 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "27.2 Cara render (lokal)",
+    "text": "27.2 Cara render (lokal)\nquarto render submissions/w13/laporan.qmd\n\nJika Quarto belum terpasang, kamu tetap bisa melihat hasil lewat GitHub Actions atau menjalankan Python secara manual.",
+    "crumbs": [
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Laporan w13 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w13/laporan.html#ringkasan-hasil-table",
+    "href": "submissions/w13/laporan.html#ringkasan-hasil-table",
+    "title": "27  Laporan w13 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "27.3 Ringkasan hasil (table)",
+    "text": "27.3 Ringkasan hasil (table)\n```{python}\nimport sys\nfrom pathlib import Path\n\ncwd = Path.cwd().resolve()\nrepo_root = cwd if (cwd / \"submissions\").exists() else cwd.parents[1]\nsys.path.insert(0, str(repo_root))\n\nimport math\nimport numpy as np\nimport pandas as pd\n\n# Import jawaban (single source of truth)\nfrom submissions.w13 import answers as A\n\n\ndef _preview(val, maxlen=80):\n    if val is None:\n        return \"\"\n    if isinstance(val, (list, tuple, np.ndarray)):\n        arr = list(val)\n        head = arr[:8]\n        s = f\"{type(val).__name__}(len={len(arr)}) \" + repr(head)\n        if len(arr) &gt; 8:\n            s += \" ...\"\n        return s[:maxlen]\n    s = repr(val)\n    return s if len(s) &lt;= maxlen else s[:maxlen] + \"...\"\n\n\ndef _is_number(x):\n    return isinstance(x, (int, float, np.integer, np.floating)) and not (isinstance(x, bool))\n\n\ndef _pmf_heuristic(val):\n    # heuristik: list/tuple/ndarray angka nonnegatif dan jumlah ~ 1\n    if not isinstance(val, (list, tuple, np.ndarray)):\n        return (False, None)\n    try:\n        arr = np.array(val, dtype=float)\n    except Exception:\n        return (False, None)\n    if arr.ndim != 1 or arr.size == 0:\n        return (False, None)\n    if np.any(np.isnan(arr)):\n        return (False, None)\n    s = float(arr.sum())\n    if np.all(arr &gt;= -1e-12) and abs(s - 1.0) &lt;= 1e-6:\n        return (True, s)\n    return (False, s)\n\n\ndef _prob_heuristic(val):\n    # heuristik: angka di [0,1]\n    if not _is_number(val):\n        return False\n    v = float(val)\n    if math.isnan(v) or math.isinf(v):\n        return False\n    return (0.0 &lt;= v &lt;= 1.0)\n\n\nrows = []\ndetails = []\n\nfor i in range(1, 13):\n    name = f\"q{i:02d}\"\n    func = getattr(A, name, None)\n    status = \"OK\"\n    err = \"\"\n    val = None\n\n    if func is None:\n        status = \"MISSING\"\n        err = \"Function not found\"\n    else:\n        try:\n            val = func()\n        except NotImplementedError:\n            status = \"TODO\"\n            err = \"NotImplementedError\"\n        except Exception as e:\n            status = \"ERR\"\n            err = f\"{type(e).__name__}: {e}\"\n\n    notes = []\n    if status == \"OK\":\n        # generic sanity checks (no answer key)\n        if _prob_heuristic(val):\n            notes.append(\"Looks like a probability (0..1)\")\n        ok_pmf, s = _pmf_heuristic(val)\n        if ok_pmf:\n            notes.append(\"Looks like a PMF (sum≈1, all≥0)\")\n        if isinstance(val, float) and (math.isnan(val) or math.isinf(val)):\n            notes.append(\"⚠️ NaN/Inf detected\")\n\n    if status in (\"ERR\", \"MISSING\"):\n        notes.append(\"⚠️ Fix required\")\n    if status == \"TODO\":\n        notes.append(\"Implement this task\")\n\n    rows.append({\n        \"Task\": name.upper(),\n        \"Status\": status,\n        \"Preview\": _preview(val),\n        \"Notes\": \"; \".join(notes),\n    })\n    details.append((name, status, val, err))\n\ndf = pd.DataFrame(rows)\ndf\n```",
+    "crumbs": [
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Laporan w13 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w13/laporan.html#detail-output-per-task",
+    "href": "submissions/w13/laporan.html#detail-output-per-task",
+    "title": "27  Laporan w13 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "27.4 Detail output per task",
+    "text": "27.4 Detail output per task\n```{python}\n#| results: asis\n\ndef _md_escape(s: str) -&gt; str:\n    return s.replace(\"`\", \"\\`\")\n\nfor name, status, val, err in details:\n    print(f\"### {name.upper()} — {status}\")\n    if status == \"OK\":\n        print(\"```\")\n        print(repr(val))\n        print(\"```\")\n    else:\n        print(f\"**Error/Info:** `{_md_escape(err)}`\\n\")\n```",
+    "crumbs": [
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Laporan w13 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
+    ]
+  },
+  {
+    "objectID": "submissions/w13/laporan.html#catatan-penting",
+    "href": "submissions/w13/laporan.html#catatan-penting",
+    "title": "27  Laporan w13 — Ringkasan Jawaban (diambil langsung dari answers.py)",
+    "section": "27.5 Catatan penting",
+    "text": "27.5 Catatan penting\n\nLaporan ini bukan penilaian. Penilaian resmi tetap dari autograder (pytest).\nJika hasil terlihat aneh, cek lagi:\n\nrumus manualnya\ntipe data yang diminta (int/float/list/bool/tuple)\nurutan list (apakah harus sorted?)\nrandom harus pakai seed (jika diminta)\n\n\nSelf-check resmi (opsional):\npytest -q tests_bank/w13/quiz_tests.py",
+    "crumbs": [
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Laporan w13 — Ringkasan Jawaban (diambil langsung dari answers.py)</span>"
     ]
   }
 ]

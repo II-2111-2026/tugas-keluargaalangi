@@ -1,0 +1,181 @@
+---
+title: "Laporan w07 — Ringkasan Jawaban (diambil langsung dari answers.py)"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+## Kenapa ada laporan ini?
+
+Supaya kamu bisa melihat hasil jawabanmu dalam format yang **rapi & ramah dibaca**, tanpa membuat “dua versi jawaban”.
+
+✅ **Sumber kebenaran tunggal tetap:** `submissions/w07/answers.py`  
+Laporan ini hanya **memanggil fungsi** `q01()..q12()` dari `answers.py` dan menampilkan outputnya.
+
+---
+
+## Cara render (lokal)
+
+```bash
+quarto render submissions/w07/laporan.qmd
+```
+
+> Jika Quarto belum terpasang, kamu tetap bisa melihat hasil lewat **GitHub Actions** atau menjalankan Python secara manual.
+
+---
+
+## Ringkasan hasil (table)
+
+```{{python}}
+import sys
+from pathlib import Path
+
+cwd = Path.cwd().resolve()
+repo_root = cwd if (cwd / "submissions").exists() else cwd.parents[1]
+sys.path.insert(0, str(repo_root))
+
+import math
+import numpy as np
+import pandas as pd
+
+# Import jawaban (single source of truth)
+from submissions.w07 import answers as A
+
+
+def _preview(val, maxlen=80):
+    if val is None:
+        return ""
+    if isinstance(val, (list, tuple, np.ndarray)):
+        arr = list(val)
+        head = arr[:8]
+        s = f"{type(val).__name__}(len={len(arr)}) " + repr(head)
+        if len(arr) > 8:
+            s += " ..."
+        return s[:maxlen]
+    s = repr(val)
+    return s if len(s) <= maxlen else s[:maxlen] + "..."
+
+
+def _is_number(x):
+    return isinstance(x, (int, float, np.integer, np.floating)) and not (isinstance(x, bool))
+
+
+def _pmf_heuristic(val):
+    # heuristik: list/tuple/ndarray angka nonnegatif dan jumlah ~ 1
+    if not isinstance(val, (list, tuple, np.ndarray)):
+        return (False, None)
+    try:
+        arr = np.array(val, dtype=float)
+    except Exception:
+        return (False, None)
+    if arr.ndim != 1 or arr.size == 0:
+        return (False, None)
+    if np.any(np.isnan(arr)):
+        return (False, None)
+    s = float(arr.sum())
+    if np.all(arr >= -1e-12) and abs(s - 1.0) <= 1e-6:
+        return (True, s)
+    return (False, s)
+
+
+def _prob_heuristic(val):
+    # heuristik: angka di [0,1]
+    if not _is_number(val):
+        return False
+    v = float(val)
+    if math.isnan(v) or math.isinf(v):
+        return False
+    return (0.0 <= v <= 1.0)
+
+
+rows = []
+details = []
+
+for i in range(1, 13):
+    name = f"q{i:02d}"
+    func = getattr(A, name, None)
+    status = "OK"
+    err = ""
+    val = None
+
+    if func is None:
+        status = "MISSING"
+        err = "Function not found"
+    else:
+        try:
+            val = func()
+        except NotImplementedError:
+            status = "TODO"
+            err = "NotImplementedError"
+        except Exception as e:
+            status = "ERR"
+            err = f"{type(e).__name__}: {e}"
+
+    notes = []
+    if status == "OK":
+        # generic sanity checks (no answer key)
+        if _prob_heuristic(val):
+            notes.append("Looks like a probability (0..1)")
+        ok_pmf, s = _pmf_heuristic(val)
+        if ok_pmf:
+            notes.append("Looks like a PMF (sum≈1, all≥0)")
+        if isinstance(val, float) and (math.isnan(val) or math.isinf(val)):
+            notes.append("⚠️ NaN/Inf detected")
+
+    if status in ("ERR", "MISSING"):
+        notes.append("⚠️ Fix required")
+    if status == "TODO":
+        notes.append("Implement this task")
+
+    rows.append({
+        "Task": name.upper(),
+        "Status": status,
+        "Preview": _preview(val),
+        "Notes": "; ".join(notes),
+    })
+    details.append((name, status, val, err))
+
+df = pd.DataFrame(rows)
+df
+```
+
+---
+
+## Detail output per task
+
+```{{python}}
+#| results: asis
+
+def _md_escape(s: str) -> str:
+    return s.replace("`", "\`")
+
+for name, status, val, err in details:
+    print(f"### {name.upper()} — {status}")
+    if status == "OK":
+        print("```")
+        print(repr(val))
+        print("```")
+    else:
+        print(f"**Error/Info:** `{_md_escape(err)}`\n")
+```
+
+---
+
+## Catatan penting
+
+- Laporan ini **bukan** penilaian. Penilaian resmi tetap dari autograder (pytest).
+- Jika hasil terlihat aneh, cek lagi:
+  1) rumus manualnya
+  2) tipe data yang diminta (int/float/list/bool/tuple)
+  3) urutan list (apakah harus sorted?)
+  4) random harus pakai seed (jika diminta)
+
+Self-check resmi (opsional):
+```bash
+pytest -q tests_bank/w07/quiz_tests.py
+```

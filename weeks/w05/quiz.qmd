@@ -1,5 +1,5 @@
 ---
-title: "Quiz w05 — Placeholder"
+title: "Quiz w05 — Minggu 05 (soal dari strategi2.pdf)"
 format: html
 execute:
   echo: true
@@ -7,4 +7,106 @@ execute:
   message: false
 ---
 
-Week w05 is not released yet.
+## Cara mengerjakan
+
+- Jawab **hanya** dengan mengisi fungsi `q01()` s.d. `q12()` di `submissions/w05/answers.py`.
+- Kamu boleh memakai Python untuk menghitung, misalnya lewat `submissions/w05/laporan.qmd`.
+- Jangan ubah nama fungsi.
+
+### Format jawaban
+
+- **T/F**: kembalikan `True` (Benar) atau `False` (Salah).
+- **MC**: kembalikan huruf `"A"`, `"B"`, `"C"`, atau `"D"`.
+- **Numeric**: kembalikan bilangan `int` atau `float` (pakai titik `.` untuk desimal).
+
+---
+
+## Q01 (T/F)
+
+Nilai harapan dari sebuah variabel acak harus merupakan salah satu nilai yang
+mungkin muncul dari variabel tersebut.
+
+## Q02 (T/F)
+
+Variansi dari sebuah variabel acak tidak pernah bernilai negatif.
+
+## Q03 (T/F)
+
+Jika X adalah konstanta c, maka E[X] = c dan (X) = 0.
+
+## Q04 (MC)
+
+Jika E[X] = 5, maka E[2X+3] adalah:
+
+- **A)** 10
+
+- **B)** 13
+
+- **C)** 8
+
+- **D)** 5
+
+
+
+## Q05 (MC)
+
+Variansi dari variabel acak X didefinisikan sebagai:
+
+- **A)** E[X2]−(E[X])2
+
+- **B)** E[X]−E[X2]
+
+- **C)** E[X]
+
+- **D)** E[X]2
+
+
+
+## Q06 (MC)
+
+Fungsi yang memberikan probabilitas P(X ) disebut:
+
+- **A)** PMF.
+
+- **B)** PDF.
+
+- **C)** CDF.
+
+- **D)** MGF.
+
+
+
+## Q07 (MC)
+
+Simpangan baku () adalah:
+
+- **A)** Akar kuadrat dari variansi.
+
+- **B)** Kuadrat dari mean.
+
+- **C)** Selisih antara nilai maksimum dan minimum.
+
+- **D)** Nilai harapan dari X.
+
+
+
+## Q08 (Numeric)
+
+Jika X memiliki nilai 0,1 dengan probabilitas 0,4,0,6, berapakah E[X]?
+
+## Q09 (Numeric)
+
+Hitung (X) untuk variabel pada soal nomor 8.
+
+## Q10 (Numeric)
+
+Jika E[X] = 10 dan E[X2] = 116, berapakah variansinya?
+
+## Q11 (Numeric)
+
+Sebuah variabel acak memiliki nilai 1,2,3 dengan peluang sama. Berapakah
+nilai harapannya?
+
+## Q12 (Numeric)
+
+Jika (X) = 4, berapakah (3X+5)?

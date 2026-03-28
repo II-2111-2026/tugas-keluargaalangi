@@ -1,83 +1,88 @@
+"""Jawaban w01 — STUB (MAHASISWA)
 
+Aturan pengisian:
+- Implementasikan fungsi q01()..q12() sesuai soal di weeks/w01/quiz.qmd
+- Jangan ubah nama fungsi.
 
-"""Week w01 answers — reference solution
-
-Implements q01()..q12 for Week 01.
+Format jawaban:
+- T/F    -> bool  (True=Benar, False=Salah)
+- MC     -> str   ("A"/"B"/"C"/"D")
+- Numeric-> int/float (desimal pakai '.')
 """
-
 from __future__ import annotations
+def q01() -> bool:
+    """[T/F] Dalam model probabilistik, output yang sama akan selalu dihasilkan dari input yang
+sama terlepas dari variasi acak."""
+    raise NotImplementedError
 
-import math
-import numpy as np
-from scipy.stats import norm
+def q02() -> bool:
+    """[T/F] Ruang sampel dari sebuah eksperimen acak harus mencakup semua hasil yang
+mungkin terjadi tanpa tumpang tindih."""
+    raise NotImplementedError
 
+def q03() -> bool:
+    """[T/F] Probabilitas empiris mendekati probabilitas teoretis ketika jumlah percobaan
+mendekati tak hingga."""
+    raise NotImplementedError
 
-def q01() -> float:
-    # P(at least one head in 3 flips) = 1 - P(all tails)
-    return 1.0 - (0.5 ** 3)
+def q04() -> str:
+    """[MC] Manakah yang merupakan contoh variabel acak dalam sistem STI?
 
+A) Kapasitas total hard disk 1TB.
+B) Jumlah core pada prosesor Intel i7.
+C) Waktu yang dibutuhkan untuk merespons query database.
+D) Jumlah bit dalam satu byte."""
+    raise NotImplementedError
 
-def q02() -> int:
-    # number of combinations choosing 3 from 10
-    return math.comb(10, 3)
+def q05() -> str:
+    """[MC] Jika sebuah ruang sampel S terdiri dari 4 kejadian yang memiliki peluang sama,
+maka probabilitas satu kejadian adalah:
 
+A) 0,5
+B) 0,25
+C) 0,75
+D) 1,0"""
+    raise NotImplementedError
 
-def q03() -> float:
-    # P(Python | R) = P(Python ∩ R) / P(R) = 10/18
-    return 10 / 18
+def q06() -> str:
+    """[MC] Kejadian yang mustahil terjadi memiliki nilai probabilitas sebesar:
 
+A) 0
+B) 1
+C) -1
+D) 0,5"""
+    raise NotImplementedError
 
-def q04() -> float:
-    # Bayes: P(D|+) = P(+|D)P(D) / [P(+|D)P(D) + P(+|~D)P(~D)]
-    pD = 0.01
-    p_pos_given_D = 0.95
-    p_neg_given_notD = 0.90
-    p_pos_given_notD = 1.0 - p_neg_given_notD
+def q07() -> str:
+    """[MC] Sekumpulan hasil eksperimen yang merupakan subset dari ruang sampel disebut:
 
-    p_pos = p_pos_given_D * pD + p_pos_given_notD * (1.0 - pD)
-    return (p_pos_given_D * pD) / p_pos
-
-
-def q05() -> float:
-    # E[X] = sum x*p(x)
-    return 0 * 0.1 + 1 * 0.2 + 2 * 0.3 + 3 * 0.4
-
-
-def q06() -> list[float]:
-    # Binomial(n=4,p=0.3): P(X=k) = C(n,k)p^k(1-p)^(n-k)
-    n, p = 4, 0.3
-    return [math.comb(n, k) * (p ** k) * ((1 - p) ** (n - k)) for k in
-range(n + 1)]
-
-
-def q07() -> float:
-    # Var of fair die: E[X^2] - (E[X])^2
-    mu = 3.5
-    return sum(((x - mu) ** 2) for x in [1, 2, 3, 4, 5, 6]) / 6
-
+A) Populasi.
+B) Parameter.
+C) Kejadian (Event).
+D) Konstanta."""
+    raise NotImplementedError
 
 def q08() -> float:
-    # Corr = Cov / (sdX * sdY)
-    return 2 / (math.sqrt(9) * math.sqrt(16))
-
+    """[Numeric] Berapa jumlah elemen dalam ruang sampel jika kita melempar dua buah
+dadu bersisi enam?"""
+    raise NotImplementedError
 
 def q09() -> float:
-    # P(8 < X < 12) for N(10,2)
-    return float(norm.cdf(12, loc=10, scale=2) - norm.cdf(8, loc=10, scale=2))
-
+    """[Numeric] Jika probabilitas sebuah link internet mati adalah 0,01, berapa probabilitas
+link tersebut hidup?"""
+    raise NotImplementedError
 
 def q10() -> float:
-    # Margin of error = z * sigma / sqrt(n)
-    return 1.96 * 4 / math.sqrt(25)
-
+    """[Numeric] Berapa banyak susunan berbeda yang bisa dibuat dari kata "DATA"?"""
+    raise NotImplementedError
 
 def q11() -> float:
-    # two-sided p-value = 2*(1 - Phi(|z|))
-    return float(2 * (1 - norm.cdf(2.1)))
-
+    """[Numeric] Jika sebuah server memiliki probabilitas uptime 0,95, berapa probabilitas
+server tersebut downtime dalam satu periode?"""
+    raise NotImplementedError
 
 def q12() -> float:
-    # Monte Carlo estimate P(Z > 1.5)
-    rng = np.random.default_rng(123)
-    z = rng.standard_normal(200_000)
-    return float((z > 1.5).mean())
+    """[Numeric] Dalam simulasi 1000 kali login, jika 20 kali gagal, berapa frekuensi relatif
+kegagalan tersebut?"""
+    raise NotImplementedError
+

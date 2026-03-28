@@ -1,5 +1,5 @@
 ---
-title: "Quiz w11 — Placeholder"
+title: "Quiz w11 — Minggu 11 (soal dari strategi2.pdf)"
 format: html
 execute:
   echo: true
@@ -7,4 +7,112 @@ execute:
   message: false
 ---
 
-Week w11 is not released yet.
+## Cara mengerjakan
+
+- Jawab **hanya** dengan mengisi fungsi `q01()` s.d. `q12()` di `submissions/w11/answers.py`.
+- Kamu boleh memakai Python untuk menghitung, misalnya lewat `submissions/w11/laporan.qmd`.
+- Jangan ubah nama fungsi.
+
+### Format jawaban
+
+- **T/F**: kembalikan `True` (Benar) atau `False` (Salah).
+- **MC**: kembalikan huruf `"A"`, `"B"`, `"C"`, atau `"D"`.
+- **Numeric**: kembalikan bilangan `int` atau `float` (pakai titik `.` untuk desimal).
+
+---
+
+## Q01 (T/F)
+
+Semakin tinggi tingkat kepercayaan yang diinginkan, semakin lebar interval
+kepercayaan yang dihasilkan.
+
+## Q02 (T/F)
+
+Interval kepercayaan 95% berarti ada peluang 95% bahwa parameter populasi
+berada dalam rentang tersebut untuk satu interval yang sudah dihitung.
+
+## Q03 (T/F)
+
+Distribusi t-Student mendekati distribusi Normal saat derajat kebebasan () menjadi
+sangat besar.
+
+## Q04 (MC)
+
+Jika kita ingin mempersempit interval kepercayaan tanpa mengubah tingkat
+kepercayaan, kita harus:
+
+- **A)** Mengurangi ukuran sampel.
+
+- **B)** Meningkatkan ukuran sampel.
+
+- **C)** Meningkatkan simpangan baku.
+
+- **D)** Tidak melakukan apa-apa.
+
+
+
+## Q05 (MC)
+
+Nilai kritis untuk tingkat kepercayaan 95% adalah:
+
+- **A)** 1,645
+
+- **B)** 1,96
+
+- **C)** 2,58
+
+- **D)** 1,00
+
+
+
+## Q06 (MC)
+
+Derajat kebebasan () untuk interval kepercayaan rata-rata satu sampel berukuran
+n adalah:
+
+- **A)** n
+
+- **B)** n+1
+
+- **C)** n−1
+
+- **D)** n/2
+
+
+
+## Q07 (MC)
+
+Estimasi titik terbaik untuk rata-rata populasi adalah:
+
+- **A)** Median sampel.
+
+- **B)** Modus sampel.
+
+- **C)** Rata-rata sampel ( X).
+
+- **D)** Standar deviasi sampel.
+
+
+
+## Q08 (Numeric)
+
+Jika X = 100, Margin Error = 5, berapakah batas bawah interval
+kepercayaan?
+
+## Q09 (Numeric)
+
+Untuk sampel n = 16 dan simpangan baku sampel = 4, berapakah nilai
+estimasi Standard Error-nya?
+
+## Q10 (Numeric)
+
+Berapakah derajat kebebasan jika ukuran sampel adalah 25?
+
+## Q11 (Numeric)
+
+Jika interval kepercayaan adalah , berapakah nilai estimasi titik rata-ratanya?
+
+## Q12 (Numeric)
+
+Jika margin error adalah 2 dan nilai kritis = 2, berapakah Standard Error-
+nya?

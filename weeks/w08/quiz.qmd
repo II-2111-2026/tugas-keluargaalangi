@@ -1,5 +1,5 @@
 ---
-title: "Quiz w08 — Placeholder"
+title: "Quiz w08 — Minggu 08 (UTS / Review — kumpulan soal Minggu 01-07)"
 format: html
 execute:
   echo: true
@@ -7,4 +7,89 @@ execute:
   message: false
 ---
 
-Week w08 is not released yet.
+## Cara mengerjakan
+
+- Jawab **hanya** dengan mengisi fungsi `q01()` s.d. `q12()` di `submissions/w08/answers.py`.
+- Kamu boleh memakai Python untuk menghitung, misalnya lewat `submissions/w08/laporan.qmd`.
+- Jangan ubah nama fungsi.
+
+### Format jawaban
+
+- **T/F**: kembalikan `True` (Benar) atau `False` (Salah).
+- **MC**: kembalikan huruf `"A"`, `"B"`, `"C"`, atau `"D"`.
+- **Numeric**: kembalikan bilangan `int` atau `float` (pakai titik `.` untuk desimal).
+
+---
+
+## Q01 (T/F)
+
+Dalam model probabilistik, output yang sama akan selalu dihasilkan dari input yang
+sama terlepas dari variasi acak.
+
+## Q02 (T/F)
+
+Probabilitas dari gabungan dua kejadian selalu lebih besar daripada probabilitas
+masing-masing kejadian.
+
+## Q03 (T/F)
+
+Pada distribusi kontinu,  selalu sama dengan .
+
+## Q04 (MC)
+
+Jika = 0, 5, = 0,  dan ,  independen, maka  adalah:
+
+- **A)** 0,9
+- **B)** 0,1
+- **C)** 0,2
+- **D)** 0,5
+
+## Q05 (MC)
+
+Variansi dari variabel acak  didefinisikan sebagai:
+
+- **A)** −
+- **B)** −
+- **C)** 
+- **D)** 
+
+## Q06 (MC)
+
+Pada distribusi Binomial, probabilitas sukses p harus:
+
+- **A)** Berubah tiap percobaan.
+- **B)** Tetap konstan tiap percobaan.
+- **C)** Selalu 0,5.
+- **D)** Berkurang seiring waktu.
+
+## Q07 (MC)
+
+Jika = 0, 5 pada distribusi Eksponensial, maka nilai harapannya adalah:
+
+- **A)** 0,5
+- **B)** 2,0
+- **C)** 1,0
+- **D)** 0,25
+
+## Q08 (Numeric)
+
+Berapa jumlah elemen dalam ruang sampel jika kita melempar dua buah
+dadu bersisi enam?
+
+## Q09 (Numeric)
+
+Sebuah sistem memiliki probabilitas gagal 0,05. Berapakah probabilitas
+sistem tersebut berhasil?
+
+## Q10 (Numeric)
+
+Sebuah sistem memiliki reliabilitas 0,99. Berapa probabilitas kegagalannya?
+
+## Q11 (Numeric)
+
+Jika = 0, , = 0,  dan = 0, , hitung  menggunakan Hukum Probabilitas Total.
+
+## Q12 (Numeric)
+
+Jika rata-rata kedatangan paket adalah 5 per ms, berapakah variansi jumlah
+paket per ms?

@@ -1,5 +1,5 @@
 ---
-title: "Quiz w07 — Placeholder"
+title: "Quiz w07 — Minggu 07 (soal dari strategi2.pdf)"
 format: html
 execute:
   echo: true
@@ -7,4 +7,109 @@ execute:
   message: false
 ---
 
-Week w07 is not released yet.
+## Cara mengerjakan
+
+- Jawab **hanya** dengan mengisi fungsi `q01()` s.d. `q12()` di `submissions/w07/answers.py`.
+- Kamu boleh memakai Python untuk menghitung, misalnya lewat `submissions/w07/laporan.qmd`.
+- Jangan ubah nama fungsi.
+
+### Format jawaban
+
+- **T/F**: kembalikan `True` (Benar) atau `False` (Salah).
+- **MC**: kembalikan huruf `"A"`, `"B"`, `"C"`, atau `"D"`.
+- **Numeric**: kembalikan bilangan `int` atau `float` (pakai titik `.` untuk desimal).
+
+---
+
+## Q01 (T/F)
+
+Total luas di bawah kurva fungsi padat probabilitas (PDF) selalu sama dengan 1.
+
+## Q02 (T/F)
+
+Distribusi Normal Standar memiliki mean 0 dan variansi 1.
+
+## Q03 (T/F)
+
+Pada distribusi kontinu, P(X ) selalu sama dengan P(X ).
+
+## Q04 (MC)
+
+Nilai yang bersesuaian dengan nilai pada distribusi
+(,2)
+adalah:
+
+- **A)** (−)/
+
+- **B)** (+)/
+
+- **C)** /(−)
+
+- **D)** −
+
+
+
+## Q05 (MC)
+
+Distribusi mana yang sering digunakan untuk memodelkan waktu antar kejadian
+dalam proses Poisson?
+
+- **A)** Binomial.
+
+- **B)** Normal.
+
+- **C)** Eksponensial.
+
+- **D)** Uniform.
+
+
+
+## Q06 (MC)
+
+Sekitar 95% data dalam distribusi Normal berada dalam rentang:
+
+- **A)** 
+
+- **B)** 2
+
+- **C)** 3
+
+- **D)** 0 1
+
+
+
+## Q07 (MC)
+
+Jika = 0,5 pada distribusi Eksponensial, maka nilai harapannya adalah:
+
+- **A)** 0,5
+
+- **B)** 2,0
+
+- **C)** 1,0
+
+- **D)** 0,25
+
+
+
+## Q08 (Numeric)
+
+Jika (0,1), berapakah P( 0)?
+
+## Q09 (Numeric)
+
+Sebuah komponen memiliki rata-rata waktu hidup 100 jam (Eksponensial).
+Berapakah parameter -nya?
+
+## Q10 (Numeric)
+
+Nilai untuk probabilitas kumulatif 0,975 adalah sekitar... (Gunakan 2 desimal)
+
+## Q11 (Numeric)
+
+Jika X (10,4), berapakah nilai skor-Z untuk = 12?
+
+## Q12 (Numeric)
+
+Pada distribusi Normal Standar, berapakah nilai P( > 3) mendekati?
+(Gunakan 4 desimal)
